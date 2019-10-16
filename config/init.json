@@ -1,0 +1,23 @@
+﻿{
+  "sys": "dp",
+  "default": {
+    "systemStyle": "big-hongkong",
+    "router": "browser",
+    "loginTitle": "上海中法水务",
+    "noLoginCheck": true,
+    "headerAddrSearch": true,
+    "pluginLoadType": "single",
+    "mock": false
+  },
+  "cfgs": [
+    {"key": "sysmenu","url": "cfg/sysmenu.xml","loaded": true},
+    {"key": "gridCfg","url": "config/gridCfg.json","loaded": true},
+    {"key": "servicecfg","url": "config/taskServices.js","loaded": true},
+    {"key": "projectMapConfig","url": "config/projectMapConfig.js","loaded": true}
+  ],
+  "theme": {
+    "@big-layout-width": "8640px",
+    "@big-layout-height": "2160px",
+    "@big-layout-background": "#162063"
+  }
+}

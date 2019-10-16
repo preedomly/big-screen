@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <sysmenu toolid="REACT_DEMO" name="react-demo" url="capsule/pages/pipenet-function-template/page-react/view-1"></sysmenu>
+  <sysmenu toolid="nongye" name="react-demo-2" url="capsule/pages/pipenet-function-template/page-react-2/view-1"></sysmenu>
+</menus>

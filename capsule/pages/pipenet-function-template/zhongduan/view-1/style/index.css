@@ -1,0 +1,69 @@
+.index__topLeft___lAfly {
+  top: 392px;
+}
+.index__topLeft___lAfly .index__titleNode___3dmgk {
+  width: 384px;
+  height: 120px;
+  /* float: left; */
+  line-height: 103px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  /* margin-left: 88px; */
+  font-size: 44px;
+  text-shadow: 0 0 30px #f4faf5;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p {
+  width: 2577px;
+  height: 698px;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__diva___1FEkn {
+  float: left;
+  width: 45%;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__diva___1FEkn .index__text1___3WMZg {
+  position: absolute;
+  top: 430px;
+  left: 90px;
+  width: 1020px;
+  height: 300px;
+  font-family: MicrosoftYaHei;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 66px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__diva___1FEkn .index__img1___15a4p {
+  float: left;
+  margin-top: 30px;
+  margin-left: 77px;
+  width: 1036px;
+  height: 230px;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__divb___1Pj8c {
+  float: left;
+  width: 50%;
+  margin-top: 92px;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__divb___1Pj8c .index__txt1___3en70 {
+  width: 330px;
+  height: 37px;
+  font-family: MicrosoftYaHei;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 13px;
+  letter-spacing: 2px;
+  color: #00ffff;
+  position: absolute;
+  right: -1350px;
+}
+.index__topLeft___lAfly .index__realtime___2yz-p .index__divb___1Pj8c .index__img1___15a4p {
+  float: left;
+  width: 1282px;
+  height: 510px;
+}
+
+/*# sourceMappingURL=index.css.map*/

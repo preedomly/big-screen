@@ -1,0 +1,15 @@
+.grid .item {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.grid .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -55%);
+      -ms-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+}
+
+/*# sourceMappingURL=index.css.map*/

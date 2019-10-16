@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tooldefs ecityversion="2.19.2">
+  <group name="产品功能" from="1003000" to="1003100">
+    <tool key="PAGE_CONTAINER" id="1003000" path="/:name" url="capsule/pages/pipenet-function-big/grid/view" module="react" view="overlay"/>
+    <tool key="DEMO_HELLO_BIG_SCREEN" id="1003001" url="capsule/pages/pipenet-function-big/demo/view" module="react" view="main"/>
+    <!-- header -->
+    <tool key="HEADER_HONGONG" id="1003002" url="capsule/pages/pipenet-function-big/header/view-hongkong" module="react" view="overlay"/>
+  </group>
+
+  <group name="sbv" from="3003000" to="3003100">
+    <tool key="ZONGHE" id="3003001" url="capsule/pages/pipenet-function-template/zonghe/view-1" module="react" view="overlay"/>
+    <tool key="BENGZAHN" id="3003002" url="capsule/pages/pipenet-function-template/bengzhan/view-1" module="react" view="overlay"/>
+    <tool key="SHISHI" id="3003003" url="capsule/pages/pipenet-function-template/shishi/view-1" module="react" view="overlay"/>
+    <tool key="HEADER" id="3003004" url="capsule/pages/pipenet-function-template/page-react-header/view-1" module="react" view="overlay"/>
+    <tool key="TONGJI" id="3003005" url="capsule/pages/pipenet-function-template/tongji/view-1" module="react" view="overlay"/>
+    <tool key="CONCENTRATION" id="3003006" url="capsule/pages/pipenet-function-template/concentration/view-1" module="react" view="overlay"/>
+    <!-- <tool key="BG1_MAP" id="3003007" url="capsule/pages/pipenet-function-template/bigMap/view-1" module="react" view="overlay"/> -->
+  </group>
+
+  <group name="nongye" from="4003000" to="4003100">
+    <tool key="ZHONG_DUAN" id="4003001" path="/nongye" url="capsule/pages/pipenet-function-template/zhongduan/view-1" module="react" view="overlay"/>
+  </group>
+</tooldefs>

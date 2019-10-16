@@ -1,0 +1,84 @@
+﻿[
+  {
+    "title": "sbv",
+    "grid": [
+      {
+        "toolKey": "ZONGHE",
+        "title": "综合信息",
+        "top": 345,
+        "left": 80,
+        "width": 1154,
+        "height": 821,
+        "module": "react"
+      },
+      {
+        "toolKey": "BENGZAHN",
+        "title": "泵站运行",
+        "top": 1222,
+        "left": 6237,
+        "width": 2327,
+        "height": 853,
+        "module": "react"
+      },
+      {
+        "toolKey": "SHISHI",
+        "title": "实时信息",
+        "top": 346,
+        "left": 1301,
+        "width": 1099,
+        "height": 819,
+        "module": "react"
+      },
+      {
+        "toolKey": "HEADER",
+        "title": "天气",
+        "top": 0,
+        "left": 0,
+        "width": 8640,
+        "height": 284,
+        "module": "react"
+      },
+      {
+        "toolKey": "TONGJI",
+        "title": "热线统计",
+        "top": 1245,
+        "left": 80,
+        "width": 2319,
+        "height": 830,
+        "module": "react"
+      },
+      {
+        "toolKey": "CONCENTRATION",
+        "title": "出口浓度",
+        "top": 469,
+        "left": 6237,
+        "width": 2323,
+        "height": 674,
+        "module": "react"
+      }
+    ]
+  },
+  {
+    "title": "nongye",
+    "grid": [
+      {
+        "toolKey": "HEADER",
+        "title": "天气",
+        "top": 0,
+        "left": 0,
+        "width": 8640,
+        "height": 284,
+        "module": "react"
+      },
+      {
+        "toolKey": "ZHONG_DUAN",
+        "title": "终端分析",
+        "top": 345,
+        "left": 80,
+        "width": 1154,
+        "height": 821,
+        "module": "react"
+      }
+    ]
+  }
+]
