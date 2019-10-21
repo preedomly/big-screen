@@ -10,10 +10,20 @@
     "mock": false
   },
   "cfgs": [
-    {"key": "sysmenu","url": "cfg/sysmenu.xml","loaded": true},
-    {"key": "gridCfg","url": "config/gridCfg.json","loaded": true},
-    {"key": "servicecfg","url": "config/taskServices.js","loaded": true},
-    {"key": "projectMapConfig","url": "config/projectMapConfig.js","loaded": true}
+    {
+      "key": "gridCfg",
+      "loaded": true,
+      "url": "config/gridCfg.json"
+    },
+    {
+      "key": "sysmenu",
+      "loaded": true,
+      "url": "cfg/sysmenu.xml"
+    },{
+      "key":"servicecfg",
+      "loaded": true,
+      "url": "config/taskServices.js"
+    }
   ],
   "theme": {
     "@big-layout-width": "8640px",

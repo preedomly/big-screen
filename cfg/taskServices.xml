@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <taskServices key="name" value="url">
   <taskservice name="QUERY_SVR" description="管网查询" url="http://192.168.8.48:8081/ServiceEngine/rest/services/NetServer/towngas"/>
+  <taskservice name="BIG_SCREEN" description="管网查询" url="http://www.baidu.com"/>
 </taskServices>
 
 

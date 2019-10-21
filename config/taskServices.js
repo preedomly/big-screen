@@ -12,7 +12,7 @@ var taskServices = {
       name: 'BIG_SCREEN',
       description: '大屏1',
       url: 'proxy8080/ServiceEngine/rest/services/lwServer',
-	   proxy: 'a',
+	   proxy: '',
     }
   ],
 };

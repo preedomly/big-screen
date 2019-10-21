@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <init>
-  <title>香港中华煤气</title>
+  <title>智慧排水</title>
   <subTitle>Towngas</subTitle>
   <ico>favicon.ico</ico>
   <cfg key="sysmenu" url="cfg/sysmenu.xml" loaded="1"></cfg>
@@ -8,7 +8,7 @@
   <cfg key="servicecfg" url="cfg/taskServices.xml" loaded="1"></cfg>
 
   <defaultLang>
-    <!-- <lang value="zh_CN">Chinese</lang>
-    <lang value="en">English</lang> -->
+    <lang value="zh_CN">Chinese</lang>
+    <lang value="en">English</lang>
   </defaultLang>
 </init>

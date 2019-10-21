@@ -78,6 +78,92 @@
         "width": 1154,
         "height": 821,
         "module": "react"
+      },
+      {
+        "toolKey": "ZDZB",
+        "title": "终端占比",
+        "top": 1253,
+        "left": 80,
+        "width": 788,
+        "height": 855,
+        "module": "react"
+      },
+      {
+        "toolKey": "SHUIZHI",
+        "title": "实时水质",
+        "top": 1253,
+        "left": 914,
+        "width": 1742,
+        "height": 855,
+        "module": "react"
+      },
+      {
+        "toolKey": "CURRENTRATION",
+        "title": "第二屏实时信息",
+        "top": 395,
+        "left": 6253,
+        "width": 955,
+        "height": 592,
+        "module": "react"
+      },
+      {
+        "toolKey": "MANAGEMENT",
+        "title": "维养管理",
+        "top": 395,
+        "left": 7241,
+        "width": 1320,
+        "height": 598,
+        "module": "react"
+      },
+      {
+        "toolKey": "ASSETS",
+        "title": "资产信息",
+        "top": 1048,
+        "left": 6251,
+        "width": 1065,
+        "height": 342,
+        "module": "react"
+      },
+      {
+        "toolKey": "PROCESS",
+        "title": "终端工艺类型",
+        "top": 1048,
+        "left": 7368,
+        "width": 1174,
+        "height": 383,
+        "module": "react"
+      },
+      {
+        "toolKey": "WORKORDER",
+        "title": "工单信息",
+        "top": 1439,
+        "left": 6252,
+        "width": 2307,
+        "height": 667,
+        "module": "react"
+      }
+    ]
+  },
+  {
+    "title": "monitoring",
+    "grid": [
+      {
+        "toolKey": "HEADER",
+        "title": "天气",
+        "top": 0,
+        "left": 0,
+        "width": 8640,
+        "height": 284,
+        "module": "react"
+      },
+      {
+        "toolKey": "VIDEO-LEFT",
+        "title": "视频监控左部",
+        "top": 343,
+        "left": 78,
+        "width": 2321,
+        "height": 1730,
+        "module": "react"
       }
     ]
   }
