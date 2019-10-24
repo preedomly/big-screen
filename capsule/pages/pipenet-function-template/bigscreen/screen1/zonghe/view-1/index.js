@@ -3672,7 +3672,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__[
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.one
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "1066"), "\u5E73\u65B9\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.web_font
+      }, "1066"), "\u5E73\u65B9\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.fuwu
       }, "\u670D\u52A1\u9762\u79EF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.semicircleframe,

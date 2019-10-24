@@ -107791,7 +107791,11 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       option: this.getOption(),
       theme: "myTheme",
       notMerge: true,
-      lazyUpdate: true
+      lazyUpdate: true,
+      style: {
+        width: 799,
+        height: 456
+      }
     }));
   }
 
@@ -107918,7 +107922,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","buttomcenter":"index__buttomcenter___1Gb0j","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
+module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","buttomcenter":"index__buttomcenter___1Gb0j","tatistics":"index__tatistics___2WAN3","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
 
 /***/ }),
 

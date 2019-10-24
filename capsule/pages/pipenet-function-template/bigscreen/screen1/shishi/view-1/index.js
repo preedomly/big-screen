@@ -107739,7 +107739,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               width: 3
             }
           },
-          data: ['30000', '200000', '300000', '100000', '62000', '100000', '17000', '16600']
+          data: ['386276', '381736', '389656', '383692', '394023', '390337', '392915', '389825']
         }, {
           name: '工业污水收集总量',
           type: 'line',
@@ -107758,7 +107758,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               width: 3
             }
           },
-          data: ['10000', '40000', '162000', '30000', '200000', '160000', '217000', '63000']
+          data: ['273880', '262899', '271818', '269934', '274904', '273646', '277661', '271574']
         }, {
           name: '生活污水收集处理总量',
           type: 'line',
@@ -107777,7 +107777,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               width: 3
             }
           },
-          data: ['200000', '300000', '202000', '130000', '260000', '200000', '307000', '135600']
+          data: ['112396', '118837', '117838', '113758', '119119', '116691', '115254', '118251']
         }]
       };
       return option;
@@ -107848,11 +107848,11 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.today
     }, "\u4ECA\u65E5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.num
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "50000"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "387996"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.wushui
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u6C61\u6C34\u6536\u96C6\u603B\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.bennian
-    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "17800"), "\u4E07m\xB3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "143155314"), "\u4E07m\xB3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       style: {
         background: "url('/images/imgs/科技框.png')  no-repeat",
         backgroundPosition: "50% 0%"
@@ -107861,11 +107861,11 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.today
     }, "\u4ECA\u65E5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.num
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "50000"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "278822"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.wushui
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u6C61\u6C34\u6536\u96C6\u603B\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u5386\u53F2\u5DE5\u4E1A\u6C61\u6C34\u6536\u96C6\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.bennian
-    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "17800"), "\u4E07m\xB3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "108486596"), "\u4E07m\xB3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       style: {
         background: "url('/images/imgs/科技框.png')  no-repeat",
         backgroundPosition: "50% 0%"
@@ -107874,11 +107874,11 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.today
     }, "\u4ECA\u65E5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.num
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "50000"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "109174"), "m\xB3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.wushui
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u6C61\u6C34\u6536\u96C6\u603B\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u5386\u53F2\u6C61\u6C34\u6536\u96C6\u5904\u7406\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.bennian
-    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "17800"), "\u4E07m\xB3")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "\u672C\u5E74\xA0:\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "34668718"), "\u4E07m\xB3")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.tubaio
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_swages_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)))));
   }

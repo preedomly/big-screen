@@ -91,7 +91,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/pages/bigscreen/screen2/currentinfo/view-1/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/pages/bigscreen/screen3/rightmonitor/view-1/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -664,10 +664,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/pages/bigscreen/screen2/currentinfo/model/index.js":
-/*!****************************************************************!*\
-  !*** ./src/pages/bigscreen/screen2/currentinfo/model/index.js ***!
-  \****************************************************************/
+/***/ "./src/pages/bigscreen/screen3/rightmonitor/model/index.js":
+/*!*****************************************************************!*\
+  !*** ./src/pages/bigscreen/screen3/rightmonitor/model/index.js ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -694,28 +694,33 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/pages/bigscreen/screen2/currentinfo/view-1/View.js":
-/*!****************************************************************!*\
-  !*** ./src/pages/bigscreen/screen2/currentinfo/view-1/View.js ***!
-  \****************************************************************/
+/***/ "./src/pages/bigscreen/screen3/rightmonitor/view-1/View.js":
+/*!*****************************************************************!*\
+  !*** ./src/pages/bigscreen/screen3/rightmonitor/view-1/View.js ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _class; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pipenet-core/lib/react */ "./node_modules/pipenet-core/lib/react/index.js");
-/* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.less */ "./src/pages/bigscreen/screen2/currentinfo/view-1/style/index.less");
+/* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.less */ "./src/pages/bigscreen/screen3/rightmonitor/view-1/style/index.less");
 /* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_index_less__WEBPACK_IMPORTED_MODULE_2__);
+var _dec, _class2, _temp;
+
 
  // import './style/index.global.less';
 
- // @connect(({ pageReact2 }) => ({
-//   opened: pageReact2.opened,
-// }))
 
-/* harmony default export */ __webpack_exports__["default"] = (class extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__["connect"])(({
+  pageReact2
+}) => ({
+  opened: pageReact2.opened
+})), _dec(_class2 = (_temp = class _class2 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(...args) {
     super(...args);
 
@@ -772,73 +777,74 @@ __webpack_require__.r(__webpack_exports__);
       //   <Button onClick={this.handleClick2}>改变2</Button>
       // </div>
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.div1
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.leftvideo,
+        style: {
+          borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
+          borderImageRepeat: 'stretch'
+        }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleNode,
-        style: {
-          background: "url('/images/imgs/标题框.png') no-repeat"
-        }
-      }, "\u5B9E\u65F6\u4FE1\u606F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bigtop
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
+        "video-url": "http://192.168.30.212:20000/hls5.m3u8",
+        live: "false",
+        "auto-play": "true",
+        stretch: "true",
+        aspect: "2241:530"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-        style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
-      }, "15", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4EF6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5F53\u65E5\u5DE5\u5355\u603B\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-        style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
-      }, "1955", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4EF6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5168\u5E74\u5DE5\u5355\u603B\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-        style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
-      }, "1289", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5F53\u65E5\u5DE1\u68C0\u516C\u91CC\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-        style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
-      }, "234448", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5168\u5E74\u5DE1\u68C0\u516C\u91CC\u6570")))))
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_one
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
+        "video-url": "http://192.168.30.212:20000/hls6.m3u8",
+        live: "false",
+        "auto-play": "true",
+        stretch: "true",
+        aspect: "1105:481"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_two
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
+        "video-url": "http://192.168.30.212:20000/hls7.m3u8",
+        live: "false",
+        "auto-play": "true",
+        stretch: "true",
+        aspect: "1105:481"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_three
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
+        "video-url": "http://192.168.30.212:20000/hls8.m3u8",
+        live: "false",
+        "auto-play": "true",
+        stretch: "true",
+        aspect: "1105:481"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_fore
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
+        "video-url": "http://192.168.30.212:20000/hls9.m3u8",
+        live: "false",
+        "auto-play": "true",
+        stretch: "true",
+        aspect: "1105:481"
+      }))))
     );
   }
 
-});
+}, _temp)) || _class2);
+
+
 
 /***/ }),
 
-/***/ "./src/pages/bigscreen/screen2/currentinfo/view-1/index.js":
-/*!*****************************************************************!*\
-  !*** ./src/pages/bigscreen/screen2/currentinfo/view-1/index.js ***!
-  \*****************************************************************/
+/***/ "./src/pages/bigscreen/screen3/rightmonitor/view-1/index.js":
+/*!******************************************************************!*\
+  !*** ./src/pages/bigscreen/screen3/rightmonitor/view-1/index.js ***!
+  \******************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./View */ "./src/pages/bigscreen/screen2/currentinfo/view-1/View.js");
-/* harmony import */ var _model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model */ "./src/pages/bigscreen/screen2/currentinfo/model/index.js");
+/* harmony import */ var _View__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./View */ "./src/pages/bigscreen/screen3/rightmonitor/view-1/View.js");
+/* harmony import */ var _model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model */ "./src/pages/bigscreen/screen3/rightmonitor/model/index.js");
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -848,15 +854,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/pages/bigscreen/screen2/currentinfo/view-1/style/index.less":
-/*!*************************************************************************!*\
-  !*** ./src/pages/bigscreen/screen2/currentinfo/view-1/style/index.less ***!
-  \*************************************************************************/
+/***/ "./src/pages/bigscreen/screen3/rightmonitor/view-1/style/index.less":
+/*!**************************************************************************!*\
+  !*** ./src/pages/bigscreen/screen3/rightmonitor/view-1/style/index.less ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div1":"index__div1___1mJH4","titleNode":"index__titleNode___3jJt2","realtime":"index__realtime___1JisQ","diva":"index__diva___3hx1D","img1":"index__img1___u-9Ek","info1":"index__info1___1tfft"};
+module.exports = {"leftvideo":"index__leftvideo___3qVPM","bigtop":"index__bigtop___1t34G","sbox":"index__sbox___2DqDb","small_one":"index__small_one___30n1i","small_two":"index__small_two___2bkdl","small_three":"index__small_three___3mobc","small_fore":"index__small_fore___18fj-"};
 
 /***/ }),
 

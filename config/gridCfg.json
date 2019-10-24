@@ -164,6 +164,15 @@
         "width": 2321,
         "height": 1730,
         "module": "react"
+      },
+      {
+        "toolKey": "VIDEO-RIGHT",
+        "title": "视频监控右部",
+        "top": 399,
+        "left": 6235,
+        "width": 2321,
+        "height": 1674,
+        "module": "react"
       }
     ]
   }

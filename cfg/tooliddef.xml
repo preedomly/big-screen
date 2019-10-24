@@ -29,5 +29,7 @@
 
     <group name="monitoring" from="5003000" to="5003100">
         <tool key="VIDEO-LEFT" id="5003001" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/leftmonitor/view-1" module="react" view="overlay"/>
+        <tool key="VIDEO-RIGHT" id="5003002" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/rightmonitor/view-1" module="react" view="overlay"/>
+
   </group>
 </tooldefs>
