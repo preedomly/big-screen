@@ -785,7 +785,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bigtop
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls5.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000301.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",
@@ -795,7 +795,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_one
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls6.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000300.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",
@@ -803,7 +803,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_two
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls7.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000299.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",
@@ -811,7 +811,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_three
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls8.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000298.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",
@@ -819,7 +819,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.small_fore
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls9.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000296.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",

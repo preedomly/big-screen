@@ -107578,16 +107578,16 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             show: false
           },
           data: [{
-            value: 60,
+            value: 14,
             name: ''
           }, {
-            value: 100,
+            value: 85,
             name: ''
           }, {
-            value: 50,
+            value: 3,
             name: ''
           }, {
-            value: 30,
+            value: 2,
             name: ''
           }]
         }, {
@@ -107613,16 +107613,16 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             }
           },
           data: [{
-            value: 60,
+            value: 13.4,
             name: '咨询'
           }, {
-            value: 100,
+            value: 81.7,
             name: '服务'
           }, {
-            value: 50,
+            value: 2.9,
             name: '投诉'
           }, {
-            value: 30,
+            value: 1.9,
             name: '其他'
           }]
         }]
@@ -107719,7 +107719,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           splitLine: {
             show: false
           },
-          data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月']
+          data: ['3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月']
         }],
         yAxis: [{
           name: '件',
@@ -107777,7 +107777,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
               width: 3
             }
           },
-          data: [400, 660, 300, 900, 2200, 4000, 700, 760]
+          data: [8, 11, 10, 12, 13, 9, 17, 19]
         }]
       };
       return option;
@@ -107792,7 +107792,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       theme: "myTheme",
       notMerge: true,
       lazyUpdate: true,
-      style: {
+      styles: {
         width: 799,
         height: 456
       }
@@ -107848,19 +107848,25 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         borderImage: "url('/images/imgs/热线统计边框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA0240\xA0"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.call1
+    }, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA0101"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.electric,
       style: {
         borderImage: "url('/images/imgs/热线统计边框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA0240\xA0"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.call2
+    }, "\u5F53\u6708\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA017"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.electric,
       style: {
         borderImage: "url('/images/imgs/热线统计边框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA0240\xA0"), "\u4EF6"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.call3
+    }, "\u5E02\u957F\u70ED\u7EBF(\u6708)", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA011"), "\u4EF6"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.buttomcenter
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_statistics__WEBPACK_IMPORTED_MODULE_2__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.buttomright
@@ -107886,7 +107892,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       style: {
         background: "url('/images/imgs/皇冠.png') no-repeat"
       }
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "99.30%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "97.10%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.zhemian
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_satisfied__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
   }
@@ -107922,7 +107928,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","buttomcenter":"index__buttomcenter___1Gb0j","tatistics":"index__tatistics___2WAN3","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
+module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","call1":"index__call1___OTy7n","call2":"index__call2___2pOG4","call3":"index__call3___3JxW9","buttomcenter":"index__buttomcenter___1Gb0j","tatistics":"index__tatistics___2WAN3","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
 
 /***/ }),
 

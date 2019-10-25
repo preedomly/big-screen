@@ -785,40 +785,40 @@ __webpack_require__.r(__webpack_exports__);
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
+          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
       }, "15", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4EF6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5F53\u65E5\u5DE5\u5355\u603B\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
+          borderImage: "url('/images/imgs/scene2/全年工单总数.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
       }, "1955", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4EF6"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5168\u5E74\u5DE5\u5355\u603B\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
+          borderImage: "url('/images/imgs/scene2/当日巡检公里数.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
       }, "1289", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5F53\u65E5\u5DE1\u68C0\u516C\u91CC\u6570"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          borderImage: "url('/images/imgs/scene2/当日工单总数.png') 5 1 1 5 fill round",
+          borderImage: "url('/images/imgs/scene2/全年巡检公里数.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.info1
       }, "234448", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5168\u5E74\u5DE1\u68C0\u516C\u91CC\u6570")))))
     );
