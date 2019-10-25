@@ -410,7 +410,7 @@
 }
 /******************************第一屏弹出窗口*********************************************/
 .index__po___3jMj0 {
-  width: 100%;
+  width: 150%;
   border-style: solid;
   border-color: transparent;
   border-width: 400px 310px 60px 165px;
@@ -450,7 +450,6 @@
 }
 .index__po_plan___1emFq {
   width: 100%;
-  height: 30%;
   margin-top: 40px;
 }
 .index__po_plan_tip___eOoW_ {
@@ -464,10 +463,31 @@
   width: 100%;
 }
 .index__po_plan_tip_keys___3P4wC {
-  width: 25%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .index__po_plan_tip_vals___pn4ys {
-  width: 70%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.index__po_plan_tip_sj___3fFBW {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: "webfont" !important;
+  font-size: 46px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #00ffff;
 }
 .index__po_imgs___3fJqi {
   width: 100%;
@@ -484,7 +504,10 @@
   width: 100%;
 }
 .index__po_imgs_bzzt_keys___7Rdf5 {
-  width: 25%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .index__po_imgs_bzzt_vals___3Fb0l {
   width: 70%;
@@ -560,7 +583,7 @@
   width: 37px;
   height: 37px;
   position: absolute;
-  right: 55px;
+  right: -180px;
   top: 10px;
   cursor: pointer;
 }
