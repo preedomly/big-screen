@@ -63156,16 +63156,15 @@ var regEngline = function regEngline(arr) {
         }
       }, QueryMapGrap);
     }),
-    // 暂时指定查询tip框内信息
-    QeuryPopule:
+    QueryTerminal:
     /*#__PURE__*/
-    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QeuryPopule(_ref5, _ref6) {
-      var payload, callback, call, put, select, projectMap, MapLocalData, layerId, name, ors;
-      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QeuryPopule$(_context3) {
+    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QueryTerminal(_ref5, _ref6) {
+      var payload, layerId, call, put, select, projectMap, MapLocalData, res, features, arr, items, MapHtml;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QueryTerminal$(_context3) {
         while (1) {
           switch (_context3.prev = _context3.next) {
             case 0:
-              payload = _ref5.payload, callback = _ref5.callback;
+              payload = _ref5.payload, layerId = _ref5.layerId;
               call = _ref6.call, put = _ref6.put, select = _ref6.select;
               _context3.next = 4;
               return select(function (state) {
@@ -63174,6 +63173,183 @@ var regEngline = function regEngline(arr) {
 
             case 4:
               projectMap = _context3.sent;
+              MapLocalData = projectMap.MapLocalData;
+              _context3.next = 8;
+              return call(_services_index_js__WEBPACK_IMPORTED_MODULE_8__["getPumpingAjax"], payload, layerId);
+
+            case 8:
+              res = _context3.sent;
+              _context3.next = 11;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'layerId',
+                  value: layerId
+                }
+              });
+
+            case 11:
+              features = res.features;
+
+              if (!(features.length < 1)) {
+                _context3.next = 14;
+                break;
+              }
+
+              return _context3.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到正确的信息'));
+
+            case 14:
+              if (config[layerId]) {
+                _context3.next = 16;
+                break;
+              }
+
+              return _context3.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到对应的图层ID，请检查后再执行!'));
+
+            case 16:
+              arr = Arrs(features, config[layerId], layerId); // ***************默认显示管网数据**************** */
+
+              if (MapLocalData[config[layerId]]) {
+                _context3.next = 22;
+                break;
+              }
+
+              items = regEngline(arr);
+              MapLocalData[config[layerId]] = items;
+              _context3.next = 22;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'MapLocalData',
+                  value: MapLocalData
+                }
+              });
+
+            case 22:
+              // ***************默认显示管网数据**************** */
+              MapHtml = Maps(arr);
+              _context3.next = 25;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'MapTerminal',
+                  value: MapHtml
+                }
+              });
+
+            case 25:
+            case "end":
+              return _context3.stop();
+          }
+        }
+      }, QueryTerminal);
+    }),
+    QueryMapVideo:
+    /*#__PURE__*/
+    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QueryMapVideo(_ref7, _ref8) {
+      var payload, layerId, call, put, select, projectMap, MapLocalData, res, features, arr, items, MapHtml;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QueryMapVideo$(_context4) {
+        while (1) {
+          switch (_context4.prev = _context4.next) {
+            case 0:
+              payload = _ref7.payload, layerId = _ref7.layerId;
+              call = _ref8.call, put = _ref8.put, select = _ref8.select;
+              _context4.next = 4;
+              return select(function (state) {
+                return state.projectMap;
+              });
+
+            case 4:
+              projectMap = _context4.sent;
+              MapLocalData = projectMap.MapLocalData;
+              _context4.next = 8;
+              return call(_services_index_js__WEBPACK_IMPORTED_MODULE_8__["getPumpingAjax"], payload, layerId);
+
+            case 8:
+              res = _context4.sent;
+              _context4.next = 11;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'layerId',
+                  value: layerId
+                }
+              });
+
+            case 11:
+              features = res.features;
+
+              if (!(features.length < 1)) {
+                _context4.next = 14;
+                break;
+              }
+
+              return _context4.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到正确的信息'));
+
+            case 14:
+              if (config[layerId]) {
+                _context4.next = 16;
+                break;
+              }
+
+              return _context4.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到对应的图层ID，请检查后再执行!'));
+
+            case 16:
+              arr = Arrs(features, config[layerId], layerId); // ***************默认显示管网数据**************** */
+
+              if (MapLocalData[config[layerId]]) {
+                _context4.next = 22;
+                break;
+              }
+
+              items = regEngline(arr);
+              MapLocalData[config[layerId]] = items;
+              _context4.next = 22;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'MapLocalData',
+                  value: MapLocalData
+                }
+              });
+
+            case 22:
+              // ***************默认显示管网数据**************** */
+              MapHtml = Maps(arr);
+              _context4.next = 25;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'MapVideo',
+                  value: MapHtml
+                }
+              });
+
+            case 25:
+            case "end":
+              return _context4.stop();
+          }
+        }
+      }, QueryMapVideo);
+    }),
+    // 暂时指定查询tip框内信息
+    QeuryPopule:
+    /*#__PURE__*/
+    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QeuryPopule(_ref9, _ref10) {
+      var payload, callback, call, put, select, projectMap, MapLocalData, layerId, name, ors;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QeuryPopule$(_context5) {
+        while (1) {
+          switch (_context5.prev = _context5.next) {
+            case 0:
+              payload = _ref9.payload, callback = _ref9.callback;
+              call = _ref10.call, put = _ref10.put, select = _ref10.select;
+              _context5.next = 4;
+              return select(function (state) {
+                return state.projectMap;
+              });
+
+            case 4:
+              projectMap = _context5.sent;
               MapLocalData = projectMap.MapLocalData, layerId = projectMap.layerId;
               name = config[layerId]; // let ors = '';
               // if (!MapLocalData[name]) {
@@ -63192,132 +63368,10 @@ var regEngline = function regEngline(arr) {
 
             case 9:
             case "end":
-              return _context3.stop();
-          }
-        }
-      }, QeuryPopule);
-    }),
-    QueryTerminal:
-    /*#__PURE__*/
-    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QueryTerminal(_ref7, _ref8) {
-      var payload, layerId, call, put, res, features, arr, MapHtml;
-      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QueryTerminal$(_context4) {
-        while (1) {
-          switch (_context4.prev = _context4.next) {
-            case 0:
-              payload = _ref7.payload, layerId = _ref7.layerId;
-              call = _ref8.call, put = _ref8.put;
-              _context4.next = 4;
-              return call(_services_index_js__WEBPACK_IMPORTED_MODULE_8__["getPumpingAjax"], payload, layerId);
-
-            case 4:
-              res = _context4.sent;
-              _context4.next = 7;
-              return put({
-                type: 'newState',
-                payload: {
-                  name: 'layerId',
-                  value: layerId
-                }
-              });
-
-            case 7:
-              features = res.features;
-
-              if (!(features.length < 1)) {
-                _context4.next = 10;
-                break;
-              }
-
-              return _context4.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到正确的信息'));
-
-            case 10:
-              if (config[layerId]) {
-                _context4.next = 12;
-                break;
-              }
-
-              return _context4.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到对应的图层ID，请检查后再执行!'));
-
-            case 12:
-              arr = Arrs(features, config[layerId], layerId);
-              MapHtml = Maps(arr);
-              _context4.next = 16;
-              return put({
-                type: 'newState',
-                payload: {
-                  name: 'MapTerminal',
-                  value: MapHtml
-                }
-              });
-
-            case 16:
-            case "end":
-              return _context4.stop();
-          }
-        }
-      }, QueryTerminal);
-    }),
-    QueryMapVideo:
-    /*#__PURE__*/
-    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QueryMapVideo(_ref9, _ref10) {
-      var payload, layerId, call, put, res, features, fieldAliases, arr, MapHtml;
-      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function QueryMapVideo$(_context5) {
-        while (1) {
-          switch (_context5.prev = _context5.next) {
-            case 0:
-              payload = _ref9.payload, layerId = _ref9.layerId;
-              call = _ref10.call, put = _ref10.put;
-              _context5.next = 4;
-              return call(_services_index_js__WEBPACK_IMPORTED_MODULE_8__["getPumpingAjax"], payload, layerId);
-
-            case 4:
-              res = _context5.sent;
-              _context5.next = 7;
-              return put({
-                type: 'newState',
-                payload: {
-                  name: 'layerId',
-                  value: layerId
-                }
-              });
-
-            case 7:
-              features = res.features, fieldAliases = res.fieldAliases;
-
-              if (!(features.length < 1)) {
-                _context5.next = 10;
-                break;
-              }
-
-              return _context5.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到正确的信息'));
-
-            case 10:
-              if (config[layerId]) {
-                _context5.next = 12;
-                break;
-              }
-
-              return _context5.abrupt("return", antd__WEBPACK_IMPORTED_MODULE_6__["message"].error('没有查询到对应的图层ID，请检查后再执行!'));
-
-            case 12:
-              arr = Arrs(features, config[layerId], layerId);
-              MapHtml = Maps(arr);
-              _context5.next = 16;
-              return put({
-                type: 'newState',
-                payload: {
-                  name: 'MapVideo',
-                  value: MapHtml
-                }
-              });
-
-            case 16:
-            case "end":
               return _context5.stop();
           }
         }
-      }, QueryMapVideo);
+      }, QeuryPopule);
     })
   },
   reducers: {
@@ -63545,7 +63599,11 @@ var MapView = react_map_esri_es_view__WEBPACK_IMPORTED_MODULE_12__["default"].Ma
 var TileLayer = react_map_esri_es_layer__WEBPACK_IMPORTED_MODULE_10__["default"].TileLayer,
     GraphicsLayer = react_map_esri_es_layer__WEBPACK_IMPORTED_MODULE_10__["default"].GraphicsLayer,
     VectorLayer = react_map_esri_es_layer__WEBPACK_IMPORTED_MODULE_10__["default"].VectorLayer;
-var mockJSdata = {};
+var maps = {
+  OneMap: 'projectMap/QueryMapGrap',
+  TwoMap: 'projectMap/QueryTerminal',
+  thridMap: 'projectMap/QueryMapVideo'
+};
 var ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_14__["connect"])(function (state) {
   return {
     projectMap: state.projectMap
@@ -63636,11 +63694,11 @@ function (_React$Component) {
     value: function componentDidMount() {
       var _this$props$toolParam = this.props.toolParams,
           showZD = _this$props$toolParam.showZD,
-          path = _this$props$toolParam.path;
+          key = _this$props$toolParam.key;
 
       if (showZD) {
         this.props.dispatch({
-          type: 'projectMap/QueryTerminal',
+          type: maps[key],
           layerId: showZD,
           payload: {
             where: '1=1',
@@ -63649,24 +63707,7 @@ function (_React$Component) {
             f: 'json'
           }
         });
-      } // 测试数据 第一页的图层数据
-
-
-      this.props.dispatch({
-        type: 'projectMap/QueryMapGrap',
-        layerId: '53',
-        payload: {
-          where: '1=1',
-          geometryType: 'esriGeometryPoint',
-          spatialRel: 'esriSpatialRelIntersects',
-          f: 'json'
-        }
-      }); // // 测试数据 第三页的视频接口数据
-      // this.props.dispatch({
-      //   type: 'projectMap/QueryMapVideo',
-      //   layerId: '14',
-      //   payload: { where: '1=1', geometryType: 'esriGeometryPoint', spatialRel: 'esriSpatialRelIntersects', f: 'json' },
-      // })
+      }
     } // 第一页面的图标点击事件
 
   }, {
@@ -63712,8 +63753,12 @@ function (_React$Component) {
           height: "".concat(this.projectMapConfig[key].height, "px")
         },
         center: center,
-        zoom: 5,
-        defaultUI: false
+        zoom: 7,
+        defaultUI: false,
+        constraints: {
+          minScale: this.projectMapConfig[key].minscale,
+          maxScale: this.projectMapConfig[key].maxscale
+        }
       }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(react_map_esri_es_map__WEBPACK_IMPORTED_MODULE_1__["default"], null, this.projectMapConfig[key].vectorLayers.map(function (item) {
         return react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(VectorLayer, {
           url: item.url,
@@ -63755,6 +63800,9 @@ function (_React$Component) {
           y: center.y
         }
       }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(_mapVideo_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+        onOk: function onOk(x) {
+          return console.log(x);
+        },
         onCalick: function onCalick() {
           return _this2.setState({
             switchVideo: false
@@ -63854,7 +63902,7 @@ function (_React$PureComponent) {
         }
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.po_name
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, switchData.站点名称)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, switchData.站点名称 || switchData.泵站名称)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.po_plan
       }, Object.keys(switchData).map(function (item, index) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -63952,7 +64000,9 @@ function (_React$PureComponent) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Popule, [{
     key: "render",
     value: function render() {
-      var onCalick = this.props.onCalick;
+      var _this$props = this.props,
+          onCalick = _this$props.onCalick,
+          onOk = _this$props.onOk;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -63965,7 +64015,9 @@ function (_React$PureComponent) {
       }, data.map(function (x) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi_plan_x,
-          onClick: x
+          onClick: function onClick(x) {
+            return onOk(x);
+          }
         }, x.name);
       })));
     }

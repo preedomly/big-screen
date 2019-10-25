@@ -437,7 +437,7 @@
   color: #ffffff;
   padding: 0 48px;
   border: 0.1px solid #ffffff;
-  border-radius: 10% 10% 10% 30%;
+  border-radius: 3% 5% 1% 30%;
   white-space: nowrap;
 }
 .index__po_name___2d6g8 {
@@ -449,8 +449,9 @@
   margin-top: -29px;
 }
 .index__po_plan___1emFq {
-  width: 100%;
-  margin-top: 40px;
+  max-height: 600px;
+  margin: 40px 0px;
+  overflow-y: auto;
 }
 .index__po_plan_tip___eOoW_ {
   display: -webkit-box;
@@ -488,6 +489,24 @@
   font-stretch: normal;
   letter-spacing: 0px;
   color: #00ffff;
+}
+.index__po_plan___1emFq::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 20px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+.index__po_plan___1emFq::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  background: #0090ff;
+}
+.index__po_plan___1emFq::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: rgba(2, 105, 199, 0.1);
 }
 .index__po_imgs___3fJqi {
   width: 100%;
