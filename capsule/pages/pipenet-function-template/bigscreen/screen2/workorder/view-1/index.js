@@ -738,25 +738,58 @@ __webpack_require__.r(__webpack_exports__);
   }
 
   componentDidMount() {
-    // $.ecity.dialog.message('message', 3000, 200, 400);
-    // $.ecity.dialog.confirm('confirm');
-    // $.ecity.dialog.show();
-    // $.ecity.dialog.show({
-    //   id: 'iam',
-    //   noHtml: true,
-    // });
-    // const dialog = $.ecity.dialog.getDialog('iam');
-    // dialog.close();
-    // setTimeout(() => {
-    //   $.ecity.dialog.showOrHideDlgs(false);
-    //   setTimeout(() => {
-    //     $.ecity.dialog.showOrHideDlgs(true);
-    //   }, 2000);
-    // }, 2000);
+    var demo = $("#demo")[0];
+    var demo1 = $("#demo1")[0];
+    var demo2 = $("#demo2")[0];
+    var speed = 50;
+    demo2.innerHTML = demo1.innerHTML;
+
+    function Marquee() {
+      if (demo2.offsetTop - demo.scrollTop <= 0) {
+        demo.scrollTop -= demo1.offsetHeight;
+      } else {
+        demo.scrollTop = demo.scrollTop + 3;
+      }
+    }
+
+    var MyMar = setInterval(Marquee, speed);
+    setInterval(Marquee, 50);
     console.log('componentDidMount');
   }
 
   componentWillReceiveProps(nextProps) {
+    /*    //书讯快递循环垂直向上滚动
+        function movedome(){
+          var margintop=30;//上边距的偏移量
+          var stop=false;
+          setInterval(function(){
+            if(stop==true){
+              return;
+            }
+            console.log(6666);
+            console.log($("#SC").find("tr")[1]);
+            $("#SC").find("tr")[1].animate({"margin-top":margintop--},0,function(){
+              console.log(7777);
+              console.log($(this));
+              console.log($(this).height());
+              var $li=$(this);
+              if(!$li.is(":animated")){//第一个li的动画结束时
+                if(-margintop>$li.height()){
+                  $li.css("margin-top","0px").appendTo($("#aaa .index__striped1___1P7oS"));
+                  margintop=0;
+                }
+              }
+            });
+          },1000);
+          //鼠标放到快递信息(ul)上时
+          $("#aaa .index__striped1___1P7oS").hover(function(){
+            $(this).css("cursor","pointer");
+            stop=true;//停止动画
+          },function(){
+            stop=false;//开始动画
+          });
+        }
+        movedome();*/
     console.log('componentWillReceiveProps');
     console.log(nextProps.toolParams);
   }
@@ -766,6 +799,112 @@ __webpack_require__.r(__webpack_exports__);
   }
 
   render() {
+    var res = [{
+      "工单号": "2019102201",
+      "工单类型": "管网-窨井类",
+      "受理时间": "2019/10/21 14:03:58",
+      "反应人": "袁超",
+      "反应内容": "井盖破损。南复线南侧，杨绍线246号路灯杆处，井盖破损。",
+      "状态": "延期"
+    }, {
+      "工单号": "2019102202",
+      "工单类型": "泵站-配电设备",
+      "受理时间": "2019/10/21 10:14:07",
+      "反应人": "蒋契学",
+      "反应内容": "蓬山泵站，无功补偿偏低",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102203",
+      "工单类型": "终端-配电设备",
+      "受理时间": "2019/10/21 9:27:09",
+      "反应人": "金佳",
+      "反应内容": "回流泵手动开启后，外部电源跳闸。",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102204",
+      "工单类型": "管网-窨井类",
+      "受理时间": "2019/10/18 11:21:55",
+      "反应人": "黄瑛",
+      "反应内容": "宾舍村板桥269门口井盖破裂",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102205",
+      "工单类型": "管网-排气阀",
+      "受理时间": "2019/10/17 15:25:12",
+      "反应人": "封建龙",
+      "反应内容": "福全至金庄，8#桥管朝北排气阀，漏水。",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102206",
+      "工单类型": "泵站-其他",
+      "受理时间": "2019/10/17 10:24:54",
+      "反应人": "高晓玲",
+      "反应内容": "小赭3#泵站，格栅机垃圾多液位差大需清理。",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102207",
+      "工单类型": "泵站-泵机设备",
+      "受理时间": "2019/10/16 15:53:28",
+      "反应人": "单阳波",
+      "反应内容": "滨海1#泵站3号泵阀门故障。",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102208",
+      "工单类型": "管网-窨井类",
+      "受理时间": "2019/10/15 14:46:47",
+      "反应人": "金彬",
+      "反应内容": "路南村3#村居旁，井盖被浇死。",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102209",
+      "工单类型": "终端-计量设备",
+      "受理时间": "2019/10/15 10:47:37",
+      "反应人": "章晓东",
+      "反应内容": "中盛陵终端，流量计故障。",
+      "状态": "延期"
+    }, {
+      "工单号": "2019102210",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/10/22 8:44:00",
+      "反应人": "沈莉琴",
+      "反应内容": "需要疏通车，兴越小区21幢。",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102211",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/9/9 15:16:00",
+      "反应人": "邢玉荣",
+      "反应内容": "新未庄小区，小区里超市背后窨井满溢。",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102212",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/10/21 9:12:00",
+      "反应人": "谢慧琴",
+      "反应内容": "福立花园12幢，营业房北侧窨井污水满溢。",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102213",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/10/20 13:35:00",
+      "反应人": "高晴瑜",
+      "反应内容": "聚贤花苑46栋，需要疏通车。",
+      "状态": "已完成"
+    }, {
+      "工单号": "2019102214",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/10/20 9:32:00",
+      "反应人": "徐迅红",
+      "反应内容": "和谐家园1栋北，需要疏通车。",
+      "状态": "处理中"
+    }, {
+      "工单号": "2019102215",
+      "工单类型": "管网-吸污疏通",
+      "受理时间": "2019/10/18 9:13:00",
+      "反应人": "宋汉菠",
+      "反应内容": "兴越南区11幢，需要疏通车吸污车。",
+      "状态": "处理中"
+    }];
     return (// <div className="main">
       //   opened: {`${this.props.opened}`}
       //   <Button onClick={this.handleClick}>改变</Button>
@@ -785,22 +924,49 @@ __webpack_require__.r(__webpack_exports__);
           borderImageRepeat: 'stretch'
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "SC",
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.smalltable
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.table
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u5DE5\u5355\u53F7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u5DE5\u5355\u7C7B\u578B"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53D7\u7406\u65F6\u95F4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53CD\u5E94\u4EBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53CD\u5E94\u5185\u5BB9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u72B6\u6001")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u5DE5\u5355\u53F7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u5DE5\u5355\u7C7B\u578B"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53D7\u7406\u65F6\u95F4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53CD\u5E94\u4EBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u53CD\u5E94\u5185\u5BB9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u72B6\u6001"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "demo",
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.demo
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "demo1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.table
+      }, res.map((record, index) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped1
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019090501"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6392\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019/9/5 17:17:34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "aa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6F0F\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u672A\u5206\u6D3E")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped2
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019090501"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6392\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019/9/5 17:17:34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "aa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E95\u76D6\u4E22\u5931"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u7EF4\u4FEE\u4E2D")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped1
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019090501"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6392\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019/9/5 17:17:34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "aa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E95\u76D6\u4E22\u5931"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u5EF6\u671F")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped2
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019090501"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6392\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019/9/5 17:17:34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "aa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E95\u76D6\u4E22\u5931"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u5EF6\u671F")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.striped1
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019090501"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u6392\u6C34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "2019/9/5 17:17:34"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "aa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E95\u76D6\u4E22\u5931"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u5DF2\u5B8C\u6210"))))))
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 337
+        }
+      }, record["工单号"]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 437
+        }
+      }, record["工单类型"]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 437
+        }
+      }, record["受理时间"]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 338
+        }
+      }, record["反应人"]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 437
+        }
+      }, "4545"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        style: {
+          width: 239
+        }
+      }, record["状态"]))), ";")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "demo2",
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.demo2
+      })))))
     );
   }
 
@@ -836,7 +1002,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div1":"index__div1___2suB-","titleNode":"index__titleNode___5woYt","realtime":"index__realtime___nIZ4_","smalltable":"index__smalltable___KoZiL","table":"index__table___4Zy24","striped1":"index__striped1___1P7oS","striped":"index__striped___hEdPn","striped2":"index__striped2___2WbV5"};
+module.exports = {"div1":"index__div1___2suB-","titleNode":"index__titleNode___5woYt","realtime":"index__realtime___nIZ4_","demo":"index__demo___3KuQG","demo2":"index__demo2___-diND","smalltable":"index__smalltable___KoZiL","table":"index__table___4Zy24","striped1":"index__striped1___1P7oS","striped":"index__striped___hEdPn","striped2":"index__striped2___2WbV5"};
 
 /***/ }),
 

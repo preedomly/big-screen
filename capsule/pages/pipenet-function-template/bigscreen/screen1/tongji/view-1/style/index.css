@@ -36,15 +36,28 @@
 .index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 {
   overflow: hidden;
   margin-bottom: 50px;
-  width: 100%;
-  height: 27%;
+  width: 516px;
+  height: 149px;
 }
 .index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 p {
-  margin-top: 40px;
-  margin-left: 200px;
+  width: 100%;
   font-size: 36px;
-  letter-spacing: 2px;
+  margin-bottom: 40px;
   color: #ffffff;
+}
+.index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 p span {
+  font-size: 72px;
+  font-weight: 700;
+  color: #00ffff;
+}
+.index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 .index__call1___OTy7n {
+  margin-left: 183px;
+}
+.index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 .index__call2___2pOG4 {
+  margin-left: 146px;
+}
+.index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomleft___gxt8b .index__electric___2L558 .index__call3___3JxW9 {
+  margin-left: 79px;
 }
 .index__buttombox___-K_mV .index__buttomb___3L_7U .index__buttomcenter___1Gb0j {
   float: left;

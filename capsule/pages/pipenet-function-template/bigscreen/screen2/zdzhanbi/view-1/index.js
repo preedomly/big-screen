@@ -711,7 +711,8 @@ __webpack_require__.r(__webpack_exports__);
 
  // import './style/index.global.less';
 
- // @connect(({ pageReact2 }) => ({
+ // import Ringchart from '../proportion'
+// @connect(({ pageReact2 }) => ({
 //   opened: pageReact2.opened,
 // }))
 
