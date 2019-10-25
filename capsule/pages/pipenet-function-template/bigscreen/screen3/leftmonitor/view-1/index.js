@@ -801,7 +801,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         stretch: "true",
         aspect: "1081:796"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
-        "video-url": "http://192.168.30.212:20000/hls/1000304.m3u8",
+        "video-url": "http://192.168.30.212:20000/hls/1000296.m3u8",
         live: "false",
         "auto-play": "true",
         stretch: "true",
