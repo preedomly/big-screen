@@ -19,10 +19,21 @@
       "key": "sysmenu",
       "loaded": true,
       "url": "cfg/sysmenu.xml"
-    },{
-      "key":"servicecfg",
+    },
+    {
+      "key": "servicecfg",
       "loaded": true,
       "url": "config/taskServices.js"
+    },
+    {
+      "key": "projectMapConfig",
+      "loaded": true,
+      "url": "config/projectMapConfig.js"
+    },
+    {
+      "key": "layersId",
+      "loaded": true,
+      "url": "config/layerId.js"
     }
   ],
   "theme": {

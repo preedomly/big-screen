@@ -55,6 +55,15 @@
         "width": 2323,
         "height": 674,
         "module": "react"
+      },
+      {
+        "toolKey": "OneMap",
+        "title": "地图",
+        "top": 300,
+        "left": 2500,
+        "width": 3700,
+        "height": 1780,
+        "module": "react"
       }
     ]
   },
@@ -141,6 +150,15 @@
         "width": 2307,
         "height": 667,
         "module": "react"
+      },
+      {
+        "toolKey": "TwoMap",
+        "title": "地图",
+        "top": 300,
+        "left": 2500,
+        "width": 3700,
+        "height": 1780,
+        "module": "react"
       }
     ]
   },
@@ -172,6 +190,15 @@
         "left": 6235,
         "width": 2321,
         "height": 1674,
+        "module": "react"
+      },
+      {
+        "toolKey": "thridMap",
+        "title": "地图",
+        "top": 300,
+        "left": 2500,
+        "width": 3700,
+        "height": 1780,
         "module": "react"
       }
     ]
