@@ -155,8 +155,8 @@
         "toolKey": "TwoMap",
         "title": "地图",
         "top": 300,
-        "left": 2500,
-        "width": 3700,
+        "left": 2700,
+        "width": 3500,
         "height": 1780,
         "module": "react"
       }

@@ -410,7 +410,6 @@
 }
 /******************************第一屏弹出窗口*********************************************/
 .index__po___3jMj0 {
-  width: 150%;
   border-style: solid;
   border-color: transparent;
   border-width: 400px 310px 60px 165px;
@@ -433,7 +432,7 @@
   font-weight: normal;
   font-stretch: normal;
   letter-spacing: 2px;
-  line-height: 83px;
+  line-height: 60px;
   color: #ffffff;
   padding: 0 48px;
   border: 0.1px solid #ffffff;
@@ -453,33 +452,111 @@
   margin: 40px 0px;
   overflow-y: auto;
 }
-.index__po_plan_tip___eOoW_ {
+.index__po_plan_basic___1wmqS {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
 }
-.index__po_plan_tip_keys___3P4wC {
+.index__po_plan_basic_keys___2IWC5 {
+  -webkit-box-flex: 0.3;
+  -webkit-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+.index__po_plan_basic_vals___23ssE {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-.index__po_plan_tip_vals___pn4ys {
+.index__po_plan_stat___1vGR9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 20px 0px;
+}
+.index__po_plan_stat_keys___3-2Ln {
+  -webkit-box-flex: 0.3;
+  -webkit-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  line-height: 60px;
+}
+.index__po_plan_stat_vals___Bbvt5 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-.index__po_plan_tip_sj___3fFBW {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+.index__po_plan_stat_vals_zt___3BfZF {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.index__po_plan_realTime___1Tj3_ {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.index__po_plan_realTime_data___2LWbI {
+  width: 49%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.index__po_plan_realTime_data_xs___xpVNl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.index__po_plan_realTime_data_xs_keys___3azcL {
+  -webkit-box-flex: 0.3;
+  -webkit-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+.index__po_plan_realTime_data_xs_vals___1-Vo9 {
+  width: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-family: "webfont" !important;
   font-size: 46px;
   font-style: normal;
@@ -489,6 +566,22 @@
   font-stretch: normal;
   letter-spacing: 0px;
   color: #00ffff;
+}
+.index__po_plan_realTime_data_xs_vals___1-Vo9 > span {
+  font-family: MicrosoftYaHei;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #00ffff;
+  margin-left: 16px;
+}
+.index__po_plan_realTime_imgs___4YSDv {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 382px;
+  height: 205px;
+  background-color: #001b5c;
 }
 .index__po_plan___1emFq::-webkit-scrollbar {
   /*滚动条整体样式*/
@@ -508,103 +601,43 @@
   border-radius: 10px;
   background: rgba(2, 105, 199, 0.1);
 }
-.index__po_imgs___3fJqi {
-  width: 100%;
-}
-.index__po_imgs_bzzt___3m7gF {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-.index__po_imgs_bzzt_keys___7Rdf5 {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-.index__po_imgs_bzzt_vals___3Fb0l {
-  width: 70%;
-}
-.index__po_imgs_sj___82cyp {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-.index__po_imgs_sj_left___3xnGo {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-.index__po_imgs_sj_left_imgsj___38Com {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-.index__po_imgs_sj_left_imgsj_keys___2LfD- {
-  font-family: MicrosoftYaHei;
-  font-size: 30px;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 1px;
-  color: #ffffff;
-}
-.index__po_imgs_sj_left_imgsj_vals___2hwzW {
-  font-family: "webfont" !important;
-  font-size: 46px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 0px;
-  color: #00ffff;
-}
-.index__po_imgs_sj_left_imgsj_vals___2hwzW > span {
-  font-family: MicrosoftYaHei;
-  font-size: 26px;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: 1px;
-  color: #00ffff;
-  margin-left: 16px;
-}
-.index__po_imgs_sj_right___1VPKu {
-  -webkit-box-flex: 1.5;
-  -webkit-flex: 1.5;
-      -ms-flex: 1.5;
-          flex: 1.5;
-  margin-left: 20px;
-  width: 382px;
-  height: 180px;
-  background: url(../../../../../../capsule/./pages/pipenet-function-template/static/images/CCTV管道自测识别系统-8ed8b.png);
-}
 .index__cal___1V3jC {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAMAAADyQNAxAAAANlBMVEUAAAAAkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP8AkP9NwfqlAAAAEXRSTlMA++QcFNzf7tvJOCUQy70tHqECWFgAAAC6SURBVDjLldNJDsQgDATANjgsgSz8/7OjJCNfWkbCx6ZksRjgPk6FX72mBlxZJEUXaRHJDVnGkBA9tD3LCVXGy3w0pEKLz+KHSn+8x2J4VzYFHGbIck3ECFHAGUecuIwRx4yYEXIYIzDbGYHZMDRjgxAzRlz7v9cOrPaa72v1jPP7Wr37+Tsuz8R8vhitDfT8czBLSmjp0zLr5WtsiFlRVPM+qwhiyGOS0bJIMcQsieQLaKF2+KXnceMHSWERjW5uBRsAAAAASUVORK5CYII=);
   width: 37px;
   height: 37px;
   position: absolute;
-  right: -180px;
+  right: 75px;
   top: 10px;
   cursor: pointer;
+}
+.index__bjzt___osDpD {
+  width: 610px;
+  height: 74px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.index__bjzt___osDpD > img {
+  width: 36px;
+  height: 46px;
+}
+.index__bjzt___osDpD > i {
+  width: 29px;
+  height: 20px;
+  font-family: MicrosoftYaHei;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #0090ff;
 }
 /******************************第三屏视频窗口*********************************************/
 .index__vi___199sG {
