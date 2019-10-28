@@ -4486,7 +4486,7 @@ const dealPic = wea => {
     pic = '/images/imgs/04天气/pic50.png';
   } else if (wea === '阴') {
     pic = '/images/imgs/04天气/pic60.png';
-  } else if (wea === '多云') {
+  } else if (wea === '多云' || wea === '阴转多云') {
     pic = '/images/imgs/04天气/pic61.png';
   } else if (wea === '小雨转阴') {
     pic = '/images/imgs/04天气/pic64.png';
@@ -4496,9 +4496,13 @@ const dealPic = wea => {
     pic = '/images/imgs/04天气/多云转晴.png';
   } else if (wea === '小雨转晴') {
     pic = '/images/imgs/04天气/pic53.png';
-  } else if (wea === '阴转小雨') {
+  } else if (wea === '阴转小雨' || wea === '多云转小雨') {
     pic = '/images/imgs/04天气/pic64.png';
   } else if (wea === '晴转多云') {
+    pic = '/images/imgs/04天气/pic52.png';
+  } else if (wea === '多云转阴') {
+    pic = '/images/imgs/04天气/pic52.png';
+  } else if (wea === '阴转晴') {
     pic = '/images/imgs/04天气/pic52.png';
   }
 
@@ -9918,7 +9922,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.date2
       }, " ", this.state.today), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.date2
-      }, this.state.tomrday[0])))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, " ", this.state.tomrday[0])))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weatherNode2
       }, wetherArr ? wetherArr.future.map((item, index) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.wea3
@@ -9973,7 +9977,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"header":"index__header___Z6ATU","time":"index__time___UTU1d","timeIcon":"index__timeIcon___2PJBp","label":"index__label___2yggj","titleNode":"index__titleNode___3n0wX","titleName":"index__titleName___3aaqF","titleSlectName":"index__titleSlectName___BOhvB","titleimg1":"index__titleimg1___1_9yM","titleimg2":"index__titleimg2___LgZv7","titleimg3":"index__titleimg3___xQgSB","titleimg4":"index__titleimg4___hxclY","titleimg5":"index__titleimg5___1YLTM","title":"index__title___1RRlk","titleimg":"index__titleimg___DGY4D","titleimga":"index__titleimga___3vI69","titleimgb":"index__titleimgb___2GLrs","desc":"index__desc___1clz9","weatherNode":"index__weatherNode___3TD3o","wea1":"index__wea1___1NuaC","weaimg":"index__weaimg___1z2Mr","weaName":"index__weaName___3i005","weaName1":"index__weaName1___3kxg_","weaName2":"index__weaName2___2q7Yw","weaName3":"index__weaName3___2Byff","wea2":"index__wea2___8lPHg","date1":"index__date1___3qzV6","date2":"index__date2___15RVF","weatherNode2":"index__weatherNode2___3Nhhm","wea3":"index__wea3___1PFfg","li1":"index__li1___AqByO","li2":"index__li2___14LqH","li3":"index__li3___1emED","li4":"index__li4___1whz1","li5":"index__li5___2bMSw","weaimg1":"index__weaimg1___b0-Pi","weaimg2":"index__weaimg2___OcbOp","weaimg3":"index__weaimg3___2Urjz","weaimg4":"index__weaimg4___VZiXJ","weaimg5":"index__weaimg5___37sC5"};
+module.exports = {"header":"index__header___Z6ATU","time":"index__time___UTU1d","timeIcon":"index__timeIcon___2PJBp","label":"index__label___2yggj","titleNode":"index__titleNode___3n0wX","titleName":"index__titleName___3aaqF","titleSlectName":"index__titleSlectName___BOhvB","titleimg1":"index__titleimg1___1_9yM","titleimg2":"index__titleimg2___LgZv7","titleimg3":"index__titleimg3___xQgSB","titleimg4":"index__titleimg4___hxclY","titleimg5":"index__titleimg5___1YLTM","title":"index__title___1RRlk","titleimg":"index__titleimg___DGY4D","titleimga":"index__titleimga___3vI69","titleimgb":"index__titleimgb___2GLrs","desc":"index__desc___1clz9","weatherNode":"index__weatherNode___3TD3o","wea1":"index__wea1___1NuaC","weaimg":"index__weaimg___1z2Mr","weaName":"index__weaName___3i005","weaName1":"index__weaName1___3kxg_","weaName2":"index__weaName2___2q7Yw","weaName3":"index__weaName3___2Byff","wea2":"index__wea2___8lPHg","wea4":"index__wea4___X9VJF","date1":"index__date1___3qzV6","date2":"index__date2___15RVF","weatherNode2":"index__weatherNode2___3Nhhm","wea3":"index__wea3___1PFfg","li1":"index__li1___AqByO","li2":"index__li2___14LqH","li3":"index__li3___1emED","li4":"index__li4___1whz1","li5":"index__li5___2bMSw","weaimg1":"index__weaimg1___b0-Pi","weaimg2":"index__weaimg2___OcbOp","weaimg3":"index__weaimg3___2Urjz","weaimg4":"index__weaimg4___VZiXJ","weaimg5":"index__weaimg5___37sC5"};
 
 /***/ }),
 

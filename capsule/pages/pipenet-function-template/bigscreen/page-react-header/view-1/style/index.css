@@ -13,7 +13,7 @@
 }
 .index__header___Z6ATU .index__time___UTU1d {
   position: absolute;
-  left: 20px;
+  left: 100px;
   top: 50%;
   font-size: 26px;
   -webkit-transform: translateY(-50%);
@@ -120,7 +120,7 @@
 }
 .index__header___Z6ATU .index__desc___1clz9 {
   position: absolute;
-  right: 20px;
+  right: 100px;
   top: 20%;
   color: #77fbe3;
 }
@@ -190,7 +190,10 @@
   width: 65%;
   height: 100%;
   float: left;
-  padding-top: 30px;
+  padding-top: 50px;
+}
+.index__header___Z6ATU .index__desc___1clz9 .index__weatherNode___3TD3o .index__wea2___8lPHg .index__wea4___X9VJF {
+  height: 50px;
 }
 .index__header___Z6ATU .index__desc___1clz9 .index__weatherNode___3TD3o .index__wea2___8lPHg .index__date1___3qzV6 {
   width: 224px;
@@ -203,6 +206,7 @@
   letter-spacing: 4px;
   color: #ffffff;
   text-shadow: 0 0 30px #f4faf5;
+  margin-right: 50px;
 }
 .index__header___Z6ATU .index__desc___1clz9 .index__weatherNode___3TD3o .index__wea2___8lPHg .index__date2___15RVF {
   width: 378px;
@@ -231,7 +235,7 @@
   float: left;
 }
 .index__header___Z6ATU .index__desc___1clz9 .index__weatherNode2___3Nhhm .index__wea3___1PFfg ul {
-  width: 178px;
+  width: 210px;
   height: 272px;
 }
 .index__header___Z6ATU .index__desc___1clz9 .index__weatherNode2___3Nhhm .index__wea3___1PFfg .index__li1___AqByO {

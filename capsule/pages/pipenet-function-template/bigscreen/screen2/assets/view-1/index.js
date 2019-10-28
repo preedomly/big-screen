@@ -782,7 +782,7 @@ __webpack_require__.r(__webpack_exports__);
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bznum
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "200", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "248", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/scene2/资产管理柱.png')  0 0 0 1 fill round",
           borderImageRepeat: 'stretch'
@@ -791,7 +791,7 @@ __webpack_require__.r(__webpack_exports__);
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.peoplenum
       }, "\u6751\u5C45\u6CF5\u7AD9\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bznum
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "200", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "140198", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/scene2/资产管理柱.png')  0 0 0 1 fill round",
           borderImageRepeat: 'stretch'
@@ -800,7 +800,7 @@ __webpack_require__.r(__webpack_exports__);
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.peoplenum
       }, "\u7EC8\u7AEF\u6536\u76CA\u6237\u6570")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bznum
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "200", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "31", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/scene2/资产管理柱.png')  0 0 0 1 fill round",
           borderImageRepeat: 'stretch'
@@ -809,7 +809,7 @@ __webpack_require__.r(__webpack_exports__);
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.peoplenum
       }, "\u7AA8\u4E95\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bznum
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "200", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "490633", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u516C\u91CC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/scene2/资产管理柱.png')  0 0 0 1 fill round",
           borderImageRepeat: 'stretch'

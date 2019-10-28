@@ -28,8 +28,10 @@
   height: 198px;
 }
 .index__div1___1YNzt .index__realtime___1DMJq .index__bznum___ytddp p {
+  text-align: center;
   position: absolute;
-  left: 25%;
+  left: -10%;
+  width: 300px;
   font-size: 45px;
   letter-spacing: 3px;
   font-weight: 700;
