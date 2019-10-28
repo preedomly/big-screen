@@ -1,69 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit|ie-stand" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="renderer" content="webkit" />
+    <title></title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="bookmark" href="/images/favicon.ico" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="renderer" content="webkit|ie-stand" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta name="renderer" content="webkit" />
-  <title></title>
-  <link rel="shortcut icon" href="/images/favicon.ico" />
-  <link rel="bookmark" href="/images/favicon.ico" />
-  <script src="./fontCss"></script>
-  <script src="/js/client.js"></script>
-  <script src="./EasyPlayer-element.min.js"></script>
-  <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
-  <script src="http://cdn.hcharts.cn/highcharts/highcharts-3d.js"></script>
-  <script type="text/javascript">
-    if (!$.ecity) $.ecity = {};
-    if (!$.ecity.top) $.ecity.top = window;
-    var layoutVersion = 'beta';
-    _LAYOUT_Path = _API_Path + '/capsule/' + layoutVersion;
-    // _WEB_ROOT_PATH = '/';
-    _load(
-      'capsule/' + layoutVersion + '/layouts/factory/index.js',
-      'frame/js/common.js',
-      'frame/js/objectFactory.js',
-      'frame/task/layer.js',
-      'frame/task/table.js'
-      // 'frame/js/jquery.easyui.min.js',
-      // 'frame/easyui/locale/easyui-lang-zh_CN.js',
-      // 'frame/ctrlib/serviceFactory.js',
+    <script src="/js/client.js"></script>
+    <script src="./EasyPlayer-element.min.js"></script>
+    <script type="text/javascript">
+      if (!$.ecity) $.ecity = {};
+      if (!$.ecity.top) $.ecity.top = window;
+      var layoutVersion = 'beta';
+      _LAYOUT_Path = _API_Path + '/capsule/' + layoutVersion;
+      // _WEB_ROOT_PATH = '/';
+      _load(
+        'capsule/' + layoutVersion + '/layouts/factory/index.js',
+        'frame/js/common.js',
+        'frame/js/objectFactory.js',
+        'frame/task/layer.js',
+        'frame/task/table.js'
+        // 'frame/js/jquery.easyui.min.js',
+        // 'frame/easyui/locale/easyui-lang-zh_CN.js',
+        // 'frame/ctrlib/serviceFactory.js',
 
-      // 'frame/easyui/themes/default/easyui.css',
-      // 'frame/easyui/themes/icon.css'
-    );
-  </script>
+        // 'frame/easyui/themes/default/easyui.css',
+        // 'frame/easyui/themes/icon.css'
+      );
+    </script>
 
-  <style>
-    @font-face {
-      font-family: 'webfont';
-      font-display: swap;
-      src: url('/fontCss/Plakn.eot');
-      /* IE9 */
-      src: url('/fontCss/Plakn.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/fontCss/Plakn.woff2') format('woff2'),
-        url('Plakn.woff') format('woff'),
-        /* chrome、firefox */
-        url('/fontCss/Plakn.ttf') format('truetype'),
-        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-        url('/fontCss/Plakn.svg#Plakn') format('svg');
-      /* iOS 4.1- */
-    }
-  </style>
-</head>
+    <style></style>
+  </head>
 
-<body>
-  <div id="main"></div>
+  <body>
+    <div id="main"></div>
 
-  <!-- <script src="/capsule/components/js/EyQueryPanel.js"></script>
+    <!-- <script src="/capsule/components/js/EyQueryPanel.js"></script>
     <script src="/capsule/components/js/EyTablePanel.js"></script>
     <script src="/capsule/components/js/EyTabPanel.js"></script> -->
-  <script>
-    factoryLayout(document.getElementById('main'));
-  </script>
-</body>
-
+    <script>
+      factoryLayout(document.getElementById('main'));
+    </script>
+  </body>
 </html>

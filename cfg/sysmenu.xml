@@ -3,7 +3,7 @@
   <sysmenu toolid="REACT_DEMO" name="react-demo" url="capsule/pages/pipenet-function-template/page-react/view-1"></sysmenu>
   <sysmenu toolid="nongye" name="react-demo-2" url="capsule/pages/pipenet-function-template/page-react-2/view-1"></sysmenu>
 
-  <!-- <sysmenu toolid="REACT_DEMO_3" name="react-demo-2" url="capsule/pages/pipenet-function-template/page-react-2/view-1"></sysmenu> -->
+    <!-- <sysmenu toolid="REACT_DEMO_3" name="react-demo-2" url="capsule/pages/pipenet-function-template/page-react-2/view-1"></sysmenu> -->
 
-
+    
 </menus>

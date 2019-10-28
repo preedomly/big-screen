@@ -1,0 +1,65 @@
+.index__div2___3Rxud {
+  float: left;
+  width: 1320px;
+  height: 598px;
+}
+.index__div2___3Rxud .index__titleNode___1wpsl {
+  width: 384px;
+  height: 120px;
+  /* float: left; */
+  line-height: 103px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  /* margin-left: 88px; */
+  font-size: 44px;
+  text-shadow: 0 0 30px #f4faf5;
+  color: #fff;
+}
+.index__div2___3Rxud .index__realtime___1j6HH {
+  overflow: hidden;
+  margin-top: 29px;
+  width: 1318px;
+  height: 466px;
+}
+.index__div2___3Rxud .index__realtime___1j6HH .index__bg___2prhB {
+  margin: 38px 0 0 36px;
+  width: 1284px;
+  height: 414px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(2, 208, 255, 0.1)), to(rgba(22, 32, 99, 0.1)));
+  background-image: -webkit-linear-gradient(left, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
+  background-image: linear-gradient(90deg, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
+}
+.index__div2___3Rxud .index__realtime___1j6HH .index__bg___2prhB .index__weiyang___3G0-N {
+  padding: 34px 0 0 58px;
+  display: inline-block;
+  width: 50%;
+  height: 25%;
+}
+.index__div2___3Rxud .index__realtime___1j6HH .index__bg___2prhB .index__weiyang___3G0-N .index__zhongduan___2Jvg_ {
+  text-align: center;
+  display: inline-block;
+  width: 306px;
+  height: 96px;
+  line-height: 96px;
+  font-size: 34px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  overflow: hidden;
+}
+.index__div2___3Rxud .index__realtime___1j6HH .index__bg___2prhB .index__weiyang___3G0-N .index__num___WywUf {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 49px;
+  color: #17e6ff;
+}
+.index__div2___3Rxud .index__realtime___1j6HH .index__bg___2prhB .index__weiyang___3G0-N .index__num___WywUf i {
+  margin-left: 10px;
+  font-size: 31px;
+  font-weight: normal;
+  color: #fff;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=index.css.map*/

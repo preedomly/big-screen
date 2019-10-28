@@ -13,32 +13,17 @@
     {
       "key": "gridCfg",
       "loaded": true,
-      "url": "config/gridCfg.json"
+      "url": "./config/gridCfg.json"
     },
     {
       "key": "sysmenu",
       "loaded": true,
-      "url": "cfg/sysmenu.xml"
-    },
-    {
-      "key": "servicecfg",
-      "loaded": true,
-      "url": "config/taskServices.js"
-    },
-    {
-      "key": "projectMapConfig",
-      "loaded": true,
-      "url": "config/projectMapConfig.js"
-    },
-    {
-      "key": "layersId",
-      "loaded": true,
-      "url": "config/layerId.js"
+      "url": "./cfg/sysmenu.xml"
     }
   ],
-  "theme": {
-    "@big-layout-width": "8640px",
-    "@big-layout-height": "2160px",
+  "theme":{
+    "@big-layout-width": "1920px",
+    "@big-layout-height": "1080px",
     "@big-layout-background": "#162063"
   }
 }

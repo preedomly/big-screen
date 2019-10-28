@@ -3,66 +3,80 @@
     "title": "sbv",
     "grid": [
       {
-        "toolKey": "ZONGHE",
-        "title": "综合信息",
-        "top": 345,
-        "left": 80,
-        "width": 1154,
-        "height": 821,
-        "module": "react"
-      },
-      {
-        "toolKey": "BENGZAHN",
-        "title": "泵站运行",
-        "top": 1222,
-        "left": 6237,
-        "width": 2327,
-        "height": 853,
-        "module": "react"
-      },
-      {
-        "toolKey": "SHISHI",
-        "title": "实时信息",
-        "top": 346,
-        "left": 1301,
-        "width": 1099,
-        "height": 819,
-        "module": "react"
-      },
-      {
-        "toolKey": "HEADER",
-        "title": "天气",
+        "toolKey": "SHEADER",
+        "title": "头部",
         "top": 0,
         "left": 0,
-        "width": 8640,
-        "height": 284,
+        "width": 1920,
+        "height": 139,
         "module": "react"
       },
       {
-        "toolKey": "TONGJI",
+        "toolKey": "SYNTHESIS",
+        "title": "综合信息小屏幕",
+        "top": 114,
+        "left": 25,
+        "width": 411,
+        "height": 293,
+        "module": "react"
+      },
+      {
+        "toolKey": "REAL_TIME",
+        "title": "综合信息小屏幕",
+        "top": 449,
+        "left": 25,
+        "width": 411,
+        "height": 311,
+        "module": "react"
+      },
+      {
+        "toolKey": "HOTLINE",
         "title": "热线统计",
-        "top": 1245,
-        "left": 80,
-        "width": 2319,
-        "height": 830,
+        "top": 792,
+        "left": 25,
+        "width": 860,
+        "height": 269,
         "module": "react"
       },
       {
-        "toolKey": "CONCENTRATION",
-        "title": "出口浓度",
-        "top": 469,
-        "left": 6237,
-        "width": 2323,
-        "height": 674,
+        "toolKey": "PUMP",
+        "title": "热线统计",
+        "top": 144,
+        "left": 1483,
+        "width": 411,
+        "height": 636,
         "module": "react"
       },
+       {
+        "toolKey": "COD",
+        "title": "出口cod浓度",
+        "top": 792,
+        "left": 919,
+        "width": 975,
+        "height": 269,
+        "module": "react"
+      }
+    ]
+  },
+  {
+    "title": "countryside",
+    "grid": [
       {
-        "toolKey": "OneMap",
-        "title": "地图",
-        "top": 300,
-        "left": 2500,
-        "width": 3700,
-        "height": 1780,
+        "toolKey": "SHEADER",
+        "title": "头部",
+        "top": 0,
+        "left": 0,
+        "width": 1920,
+        "height": 139,
+        "module": "react"
+      },   
+      {
+        "toolKey": "RIGHT_VIDEO",
+        "title": "头部",
+        "top": 150,
+        "left": 1227,
+        "width": 644,
+        "height": 879,
         "module": "react"
       }
     ]
@@ -71,136 +85,87 @@
     "title": "nongye",
     "grid": [
       {
-        "toolKey": "HEADER",
-        "title": "天气",
+        "toolKey": "SHEADER",
+        "title": "头部",
         "top": 0,
         "left": 0,
-        "width": 8640,
-        "height": 284,
+        "width": 1920,
+        "height": 139,
         "module": "react"
-      },
+      },   
       {
-        "toolKey": "ZHONG_DUAN",
-        "title": "终端分析",
-        "top": 345,
-        "left": 80,
-        "width": 1154,
-        "height": 821,
-        "module": "react"
-      },
-      {
-        "toolKey": "ZDZB",
-        "title": "终端占比",
-        "top": 1253,
-        "left": 80,
-        "width": 788,
-        "height": 855,
-        "module": "react"
-      },
-      {
-        "toolKey": "SHUIZHI",
-        "title": "实时水质",
-        "top": 1253,
-        "left": 914,
-        "width": 1742,
-        "height": 855,
-        "module": "react"
-      },
-      {
-        "toolKey": "CURRENTRATION",
-        "title": "第二屏实时信息",
-        "top": 395,
-        "left": 6253,
-        "width": 955,
-        "height": 592,
-        "module": "react"
-      },
-      {
-        "toolKey": "MANAGEMENT",
-        "title": "维养管理",
-        "top": 395,
-        "left": 7241,
-        "width": 1320,
-        "height": 598,
+        "toolKey": "NOWTIME",
+        "title": "实时信息2",
+        "top": 144,
+        "left": 25,
+        "width": 392,
+        "height": 207,
         "module": "react"
       },
       {
         "toolKey": "ASSETS",
         "title": "资产信息",
-        "top": 1048,
-        "left": 6251,
-        "width": 1065,
-        "height": 342,
+        "top": 363,
+        "left": 22,
+        "width": 394,
+        "height": 124,
         "module": "react"
       },
       {
-        "toolKey": "PROCESS",
-        "title": "终端工艺类型",
-        "top": 1048,
-        "left": 7368,
-        "width": 1174,
-        "height": 383,
+        "toolKey": "FENXI",
+        "title": "终端占比分析",
+        "top": 497,
+        "left": 28,
+        "width": 411,
+        "height": 280,
         "module": "react"
       },
       {
-        "toolKey": "WORKORDER",
-        "title": "工单信息",
-        "top": 1439,
-        "left": 6252,
-        "width": 2307,
-        "height": 667,
+        "toolKey": "INTRODUCE",
+        "title": "终端占比分析",
+        "top": 792,
+        "left": 25,
+        "width": 781,
+        "height": 269,
         "module": "react"
       },
       {
-        "toolKey": "TwoMap",
-        "title": "地图",
-        "top": 300,
-        "left": 2700,
-        "width": 3500,
-        "height": 1780,
-        "module": "react"
-      }
-    ]
-  },
-  {
-    "title": "monitoring",
-    "grid": [
-      {
-        "toolKey": "HEADER",
-        "title": "天气",
-        "top": 0,
-        "left": 0,
-        "width": 8640,
-        "height": 284,
+        "toolKey": "MAINTENANCE",
+        "title": "维养管理",
+        "top": 144,
+        "left": 1483,
+        "width": 411,
+        "height": 267,
         "module": "react"
       },
       {
-        "toolKey": "VIDEO-LEFT",
-        "title": "视频监控左部",
-        "top": 343,
-        "left": 78,
-        "width": 2321,
-        "height": 1730,
+        "toolKey": "WORKODER",
+        "title": "维养管理",
+        "top": 438,
+        "left": 1483,
+        "width": 411,
+        "height": 339,
         "module": "react"
       },
       {
-        "toolKey": "VIDEO-RIGHT",
-        "title": "视频监控右部",
-        "top": 399,
-        "left": 6235,
-        "width": 2321,
-        "height": 1674,
+        "toolKey": "SHUIZHI",
+        "title": "实时水质",
+        "top": 792,
+        "left": 815,
+        "width": 714,
+        "height": 269,
         "module": "react"
       },
       {
-        "toolKey": "thridMap",
-        "title": "地图",
-        "top": 300,
-        "left": 2500,
-        "width": 3700,
-        "height": 1780,
+        "toolKey": "TECHNOLOGY",
+        "title": "工艺类型",
+        "top": 792,
+        "left": 1541,
+        "width": 368,
+        "height": 250,
         "module": "react"
       }
     ]
   }
+  
 ]

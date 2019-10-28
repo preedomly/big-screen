@@ -1,0 +1,81 @@
+.index__div1___2xLL3 {
+  width: 411px;
+  height: 339px;
+}
+.index__div1___2xLL3 .index__titleNode___29b92 {
+  width: 137px;
+  height: 37px;
+  /* float: left; */
+  line-height: 37px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  /* margin-left: 88px; */
+  font-size: 16px;
+  text-shadow: 0 0 30px #f4faf5;
+  color: #fff;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot {
+  width: 411px;
+  height: 292px;
+  border-image-repeat: stretch;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__demo___2NbFU {
+  overflow: hidden;
+  height: 380px;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__demo2___run-A {
+  margin-top: -20px;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 {
+  width: 382px;
+  height: 270px;
+  overflow: hidden;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so {
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 60px;
+  margin: 23px 0 0 18px;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so th {
+  height: 29px;
+  border-top: none;
+  border-bottom: 0px solid red;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 14px;
+  padding: 7px 6px;
+  color: white;
+  text-align: center;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so th:nth-child(1) {
+  width: 104px;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so td:nth-child(2) {
+  width: 103px;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so td {
+  height: 33px ;
+  border-top: none;
+  border-bottom: 0px solid red;
+  line-height: 1;
+  font-size: 14px;
+  padding: 7px 6px;
+  color: white;
+  text-align: center;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so .index__striped1___2tvzh {
+  background-color: #172362;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so .index__striped1___2tvzh tr {
+  text-align: center;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so .index__striped___1DGG8 {
+  background-color: #0a5bb2;
+}
+.index__div1___2xLL3 .index__realtime___1Y9ot .index__smalltable___22Om4 .index__table___3__so .index__striped2___1CXXV {
+  background-color: #133884;
+}
+
+/*# sourceMappingURL=index.css.map*/

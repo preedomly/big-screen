@@ -7,24 +7,12 @@ var taskServices = {
       status: '0',
     }
   ],
-  service: [
+  service: [ 
     {
       name: 'BIG_SCREEN',
       description: '大屏1',
       url: 'proxy8080/ServiceEngine/rest/services/lwServer',
-      proxy: '',
-    },
-    {
-      name: 'NET_SVR',
-      description: '地图查询',
-      url: 'proxy8889/ServiceEngine/rest/services/NetServer/kqgps',
-      proxy: '',
-    },
-    {
-      name: 'LW_SVR',
-      description: 'tip框查询',
-      url: 'proxy8080/ServiceEngine/rest/services/lwServer',
-      proxy: '',
+	   proxy: 'a',
     }
   ],
 };

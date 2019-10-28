@@ -1,0 +1,66 @@
+.index__nowtime___3CMuq {
+  width: 392px;
+  height: 207px;
+}
+.index__nowtime___3CMuq .index__title___1ojFb {
+  width: 137px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA {
+  margin-top: 13px;
+  width: 392px;
+  height: 157px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(2, 208, 255, 0.1)), to(rgba(22, 32, 99, 0.1)));
+  background-image: -webkit-linear-gradient(left, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
+  background-image: linear-gradient(90deg, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li {
+  float: left;
+  list-style: none;
+  width: 50%;
+  height: 50%;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li span {
+  float: left;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  margin: 30px 0 0 20px;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd {
+  margin-left: 17px;
+  float: left;
+  width: 60%;
+  height: 78%;
+  margin-top: 10px;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #ffffff;
+  margin: 0;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd p i {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #41b8f9;
+}
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd .index__zongshu___21C09 {
+  font-style: 15px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=index.css.map*/
