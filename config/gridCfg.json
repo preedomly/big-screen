@@ -47,13 +47,22 @@
         "height": 636,
         "module": "react"
       },
-       {
+      {
         "toolKey": "COD",
         "title": "出口cod浓度",
         "top": 792,
         "left": 919,
         "width": 975,
         "height": 269,
+        "module": "react"
+      },
+      {
+        "toolKey": "OneMap",
+        "title": "地图",
+        "top": 140,
+        "left": 445,
+        "width": 1033,
+        "height": 645,
         "module": "react"
       }
     ]
@@ -69,7 +78,7 @@
         "width": 1920,
         "height": 139,
         "module": "react"
-      },   
+      },
       {
         "toolKey": "RIGHT_VIDEO",
         "title": "头部",
@@ -77,6 +86,15 @@
         "left": 1227,
         "width": 644,
         "height": 879,
+        "module": "react"
+      },
+      {
+        "toolKey": "thridMap",
+        "title": "地图",
+        "top": 150,
+        "left": 10,
+        "width": 1210,
+        "height": 880,
         "module": "react"
       }
     ]
@@ -92,7 +110,7 @@
         "width": 1920,
         "height": 139,
         "module": "react"
-      },   
+      },
       {
         "toolKey": "NOWTIME",
         "title": "实时信息2",
@@ -164,8 +182,16 @@
         "width": 368,
         "height": 250,
         "module": "react"
+      },
+      {
+        "toolKey": "TwoMap",
+        "title": "地图",
+        "top": 140,
+        "left": 445,
+        "width": 1033,
+        "height": 645,
+        "module": "react"
       }
     ]
   }
-  
 ]
