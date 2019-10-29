@@ -20,7 +20,7 @@
   <group name="countryside" from="4003000" to="4003100">
     <tool key="SHEADER" id="4003001" path="/countryside" url="capsule/pages/pipenet-function-template/sheader/view-1" module="react" view="overlay"/>
     <tool key="RIGHT_VIDEO" id="4003002" path="/countryside" url="capsule/pages/pipenet-function-template/bigsceen/screen3/rightvideo/view-1" module="react" view="overlay"/>
-    <tool key="thridMap" id="4003003" showZD="53" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+    <tool key="thridMap" id="4003003" showZD="14" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
   </group>
 
   <group name="nongye" from="5003000" to="5003100">

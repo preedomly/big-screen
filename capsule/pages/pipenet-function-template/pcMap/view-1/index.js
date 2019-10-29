@@ -70837,7 +70837,9 @@ var regEngline = function regEngline(arr) {
     // 地图视频点位
     MapTerminal: [],
     // 地图终端点位
-    HeatMapGrap: [] // 地图热力图
+    HeatMapGrap: [],
+    // 地图热力图
+    MapVideoLayerId: '' // 第三层视频查询的layerId，获取缓存
 
   },
   effects: {
@@ -71081,6 +71083,7 @@ var regEngline = function regEngline(arr) {
         }
       }, QueryTerminal);
     }),
+    // 第三层层视频接口
     QueryMapVideo:
     /*#__PURE__*/
     _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function QueryMapVideo(_ref7, _ref8) {
@@ -71163,6 +71166,16 @@ var regEngline = function regEngline(arr) {
               });
 
             case 25:
+              _context4.next = 27;
+              return put({
+                type: 'newState',
+                payload: {
+                  name: 'MapVideoLayerId',
+                  value: config[layerId]
+                }
+              });
+
+            case 27:
             case "end":
               return _context4.stop();
           }
@@ -71715,6 +71728,7 @@ function (_React$Component) {
           MapTerminal = _this$props$projectMa.MapTerminal,
           MapVideo = _this$props$projectMa.MapVideo,
           HeatMapGrap = _this$props$projectMa.HeatMapGrap,
+          MapVideoLayerId = _this$props$projectMa.MapVideoLayerId,
           key = _this$props.toolParams.key;
       var _this$state = this.state,
           switchTip = _this$state.switchTip,
@@ -71798,6 +71812,8 @@ function (_React$Component) {
           y: center.y
         }
       }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(_mapVideo_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+        MapVideoLayerId: MapVideoLayerId,
+        switchData: switchData,
         onOk: function onOk(x) {
           return console.log(x);
         },
@@ -72085,6 +72101,83 @@ var data = [{
   name: '泵站摄像头9',
   keys: '1000296'
 }];
+var locaJson = {
+  pumping: [{
+    "id": "1",
+    "name": "印染1#泵站",
+    "number": "1000306"
+  }, {
+    "id": "2",
+    "name": "西湖桥泵站",
+    "number": "1000046"
+  }, {
+    "id": "3",
+    "name": "沙地泵站",
+    "number": "1000042"
+  }, {
+    "id": "4",
+    "name": "冢斜泵站",
+    "number": "1000043"
+  }, {
+    "id": "5",
+    "name": "香林村泵站",
+    "number": "1000061"
+  }, {
+    "id": "6",
+    "name": "秋湖村3#泵站",
+    "number": "1000041"
+  }, {
+    "id": "7",
+    "name": "秋湖村2#泵站",
+    "number": "1000040"
+  }, {
+    "id": "8",
+    "name": "州山村2#泵站",
+    "number": "1000039"
+  }, {
+    "id": "9",
+    "name": "埠头村1#泵站",
+    "number": "1000032"
+  }],
+  terminal: [{
+    "id": "1",
+    "name": "永信村3#终端",
+    "number": "1000000"
+  }, {
+    "id": "2",
+    "name": "永信村2#终端",
+    "number": "1000002"
+  }, {
+    "id": "3",
+    "name": "白马山村1#终端",
+    "number": "[1000122,1000123,1000124]"
+  }, {
+    "id": "4",
+    "name": "白马山5#终端",
+    "number": "1000224"
+  }, {
+    "id": "5",
+    "name": "白马山8#终端",
+    "number": "1000200"
+  }, {
+    "id": "6",
+    "name": "白马山9#终端",
+    "number": "1000201"
+  }, {
+    "id": "7",
+    "name": "白马山10#终端",
+    "number": "1000180"
+  }, {
+    "id": "8",
+    "name": "宾舍2#终端",
+    "number": "1000172"
+  }, {
+    "id": "9",
+    "name": "永联2#终端",
+    "number": "1000169"
+  }],
+  flow: []
+};
 
 var Popule =
 /*#__PURE__*/
@@ -72092,17 +72185,40 @@ function (_React$PureComponent) {
   _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Popule, _React$PureComponent);
 
   function Popule() {
+    var _getPrototypeOf2;
+
+    var _this;
+
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Popule);
 
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Popule).apply(this, arguments));
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, (_getPrototypeOf2 = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Popule)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this.state = {
+      view: {}
+    };
+    return _this;
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Popule, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this$props = this.props,
+          MapVideoLayerId = _this$props.MapVideoLayerId,
+          switchData = _this$props.switchData;
+      var json = locaJson[MapVideoLayerId];
+      console.log(switchData);
+    }
+  }, {
     key: "render",
     value: function render() {
-      var _this$props = this.props,
-          onCalick = _this$props.onCalick,
-          onOk = _this$props.onOk;
+      var _this$props2 = this.props,
+          onCalick = _this$props2.onCalick,
+          onOk = _this$props2.onOk,
+          MapVideoLayerId = _this$props2.MapVideoLayerId,
+          switchData = _this$props2.switchData;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
