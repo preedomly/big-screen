@@ -72945,7 +72945,7 @@ function (_React$PureComponent) {
         }
       }, "X"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi_plan
-      }, view.number.map(function (x) {
+      }, view.number && view.number.map(function (x) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi_plan_x,
           onClick: function onClick(x) {
