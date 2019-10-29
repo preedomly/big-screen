@@ -202,10 +202,38 @@ __webpack_require__.r(__webpack_exports__);
  // import './style/index.global.less';
 
 
+/*import Pieone from '../exitone'
+import Pietwo from '../exittwo'
+import Piethree from '../exitthree'
+import Piefore from '../exitfore'
+import Piefive from '../exitfive'*/
+
+
+
+/*import { color } from '_highcharts@7.2.0@highcharts';*/
 
 /* harmony default export */ __webpack_exports__["default"] = (class extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(...args) {
     super(...args);
+    this.state = {
+      seconds: 0
+    };
+
+    this.tick = () => {
+      const {
+        seconds
+      } = this.state;
+
+      if (seconds == 6) {
+        this.setState({
+          seconds: 0
+        });
+      }
+
+      this.setState({
+        seconds: seconds + 1
+      });
+    };
 
     this.eq = linkUrl => {
       //让三期隐藏
@@ -225,108 +253,408 @@ __webpack_require__.r(__webpack_exports__);
     };
   }
 
+  componentDidMount() {
+    // 定时器，可以修改1000为自己想要的时间，
+    this.interval = setInterval(() => this.tick(), 3000);
+  }
+
+  componentWillUnmount() {
+    // 清除定时器
+    clearInterval(this.interval);
+  }
+
   render() {
     var res = [{
       "id": "1",
       "name": "区排",
       "company": "绍兴水处理发展有限公司",
       "qs": "一期",
-      "a": "258.88",
-      "b": "347.9",
-      "c": "356.43",
-      "d": "279.15",
-      "e": "248.33"
+      "a1": "258.88",
+      "a2": "347.9",
+      "a3": "356.43",
+      "a4": "279.15",
+      "a5": "248.33"
     }, {
       "id": "2",
       "name": "滨海水务",
       "company": "绍兴水处理发展有限公司",
       "qs": "三期",
-      "a": "434.66",
-      "b": "429.8",
-      "c": "402.67",
-      "d": "462.33",
-      "e": "437.45"
+      "a1": "434.66",
+      "a2": "429.8",
+      "a3": "402.67",
+      "a4": "462.33",
+      "a5": "437.45"
     }, {
       "id": "3",
       "name": "天马线",
       "company": "绍兴水处理发展有限公司",
       "qs": "三期",
-      "a": "464.941",
-      "b": "447.54",
-      "c": "407.41",
-      "d": "447.34",
-      "e": "472.51"
+      "a1": "464.941",
+      "a2": "447.54",
+      "a3": "407.41",
+      "a4": "447.34",
+      "a5": "472.51"
     }, {
       "id": "4",
       "name": "齐马1期",
       "company": "绍兴水处理发展有限公司",
       "qs": "三期",
-      "a": "455.88",
-      "b": "400.79",
-      "c": "447.62",
-      "d": "451.6",
-      "e": "438.67"
+      "a1": "455.88",
+      "a2": "400.79",
+      "a3": "447.62",
+      "a4": "451.6",
+      "a5": "438.67"
     }, {
       "id": "5",
       "name": "马鞍线",
       "company": "绍兴水处理发展有限公司",
       "qs": "三期",
-      "a": "480.74",
-      "b": "482.2",
-      "c": "407.05",
-      "d": "431.83",
-      "e": "487.97"
+      "a1": "480.74",
+      "a2": "482.2",
+      "a3": "407.05",
+      "a4": "431.83",
+      "a5": "487.97"
     }, {
       "id": "6",
       "name": "袍江线",
       "company": "绍兴水处理发展有限公司",
       "qs": "三期",
-      "a": "494.334",
-      "b": "470.44",
-      "c": "484.55",
-      "d": "463.57",
-      "e": "493.4"
+      "a1": "494.334",
+      "a2": "470.44",
+      "a3": "484.55",
+      "a4": "463.57",
+      "a5": "493.4"
     }, {
       "id": "7",
       "name": "新滨海2#线",
       "company": "绍兴水处理发展有限公司",
       "qs": "二期",
-      "a": "465.77",
-      "b": "483.79",
-      "c": "426.52",
-      "d": "407.08",
-      "e": "497.95"
+      "a1": "465.77",
+      "a2": "483.79",
+      "a3": "426.52",
+      "a4": "407.08",
+      "a5": "497.95"
     }, {
       "id": "8",
       "name": "滨海3#线",
       "company": "绍兴水处理发展有限公司",
       "qs": "二期",
-      "a": "417.929",
-      "b": "485.28",
-      "c": "451.7",
-      "d": "449.32",
-      "e": "470.2"
+      "a1": "417.929",
+      "a2": "485.28",
+      "a3": "451.7",
+      "a4": "449.32",
+      "a5": "470.2"
     }, {
       "id": "9",
       "name": "滨海2#线",
       "company": "绍兴水处理发展有限公司",
       "qs": "二期",
-      "a": "406.55",
-      "b": "418.91",
-      "c": "464.48",
-      "d": "455.35",
-      "e": "459.25"
+      "a1": "406.55",
+      "a2": "418.91",
+      "a3": "464.48",
+      "a4": "455.35",
+      "a5": "459.25"
     }, {
       "id": "10",
       "name": "滨海1#线",
       "company": "绍兴水处理发展有限公司",
       "qs": "二期",
-      "a": "439.78",
-      "b": "496.37",
-      "c": "457.44",
-      "d": "455.68",
-      "e": "472.22"
+      "a1": "439.78",
+      "a2": "496.37",
+      "a3": "457.44",
+      "a4": "455.68",
+      "a5": "472.22"
     }];
+    var i = this.state.seconds;
+
+    if (i % 3 == 0) {
+      res = [{
+        "id": "1",
+        "name": "区排",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "一期",
+        "a1": "258.88",
+        "a2": "347.9",
+        "a3": "356.43",
+        "a4": "279.15",
+        "a5": "248.33"
+      }, {
+        "id": "2",
+        "name": "滨海水务",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "434.66",
+        "a2": "429.8",
+        "a3": "402.67",
+        "a4": "462.33",
+        "a5": "437.45"
+      }, {
+        "id": "3",
+        "name": "天马线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "464.941",
+        "a2": "447.54",
+        "a3": "407.41",
+        "a4": "447.34",
+        "a5": "472.51"
+      }, {
+        "id": "4",
+        "name": "齐马1期",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "455.88",
+        "a2": "400.79",
+        "a3": "447.62",
+        "a4": "451.6",
+        "a5": "438.67"
+      }, {
+        "id": "5",
+        "name": "马鞍线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "480.74",
+        "a2": "482.2",
+        "a3": "407.05",
+        "a4": "431.83",
+        "a5": "487.97"
+      }, {
+        "id": "6",
+        "name": "袍江线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "494.334",
+        "a2": "470.44",
+        "a3": "484.55",
+        "a4": "463.57",
+        "a5": "493.4"
+      }, {
+        "id": "7",
+        "name": "新滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "465.77",
+        "a2": "483.79",
+        "a3": "426.52",
+        "a4": "407.08",
+        "a5": "497.95"
+      }, {
+        "id": "8",
+        "name": "滨海3#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "417.929",
+        "a2": "485.28",
+        "a3": "451.7",
+        "a4": "449.32",
+        "a5": "470.2"
+      }, {
+        "id": "9",
+        "name": "滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "406.55",
+        "a2": "418.91",
+        "a3": "464.48",
+        "a4": "455.35",
+        "a5": "459.25"
+      }, {
+        "id": "10",
+        "name": "滨海1#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "439.78",
+        "a2": "496.37",
+        "a3": "457.44",
+        "a4": "455.68",
+        "a5": "472.22"
+      }];
+    } else if (i % 3 == 1) {
+      res = [{
+        "id": "1",
+        "name": "区排",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "一期",
+        "a1": "347.9",
+        "a3": "356.43",
+        "a4": "279.15",
+        "a5": "248.33"
+      }, {
+        "id": "2",
+        "name": "滨海水务",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "429.8",
+        "a3": "402.67",
+        "a4": "462.33",
+        "a5": "437.45"
+      }, {
+        "id": "3",
+        "name": "天马线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "447.54",
+        "a3": "407.41",
+        "a4": "447.34",
+        "a5": "472.51"
+      }, {
+        "id": "4",
+        "name": "齐马1期",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "400.79",
+        "a3": "447.62",
+        "a4": "451.6",
+        "a5": "438.67"
+      }, {
+        "id": "5",
+        "name": "马鞍线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "482.2",
+        "a3": "407.05",
+        "a4": "431.83",
+        "a5": "487.97"
+      }, {
+        "id": "6",
+        "name": "袍江线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a1": "470.44",
+        "a3": "484.55",
+        "a4": "463.57",
+        "a5": "493.4"
+      }, {
+        "id": "7",
+        "name": "新滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "483.79",
+        "a3": "426.52",
+        "a4": "407.08",
+        "a5": "497.95"
+      }, {
+        "id": "8",
+        "name": "滨海3#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "485.28",
+        "a3": "451.7",
+        "a4": "449.32",
+        "a5": "470.2"
+      }, {
+        "id": "9",
+        "name": "滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "418.91",
+        "a3": "464.48",
+        "a4": "455.35",
+        "a5": "459.25"
+      }, {
+        "id": "10",
+        "name": "滨海1#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a1": "496.37",
+        "a3": "457.44",
+        "a4": "455.68",
+        "a5": "472.22"
+      }];
+    } else if (i % 3 == 2) {
+      res = [{
+        "id": "1",
+        "name": "区排",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "一期",
+        "a2": "347.9",
+        "a1": "356.43",
+        "a4": "279.15",
+        "a5": "248.33"
+      }, {
+        "id": "2",
+        "name": "滨海水务",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a2": "429.8",
+        "a1": "402.67",
+        "a4": "462.33",
+        "a5": "437.45"
+      }, {
+        "id": "3",
+        "name": "天马线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a2": "447.54",
+        "a1": "407.41",
+        "a4": "447.34",
+        "a5": "472.51"
+      }, {
+        "id": "4",
+        "name": "齐马1期",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a2": "400.79",
+        "a1": "447.62",
+        "a4": "451.6",
+        "a5": "438.67"
+      }, {
+        "id": "5",
+        "name": "马鞍线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a2": "482.2",
+        "a1": "407.05",
+        "a4": "431.83",
+        "a5": "487.97"
+      }, {
+        "id": "6",
+        "name": "袍江线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "三期",
+        "a2": "470.44",
+        "a1": "484.55",
+        "a4": "463.57",
+        "a5": "493.4"
+      }, {
+        "id": "7",
+        "name": "新滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a2": "483.79",
+        "a1": "426.52",
+        "a4": "407.08",
+        "a5": "497.95"
+      }, {
+        "id": "8",
+        "name": "滨海3#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a2": "485.28",
+        "a1": "451.7",
+        "a4": "449.32",
+        "a5": "470.2"
+      }, {
+        "id": "9",
+        "name": "滨海2#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a2": "418.91",
+        "a1": "464.48",
+        "a4": "455.35",
+        "a5": "459.25"
+      }, {
+        "id": "10",
+        "name": "滨海1#线",
+        "company": "绍兴水处理发展有限公司",
+        "qs": "二期",
+        "a2": "496.37",
+        "a1": "457.44",
+        "a4": "455.68",
+        "a5": "472.22"
+      }];
+    }
+
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.concentration
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -368,14 +696,14 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[0].a / 4,
+      percent: res[0].a1 / 4,
       strokeWidth: 13,
       width: 300,
       strokeColor: "#0090ff",
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[0].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[0].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
@@ -385,14 +713,14 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[6].a / 5,
+      percent: res[6].a1 / 5,
       strokeWidth: 13,
       width: 300,
       strokeColor: "#0090ff",
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[6].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[6].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
@@ -402,7 +730,7 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[7].a / 5,
+      percent: res[7].a1 / 5,
       strokeWidth: 13,
       width: 300,
       strokeColor: "#ffc257",
@@ -412,7 +740,7 @@ __webpack_require__.r(__webpack_exports__);
       style: {
         color: '#ffc257'
       }
-    }, res[7].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[7].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA,
       style: {
         color: '#ffc257'
@@ -428,7 +756,7 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[8].a / 5,
+      percent: res[8].a1 / 5,
       strokeWidth: 13,
       width: 300,
       strokeColor: "#fd6f97",
@@ -438,7 +766,7 @@ __webpack_require__.r(__webpack_exports__);
       style: {
         color: '#fd6f97'
       }
-    }, res[8].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[8].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA,
       style: {
         color: '#fd6f97'
@@ -454,217 +782,14 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[9].a / 5,
+      percent: res[9].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: '#87d068',
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[9].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[9].name))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E00\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[0].b / 4,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[0].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
-    }, res[0].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E8C\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[6].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[6].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[6].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[7].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[7].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[7].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[8].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[8].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[8].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[9].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[9].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[9].name))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E00\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[0].c / 4,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[0].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
-    }, res[0].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E8C\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[6].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[6].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[6].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[7].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[7].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[7].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[8].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[8].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[8].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[9].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[9].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[9].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
@@ -682,7 +807,7 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[1].a / 5,
+      percent: res[1].a1 / 5,
       strokeWidth: 13,
       width: 300,
       strokeColor: {
@@ -692,7 +817,7 @@ __webpack_require__.r(__webpack_exports__);
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[1].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[1].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
@@ -712,7 +837,7 @@ __webpack_require__.r(__webpack_exports__);
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[2].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[2].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
@@ -732,7 +857,7 @@ __webpack_require__.r(__webpack_exports__);
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[3].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[3].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
@@ -742,7 +867,7 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[4].a / 5,
+      percent: res[4].a1 / 5,
       strokeWidth: 13,
       width: 300,
       strokeColor: {
@@ -752,7 +877,7 @@ __webpack_require__.r(__webpack_exports__);
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[4].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[4].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
@@ -762,217 +887,14 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[5].a / 5,
+      percent: res[5].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: '#87d068',
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[5].a), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[5].name))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E09\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[1].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[1].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
-    }, res[1].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[2].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[2].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[2].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[3].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[3].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[3].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[4].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[4].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[4].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[5].b / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[5].b), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[5].name))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E09\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[1].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[1].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanA
-    }, res[1].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[2].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[2].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[2].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[3].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[3].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[3].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[4].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[4].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
-    }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
-    }, res[4].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
-      type: "circle",
-      percent: res[5].c / 5,
-      strokeWidth: 13,
-      width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
-      format: percent => ``
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
-    }, res[5].c), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, res[5].a1), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAA
     }, "mg/l"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
