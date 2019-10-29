@@ -15,6 +15,8 @@
     <tool key="TONGJI" id="3003006" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/tongji/view-1" module="react" view="overlay"/>
     <tool key="CONCENTRATION" id="3003008" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/concentration/view-1" module="react" view="overlay"/>
     <tool key="OneMap" id="3003009" showZD="14" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
+    <tool key="WISDOMEYE1" id="30030010"  path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/wisdomeye1/view-1" module="react" view="overlay"/>
+
   </group>
 
   <group name="nongye" from="4003000" to="4003100">
@@ -27,11 +29,15 @@
     <tool key="PROCESS" id="4003007" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/process/view-1" module="react" view="overlay"/>
     <tool key="WORKORDER" id="4003008" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/workorder/view-1" module="react" view="overlay"/>
     <tool key="TwoMap" id="4003009" path="/nongye" showZD="54" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
+    <tool key="WISDOMEYE2" id="40030010"  path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/wisdomeye2/view-1" module="react" view="overlay"/>
+
   </group>
 
   <group name="monitoring" from="5003000" to="5003100">
     <tool key="VIDEO-LEFT" id="5003001" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/leftmonitor/view-1" module="react" view="overlay"/>
     <tool key="VIDEO-RIGHT" id="5003002" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/rightmonitor/view-1" module="react" view="overlay"/>
     <tool key="thridMap" id="5003003" path="/monitoring" showZD="53" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
+    <tool key="WISDOMEYE3" id="5003004"  path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen3/wisdomeye3/view-1" module="react" view="overlay"/>
+
   </group>
 </tooldefs>
