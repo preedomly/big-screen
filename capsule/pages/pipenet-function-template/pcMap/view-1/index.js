@@ -71673,6 +71673,13 @@ function (_React$Component) {
       });
     };
 
+    _this.handleVideoLinkage = function (id) {
+      _this.props.dispatch({
+        type: 'rightmonitor/getRightmonitor',
+        payload: id
+      });
+    };
+
     _this.projectMapConfig = yc__WEBPACK_IMPORTED_MODULE_17__["sysConfig"].getCfgByKey('projectMapConfig');
     _this.state = {
       switchTip: false,
@@ -71815,7 +71822,7 @@ function (_React$Component) {
         MapVideoLayerId: MapVideoLayerId,
         switchData: switchData,
         onOk: function onOk(x) {
-          return console.log(x);
+          return _this2.handleVideoLinkage(x);
         },
         onCalick: function onCalick() {
           return _this2.setState({
@@ -72105,76 +72112,76 @@ var locaJson = {
   pumping: [{
     "id": "1",
     "name": "印染1#泵站",
-    "number": "1000306"
+    "number": [1000306]
   }, {
     "id": "2",
     "name": "西湖桥泵站",
-    "number": "1000046"
+    "number": [1000046]
   }, {
     "id": "3",
     "name": "沙地泵站",
-    "number": "1000042"
+    "number": [1000042]
   }, {
     "id": "4",
     "name": "冢斜泵站",
-    "number": "1000043"
+    "number": [1000043]
   }, {
     "id": "5",
     "name": "香林村泵站",
-    "number": "1000061"
+    "number": [1000061]
   }, {
     "id": "6",
     "name": "秋湖村3#泵站",
-    "number": "1000041"
+    "number": [1000041]
   }, {
     "id": "7",
     "name": "秋湖村2#泵站",
-    "number": "1000040"
+    "number": [1000040]
   }, {
     "id": "8",
     "name": "州山村2#泵站",
-    "number": "1000039"
+    "number": [1000039]
   }, {
     "id": "9",
     "name": "埠头村1#泵站",
-    "number": "1000032"
+    "number": [1000032]
   }],
   terminal: [{
     "id": "1",
     "name": "永信村3#终端",
-    "number": "1000000"
+    "number": [1000000]
   }, {
     "id": "2",
     "name": "永信村2#终端",
-    "number": "1000002"
+    "number": [1000002]
   }, {
     "id": "3",
     "name": "白马山村1#终端",
-    "number": "[1000122,1000123,1000124]"
+    "number": [1000122, 1000123, 1000124]
   }, {
     "id": "4",
     "name": "白马山5#终端",
-    "number": "1000224"
+    "number": [1000224]
   }, {
     "id": "5",
     "name": "白马山8#终端",
-    "number": "1000200"
+    "number": [1000200]
   }, {
     "id": "6",
     "name": "白马山9#终端",
-    "number": "1000201"
+    "number": [1000201]
   }, {
     "id": "7",
     "name": "白马山10#终端",
-    "number": "1000180"
+    "number": [1000180]
   }, {
     "id": "8",
     "name": "宾舍2#终端",
-    "number": "1000172"
+    "number": [1000172]
   }, {
     "id": "9",
     "name": "永联2#终端",
-    "number": "1000169"
+    "number": [1000169]
   }],
   flow: []
 };
@@ -72205,20 +72212,31 @@ function (_React$PureComponent) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Popule, [{
     key: "componentDidMount",
     value: function componentDidMount() {
+      var _this2 = this;
+
       var _this$props = this.props,
           MapVideoLayerId = _this$props.MapVideoLayerId,
           switchData = _this$props.switchData;
-      var json = locaJson[MapVideoLayerId];
-      console.log(switchData);
+      var json = locaJson[MapVideoLayerId]; // 默认取第一个，如果有，就覆盖，没有就继续
+
+      this.setState({
+        view: json[0]
+      });
+      json.map(function (x) {
+        if (x.name === switchData.泵站名称 || x.name === switchData.终端名称) {
+          _this2.setState({
+            view: x
+          });
+        }
+      });
     }
   }, {
     key: "render",
     value: function render() {
       var _this$props2 = this.props,
           onCalick = _this$props2.onCalick,
-          onOk = _this$props2.onOk,
-          MapVideoLayerId = _this$props2.MapVideoLayerId,
-          switchData = _this$props2.switchData;
+          onOk = _this$props2.onOk;
+      var view = this.state.view;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -72228,13 +72246,13 @@ function (_React$PureComponent) {
         }
       }, "X"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi_plan
-      }, data.map(function (x) {
+      }, view.number && view.number.map(function (x) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_6___default.a.vi_plan_x,
           onClick: function onClick(x) {
             return onOk(x);
           }
-        }, x.name);
+        }, x, "#");
       })));
     }
   }]);
