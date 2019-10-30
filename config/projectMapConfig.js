@@ -13,8 +13,8 @@ const projectMapConfig = {
         url: 'proxy6080/arcgis/rest/services/kqgps/kqdppszgx_sl/MapServer',
       }
     ],
-    // api: 'http://192.168.8.29:8085/ecity_js_api1.0',
-    api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
+    api: 'http://192.168.8.29:8085/ecity_js_api1.0',
+    // api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
     maxscale: '500000',
     minscale: '2000',
     centerx: 53000, // 中心点X坐标
@@ -33,17 +33,18 @@ const projectMapConfig = {
     // 按配置顺序加载
     tileLayers: [
       {
+        id: "kqdp",
         url: 'proxy6080/arcgis/rest/services/kqgpsdp/kqdp/MapServer',
       }
-
     ],
     vectorLayers: [
       {
+        id: "kqdppszgx_sl",
         url: 'proxy6080/arcgis/rest/services/kqgps/kqdppszgx_sl/MapServer',
       }
     ],
-    // api: 'http://192.168.8.29:8085/ecity_js_api1.0',
-    api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
+    api: 'http://192.168.8.29:8085/ecity_js_api1.0',
+    // api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
     maxscale: '500000',
     minscale: '2000',
     centerx: 53000,
@@ -61,17 +62,18 @@ const projectMapConfig = {
   thridMap: {
     tileLayers: [
       {
+        id: "kqdp",
         url: 'proxy6080/arcgis/rest/services/kqgpsdp/kqdp/MapServer',
       }
-
     ],
     vectorLayers: [
       {
+        id: "kqdppszgx_sl",
         url: 'proxy6080/arcgis/rest/services/kqgps/kqdppszgx_sl/MapServer',
       }
     ],
-    // api: 'http://192.168.8.29:8085/ecity_js_api1.0',
-    api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
+    api: 'http://192.168.8.29:8085/ecity_js_api1.0',
+    // api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
     maxscale: '500000',
     minscale: '2000',
     centerx: 53000,

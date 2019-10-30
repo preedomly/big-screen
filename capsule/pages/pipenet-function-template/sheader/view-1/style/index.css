@@ -59,6 +59,10 @@
   height: 31px;
   margin: 24px 0 0 12px;
 }
+.index__header___pHzAt .index__weather___3yrgp .index__left___1bcuH img {
+  width: 39px;
+  height: 31px;
+}
 .index__header___pHzAt .index__weather___3yrgp .index__center___20qWl {
   float: left;
   width: 24%;
@@ -77,6 +81,8 @@
 .index__header___pHzAt .index__weather___3yrgp .index__center___20qWl span {
   display: inline-block;
   font-size: 12px;
+  width: 100%;
+  text-align: center;
 }
 .index__header___pHzAt .index__weather___3yrgp .index__wire___3ozuY {
   display: inline-block;
@@ -122,6 +128,10 @@
   width: 100%;
   text-align: center;
   list-style: none;
+}
+.index__header___pHzAt .index__future_weather___2QYfE ul li img {
+  width: 32px;
+  height: 23px;
 }
 .index__header___pHzAt .index__future_weather___2QYfE ul li:nth-child(1) {
   font-size: 12px;

@@ -788,22 +788,22 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }
     }, "\u8D44\u4EA7\u4FE1\u606F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "200"), "\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "248"), "\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       style: {
         borderImage: "url('/images/imgs/2、农村运维/资产管理柱.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u6751\u5C45\u6CF5\u7AD9\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "2000"), "\u6237"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u6751\u5C45\u6CF5\u7AD9\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "140198"), "\u6237"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       style: {
         borderImage: "url('/images/imgs/2、农村运维/资产管理柱.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u7EC8\u7AEF\u6536\u76CA\u6237\u6570")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "200"), "\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u7EC8\u7AEF\u6536\u76CA\u6237\u6570")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "31"), "\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       style: {
         borderImage: "url('/images/imgs/2、农村运维/资产管理柱.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u7AA8\u4E95\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "400"), "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u7AA8\u4E95\u6570\u91CF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "490633"), "\u516C\u91CC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       style: {
         borderImage: "url('/images/imgs/2、农村运维/资产管理柱.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
