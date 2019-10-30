@@ -1,0 +1,29 @@
+.index__bbox___3uuO2 {
+  width: 500px;
+  height: 77px;
+}
+.index__bbox___3uuO2 ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.index__bbox___3uuO2 ul li {
+  margin-right: 20px;
+  float: left;
+  list-style: none;
+  width: 61px;
+  height: 77px;
+  text-align: center;
+}
+.index__bbox___3uuO2 ul li span {
+  display: inline-block;
+  width: 61px;
+  height: 53px;
+}
+.index__bbox___3uuO2 ul li p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=index.css.map*/
