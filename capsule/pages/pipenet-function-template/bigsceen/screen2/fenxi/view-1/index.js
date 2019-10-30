@@ -274,7 +274,7 @@ __webpack_require__.r(__webpack_exports__);
       },
       series: [{
         type: 'pie',
-        size: '85%',
+        size: '70%',
         zIndex: 1,
         data: [{
           'name': '30吨以下终端',
@@ -319,7 +319,11 @@ __webpack_require__.r(__webpack_exports__);
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "container",
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.container
-    })));
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.labeltextleft
+    }, "132\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.labeltextright
+    }, "204\u4E2A")));
   }
 
 });
@@ -354,7 +358,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"fenxi":"index__fenxi___1916x","tiele":"index__tiele___2s4L4","kuang":"index__kuang___gbujV","container":"index__container___2dFpG"};
+module.exports = {"fenxi":"index__fenxi___1916x","tiele":"index__tiele___2s4L4","kuang":"index__kuang___gbujV","container":"index__container___2dFpG","labeltextleft":"index__labeltextleft___3DyFj","labeltextright":"index__labeltextright___1S4SW"};
 
 /***/ }),
 

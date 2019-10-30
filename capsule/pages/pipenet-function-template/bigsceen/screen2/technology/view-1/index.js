@@ -111072,7 +111072,7 @@ let Page = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__["c
         series: [{
           name: '姓名',
           type: 'pie',
-          radius: '16%',
+          radius: '60%',
           center: ['50%', '50%'],
           data: arrays,
           label: {
@@ -111083,8 +111083,8 @@ let Page = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__["c
           },
           labelLine: {
             normal: {
-              length: 10,
-              length2: 10
+              length: 3,
+              length2: 3
             }
           },
           itemStyle: {

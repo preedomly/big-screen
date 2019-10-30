@@ -22,19 +22,14 @@
   margin: 0;
   padding: 0;
 }
-.index__assets___27M2y .index__kuang___2bvxz ul li:nth-child(1) {
-  width: 90px !important;
-}
 .index__assets___27M2y .index__kuang___2bvxz ul li {
   position: relative;
   display: inline-block;
   list-style: none;
-  width: 105px;
+  width: 115px;
   height: 69px;
-  text-align: center;
 }
 .index__assets___27M2y .index__kuang___2bvxz ul li p {
-  display: inline-block;
   margin-bottom: 0;
   text-align: center;
   font-size: 12px;
@@ -43,7 +38,7 @@
 .index__assets___27M2y .index__kuang___2bvxz ul li p i {
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 1px;
   color: #00ffff;
 }
@@ -61,7 +56,7 @@
   height: 25%;
   text-align: center;
   top: 55px;
-  left: 1px;
+  left: -4px;
   font-size: 12px;
   letter-spacing: 1px;
   color: #ffffff;

@@ -741,7 +741,7 @@ __webpack_require__.r(__webpack_exports__);
     var demo = $("#demoN")[0];
     var demo1 = $("#demoN1")[0];
     var demo2 = $("#demoN2")[0];
-    var speed = 50;
+    var speed = 500;
     demo2.innerHTML = demo1.innerHTML;
 
     function Marquee() {
@@ -754,7 +754,7 @@ __webpack_require__.r(__webpack_exports__);
     }
 
     var MyMar = setInterval(Marquee, speed);
-    setInterval(Marquee, 50);
+    setInterval(Marquee, 500);
     console.log('componentDidMount'); // $.ecity.dialog.message('message', 3000, 200, 400);
     // $.ecity.dialog.confirm('confirm');
     // $.ecity.dialog.show();

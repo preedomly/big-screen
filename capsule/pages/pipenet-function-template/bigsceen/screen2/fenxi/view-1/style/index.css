@@ -24,5 +24,23 @@
   left: 17px;
   height: 200px;
 }
+.index__labeltextleft___3DyFj {
+  position: absolute;
+  width: 100px;
+  color: #C6E5FF;
+  left: 216px;
+  top: 146px;
+  font-size: 14px;
+  fill: #C6E5FF;
+}
+.index__labeltextright___1S4SW {
+  position: absolute;
+  width: 100px;
+  color: #C6E5FF;
+  right: 148px;
+  top: 138px;
+  font-size: 14px;
+  fill: #C6E5FF;
+}
 
 /*# sourceMappingURL=index.css.map*/

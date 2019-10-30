@@ -741,7 +741,7 @@ __webpack_require__.r(__webpack_exports__);
     var demo = $("#demo")[0];
     var demo1 = $("#demo1")[0];
     var demo2 = $("#demo2")[0];
-    var speed = 50;
+    var speed = 500;
     demo2.innerHTML = demo1.innerHTML;
 
     function Marquee() {
@@ -753,7 +753,7 @@ __webpack_require__.r(__webpack_exports__);
     }
 
     var MyMar = setInterval(Marquee, speed);
-    setInterval(Marquee, 50);
+    setInterval(Marquee, 500);
     console.log('componentDidMount');
   }
 
