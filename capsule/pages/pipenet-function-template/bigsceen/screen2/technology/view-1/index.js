@@ -111223,7 +111223,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         borderImage: "url('/images/imgs/onescreen/标题框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }, " \u7EC8\u7AEF\u5360\u6BD4\u5206\u6790"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, " \u7EC8\u7AEF\u5DE5\u827A\u7C7B\u578B"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_type__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
   }

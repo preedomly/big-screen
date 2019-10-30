@@ -64,6 +64,15 @@
         "width": 1033,
         "height": 645,
         "module": "react"
+      },
+       {
+        "toolKey": "WISDOMEYE1",
+        "title": "智慧眼1",
+        "top": 182,
+        "left": 950,
+        "width": 466,
+        "height": 77,
+        "module": "react"
       }
     ]
   },
@@ -96,7 +105,16 @@
         "width": 1210,
         "height": 880,
         "module": "react"
-      }
+      },
+      {
+       "toolKey": "WISDOMEYE3",
+       "title": "智慧眼1",
+       "top": 182,
+       "left": 770,
+       "width": 466,
+       "height": 77,
+       "module": "react"
+     }
     ]
   },
   {
@@ -191,7 +209,16 @@
         "width": 1033,
         "height": 645,
         "module": "react"
-      }
+      },
+      {
+       "toolKey": "WISDOMEYE2",
+       "title": "智慧眼1",
+       "top": 182,
+       "left": 950,
+       "width": 466,
+       "height": 77,
+       "module": "react"
+     }
     ]
   }
 ]

@@ -15,12 +15,14 @@
     <tool key="PUMP" id="3003005" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/pump/view-1" module="react" view="overlay"/>
     <tool key="COD" id="3003006" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/cod/view-1" module="react" view="overlay"/>
     <tool key="OneMap" id="3003007" showZD="14" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+    <tool key="WISDOMEYE1" id="3003008" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/wisdomeye1/view-1" module="react" view="overlay"/>
   </group>
 
   <group name="countryside" from="4003000" to="4003100">
     <tool key="SHEADER" id="4003001" path="/countryside" url="capsule/pages/pipenet-function-template/sheader/view-1" module="react" view="overlay"/>
     <tool key="RIGHT_VIDEO" id="4003002" path="/countryside" url="capsule/pages/pipenet-function-template/bigsceen/screen3/rightvideo/view-1" module="react" view="overlay"/>
     <tool key="thridMap" id="4003003" showZD="14" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+     <tool key="WISDOMEYE2" id="4003004" path="/countryside" url="capsule/pages/pipenet-function-template/bigsceen/screen2/wisdomeye2/view-1" module="react" view="overlay"/>
   </group>
 
   <group name="nongye" from="5003000" to="5003100">
@@ -34,5 +36,7 @@
     <tool key="SHUIZHI" id="5003008" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/shuizhi/view-1" module="react" view="overlay"/>
     <tool key="TECHNOLOGY" id="5003009" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/technology/view-1" module="react" view="overlay"/>
     <tool key="TwoMap" id="5003010" showZD="14" path="/nongye" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+     <tool key="WISDOMEYE3" id="30030011" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen3/wisdomeye3/view-1" module="react" view="overlay"/>
+
   </group>
 </tooldefs>
