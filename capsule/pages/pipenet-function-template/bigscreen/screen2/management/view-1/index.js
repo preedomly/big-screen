@@ -2600,11 +2600,9 @@ __webpack_require__.r(__webpack_exports__);
           background: "url('/images/imgs/标题框.png') no-repeat"
         }
       }, "\u7EF4\u517B\u7BA1\u7406"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-        style: {
-          borderImage: "url('/images/imgs/框.png')  5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bg
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -2685,7 +2683,7 @@ __webpack_require__.r(__webpack_exports__);
       }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_3___default.a, {
         start: 0,
         end: 69
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u6B21"))))))
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u6B21")))))))
     );
   }
 
@@ -2721,7 +2719,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div2":"index__div2___ALDav","titleNode":"index__titleNode___3eWtf","realtime":"index__realtime___3D8rP","bg":"index__bg___36zbq","weiyang":"index__weiyang___16ZNX","zhongduan":"index__zhongduan___Pcjbb","num":"index__num___2emGV"};
+module.exports = {"div2":"index__div2___ALDav","titleNode":"index__titleNode___3eWtf","realtime":"index__realtime___3D8rP","sbox":"index__sbox___RWSrP","bg":"index__bg___36zbq","weiyang":"index__weiyang___16ZNX","zhongduan":"index__zhongduan___Pcjbb","num":"index__num___2emGV"};
 
 /***/ }),
 

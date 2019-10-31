@@ -45,14 +45,26 @@
   color: #42b6fe;
 }
 .index__districtRow___2-fSb {
-  width: 100%;
+  width: 2322px;
   height: 542px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
   margin-top: 29px;
-  border-image-repeat: stretch;
-  overflow: hidden;
+}
+.index__districtRow___2-fSb .index__sbox___HyD1q {
+  height: 460px;
+  margin-top: -400px;
+  margin-left: -89px;
+  margin-right: -432px;
+  margin-bottom: -15px;
 }
 .index__districtRow___2-fSb .index__oneBox___337sd:nth-child(1) {
-  margin: 50px 0 0 120px;
   border: 2px dashed #0090ff;
 }
 .index__districtRow___2-fSb .index__oneBox___337sd:nth-child(2) {

@@ -17,12 +17,27 @@
 .index__topLeft___1AV0g .index__realtime___2blKD {
   width: 2577px;
   height: 698px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__diva___Qf8WV {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco {
+  height: 635px;
+  margin-top: -400px;
+  margin-left: -89px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__diva___Qf8WV {
   float: left;
   width: 45%;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__diva___Qf8WV .index__text1___1WolV {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__diva___Qf8WV .index__text1___1WolV {
   position: absolute;
   top: 430px;
   left: 90px;
@@ -36,19 +51,19 @@
   letter-spacing: 2px;
   color: #ffffff;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__diva___Qf8WV .index__img1___3ccFw {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__diva___Qf8WV .index__img1___3ccFw {
   float: left;
   margin-top: 30px;
   margin-left: 77px;
   width: 1036px;
   height: 230px;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__divb___2r3LC {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__divb___2r3LC {
   float: left;
   width: 50%;
   margin-top: 92px;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__divb___2r3LC .index__txt1___2GyAE {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__divb___2r3LC .index__txt1___2GyAE {
   width: 330px;
   height: 37px;
   font-family: MicrosoftYaHei;
@@ -61,7 +76,7 @@
   position: absolute;
   right: -1350px;
 }
-.index__topLeft___1AV0g .index__realtime___2blKD .index__divb___2r3LC .index__img1___3ccFw {
+.index__topLeft___1AV0g .index__realtime___2blKD .index__sbox___3xnco .index__divb___2r3LC .index__img1___3ccFw {
   float: left;
   width: 1282px;
   height: 510px;

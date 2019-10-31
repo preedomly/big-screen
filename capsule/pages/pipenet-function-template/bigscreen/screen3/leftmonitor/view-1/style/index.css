@@ -1,12 +1,29 @@
 .index__leftvideo___wNpKP {
   width: 2321px;
   height: 1730px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
 }
-.index__leftvideo___wNpKP ul {
-  width: 100%;
+.index__leftvideo___wNpKP .index__sbox___2oZtf {
+  height: 1729px;
+  margin-top: -415px;
+  margin-left: -145px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__leftvideo___wNpKP .index__sbox___2oZtf ul {
+  width: 2365px;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.index__leftvideo___wNpKP ul li {
+.index__leftvideo___wNpKP .index__sbox___2oZtf ul li {
   float: left;
   list-style-type: none;
   width: 45%;

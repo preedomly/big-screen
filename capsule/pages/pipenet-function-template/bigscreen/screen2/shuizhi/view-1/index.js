@@ -748,7 +748,7 @@ __webpack_require__.r(__webpack_exports__);
       if (demo2.offsetTop - demo.scrollTop <= 0) {
         demo.scrollTop -= demo1.offsetHeight;
       } else {
-        demo.scrollTop = demo.scrollTop + 3;
+        demo.scrollTop = demo.scrollTop + 4;
       } // console.log("%%%%%%%%%%^^^^^^^")
 
     }
@@ -797,11 +797,9 @@ __webpack_require__.r(__webpack_exports__);
           background: "url('/images/imgs/标题框.png') no-repeat"
         }
       }, "\u7EC8\u7AEF\u5B9E\u65F6\u6C34\u8D28"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-        style: {
-          borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.smalltable
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
@@ -842,7 +840,7 @@ __webpack_require__.r(__webpack_exports__);
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E94\u6D0B\u67514#\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "6.86"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "20.03"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "14.89"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "0.89"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "4.78"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "1.64"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "3148")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "demoN2",
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.demo2
-      })))))
+      }))))))
     );
   }
 
@@ -878,7 +876,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div2":"index__div2___1GNwQ","titleNode":"index__titleNode___3ucMd","realtime":"index__realtime___13AKy","demo":"index__demo___2L-S7","demo2":"index__demo2___2lE1o","smalltable":"index__smalltable___3pGNv","table":"index__table___2FN66","striped1":"index__striped1___3Lu2q","striped":"index__striped___3u9YM","striped2":"index__striped2___Bmbr-","ss":"index__ss___8kaiC","lj":"index__lj___SySMx"};
+module.exports = {"div2":"index__div2___1GNwQ","titleNode":"index__titleNode___3ucMd","realtime":"index__realtime___13AKy","sbox":"index__sbox___Mhuy9","demo":"index__demo___2L-S7","demo2":"index__demo2___2lE1o","smalltable":"index__smalltable___3pGNv","table":"index__table___2FN66","striped1":"index__striped1___3Lu2q","striped":"index__striped___3u9YM","striped2":"index__striped2___Bmbr-","ss":"index__ss___8kaiC","lj":"index__lj___SySMx"};
 
 /***/ }),
 

@@ -3702,22 +3702,16 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__[
             borderImageRepeat: "stretch"
           }
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CF5\u7AD9\u8FD0\u884C")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.drainagePump,
-          style: {
-            borderImage: "url('/images/imgs/框.png') 0 0 0 0 fill round",
-            borderImageRepeat: "stretch"
-          }
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.drainagePump
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
           autoplay: true,
           dots: "false"
         }, arr2.map((item, index) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.bzbeijin
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.psone,
-          style: {
-            borderImage: "url('/images/imgs/泵站.png') 0 0 0 0 fill round",
-            borderImageRepeat: "stretch"
-          }
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.psone
         }, item.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.condition
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CF5\u673A\u72B6\u6001"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -3810,11 +3804,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__[
         }, arr3[index].Data[0].Rs[0].R[0].C.slice(0, 6), " \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u7C73")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.bzbeijin
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.psone,
-          style: {
-            borderImage: "url('/images/imgs/泵站.png') 0 0 0 0 fill round",
-            borderImageRepeat: "stretch"
-          }
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.psone
         }, arr1[index].name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.condition
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CF5\u673A\u72B6\u6001"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -3904,7 +3894,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__[
           strokeWidth: 18
         }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.Time
-        }, arr4[index].Data[0].Rs[0].R[0].C == 0 ? 2.8523 : arr4[index].Data[0].Rs[0].R[0].C.slice(0, 6), " \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u7C73")))))))))
+        }, arr4[index].Data[0].Rs[0].R[0].C == 0 ? 2.8523 : arr4[index].Data[0].Rs[0].R[0].C.slice(0, 6), " \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u7C73"))))))))))
       );
     }
   }
@@ -3943,7 +3933,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"pumpingStation":"index__pumpingStation___u25aA","yunxing":"index__yunxing___czIwI","drainagePump":"index__drainagePump___38lLd","bzbeijin":"index__bzbeijin___3IrTE","psone":"index__psone___2MPKn","condition":"index__condition___39Up2","stop":"index__stop___30CQX","jindu":"index__jindu___2STQB","shunshi":"index__shunshi___13jlS","Time":"index__Time___1U391","container":"index__container___3nGTX","title":"index__title___2APFD","bar":"index__bar___2YUac","bar1":"index__bar1___3LddN","progressbar":"index__progressbar___1ze0q"};
+module.exports = {"pumpingStation":"index__pumpingStation___u25aA","yunxing":"index__yunxing___czIwI","drainagePump":"index__drainagePump___38lLd","sbox":"index__sbox___1WC80","bzbeijin":"index__bzbeijin___3IrTE","psone":"index__psone___2MPKn","condition":"index__condition___39Up2","stop":"index__stop___30CQX","jindu":"index__jindu___2STQB","shunshi":"index__shunshi___13jlS","Time":"index__Time___1U391","container":"index__container___3nGTX","title":"index__title___2APFD","bar":"index__bar___2YUac","bar1":"index__bar1___3LddN","progressbar":"index__progressbar___1ze0q"};
 
 /***/ }),
 

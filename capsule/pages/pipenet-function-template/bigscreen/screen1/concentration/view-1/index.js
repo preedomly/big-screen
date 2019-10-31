@@ -255,6 +255,7 @@ import Piefive from '../exitfive'*/
 
   componentDidMount() {
     // 定时器，可以修改1000为自己想要的时间，
+    $("#sq").css("display", "none");
     this.interval = setInterval(() => this.tick(), 3000);
   }
 
@@ -685,12 +686,10 @@ import Piefive from '../exitfive'*/
       }
     }, "\u4E09\u671F"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.districtRow,
-      id: "eq",
-      style: {
-        borderImage: "url('/images/imgs/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: "stretch"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "eq"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E00\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
@@ -785,7 +784,7 @@ import Piefive from '../exitfive'*/
       percent: res[9].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: '#87d068',
+      strokeColor: '#0090ff',
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -795,13 +794,10 @@ import Piefive from '../exitfive'*/
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
     }, res[9].name)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.districtRow,
-      id: "sq",
-      style: {
-        display: "none",
-        borderImage: "url('/images/imgs/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: "stretch"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "sq"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E09\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
@@ -810,10 +806,7 @@ import Piefive from '../exitfive'*/
       percent: res[1].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: "#0090ff",
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -827,13 +820,10 @@ import Piefive from '../exitfive'*/
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[2].a / 5,
+      percent: res[2].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: "#ffc257",
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -847,13 +837,10 @@ import Piefive from '../exitfive'*/
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Progress"], {
       type: "circle",
-      percent: res[3].a / 5,
+      percent: res[3].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: "#fd6f97",
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -870,10 +857,7 @@ import Piefive from '../exitfive'*/
       percent: res[4].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: {
-        '0%': '#108ee9',
-        '100%': '#87d068'
-      },
+      strokeColor: '#0090ff',
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -890,7 +874,7 @@ import Piefive from '../exitfive'*/
       percent: res[5].a1 / 5,
       strokeWidth: 13,
       width: 300,
-      strokeColor: '#87d068',
+      strokeColor: '#0090ff',
       format: percent => ``
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanAAA
@@ -933,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"concentration":"index__concentration___1ucDe","topConcentration":"index__topConcentration___1ZQgh","cod":"index__cod___3SQlu","qishu":"index__qishu___3dxQm","one":"index__one___19jus","three":"index__three___22JJG","districtRow":"index__districtRow___2-fSb","oneBox":"index__oneBox___337sd","codCircle":"index__codCircle___2WN0t","spanA":"index__spanA___VxubM","spanANew":"index__spanANew___2BLB8","spanAA":"index__spanAA___qqQsn","spanAAA":"index__spanAAA___2H7Uw"};
+module.exports = {"concentration":"index__concentration___1ucDe","topConcentration":"index__topConcentration___1ZQgh","cod":"index__cod___3SQlu","qishu":"index__qishu___3dxQm","one":"index__one___19jus","three":"index__three___22JJG","districtRow":"index__districtRow___2-fSb","sbox":"index__sbox___HyD1q","oneBox":"index__oneBox___337sd","codCircle":"index__codCircle___2WN0t","spanA":"index__spanA___VxubM","spanANew":"index__spanANew___2BLB8","spanAA":"index__spanAA___qqQsn","spanAAA":"index__spanAAA___2H7Uw"};
 
 /***/ }),
 

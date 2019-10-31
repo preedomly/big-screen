@@ -814,11 +814,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
             background: "url('/images/imgs/标题框.png') no-repeat"
           }
         }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-          style: {
-            borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-            borderImageRepeat: 'stretch'
-          }
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -838,7 +836,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           style: {
             background: "url('/images/imgs/scene2/工艺图/A2O+人工湿地.png') no-repeat "
           }
-        }))))
+        })))))
       );
     } else {
       for (var i = 0; i < res.length; i++) {
@@ -849,8 +847,6 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
 
         if (res[i].名称 == name) {
           console.log(zhongduanReturn.attributes.val);
-          /*      var imgName = "http://192.168.30.212:8088/upload/"+name+".jpg";*/
-
           name = name.replace("#", "%23");
           var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".png";
           console.log(img2);
@@ -862,11 +858,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
               background: "url('/images/imgs/标题框.png') no-repeat"
             }
           }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-            style: {
-              borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-              borderImageRepeat: 'stretch'
-            }
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
           }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
           }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -886,7 +880,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
             style: {
               background: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') no-repeat "
             }
-          }))));
+          })))));
         }
       }
 
@@ -898,11 +892,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           background: "url('/images/imgs/标题框.png') no-repeat"
         }
       }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-        style: {
-          borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.diva
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -922,7 +914,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         style: {
           background: "url('/images/imgs/scene2/工艺图/A2O.png') no-repeat "
         }
-      }))));
+      })))));
     }
   }
 
@@ -960,7 +952,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"topLeft":"index__topLeft___1AV0g","titleNode":"index__titleNode___3TVIS","realtime":"index__realtime___2blKD","diva":"index__diva___Qf8WV","text1":"index__text1___1WolV","img1":"index__img1___3ccFw","divb":"index__divb___2r3LC","txt1":"index__txt1___2GyAE"};
+module.exports = {"topLeft":"index__topLeft___1AV0g","titleNode":"index__titleNode___3TVIS","realtime":"index__realtime___2blKD","sbox":"index__sbox___3xnco","diva":"index__diva___Qf8WV","text1":"index__text1___1WolV","img1":"index__img1___3ccFw","divb":"index__divb___2r3LC","txt1":"index__txt1___2GyAE"};
 
 /***/ }),
 

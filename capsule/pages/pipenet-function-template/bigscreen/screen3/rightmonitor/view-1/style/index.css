@@ -1,19 +1,32 @@
 .index__leftvideo___3qVPM {
   width: 2340px;
-  height: 1680px;
-  overflow: hidden;
+  height: 1635px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
 }
-.index__leftvideo___3qVPM .index__bigtop___1t34G {
+.index__leftvideo___3qVPM .index__bbox___PkdpU {
+  height: 1519px;
+  margin-top: -415px;
+  margin-left: -145px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__bigtop___1t34G {
   margin: 63px 0 0 43px;
   width: 2241px;
   height: 530px;
 }
-.index__leftvideo___3qVPM .index__sbox___2DqDb {
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__sbox___2DqDb {
   width: 2241px;
   height: 989px;
   margin: 20px 0 0 43px;
 }
-.index__leftvideo___3qVPM .index__sbox___2DqDb .index__small_one___30n1i {
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__sbox___2DqDb .index__small_one___30n1i {
   display: inline-block;
   margin-right: 27px;
   margin-bottom: 20px;
@@ -21,21 +34,21 @@
   height: 481px;
   overflow: hidden;
 }
-.index__leftvideo___3qVPM .index__sbox___2DqDb .index__small_two___2bkdl {
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__sbox___2DqDb .index__small_two___2bkdl {
   overflow: hidden;
   display: inline-block;
   margin-bottom: 20px;
   width: 1105px;
   height: 481px;
 }
-.index__leftvideo___3qVPM .index__sbox___2DqDb .index__small_three___3mobc {
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__sbox___2DqDb .index__small_three___3mobc {
   overflow: hidden;
   display: inline-block;
   margin-right: 27px;
   width: 1105px;
   height: 481px;
 }
-.index__leftvideo___3qVPM .index__sbox___2DqDb .index__small_fore___18fj- {
+.index__leftvideo___3qVPM .index__bbox___PkdpU .index__sbox___2DqDb .index__small_fore___18fj- {
   overflow: hidden;
   display: inline-block;
   width: 1105px;

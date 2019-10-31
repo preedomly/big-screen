@@ -918,11 +918,9 @@ __webpack_require__.r(__webpack_exports__);
           background: "url('/images/imgs/标题框.png') no-repeat"
         }
       }, "\u5DE5\u5355\u4FE1\u606F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-        style: {
-          borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "SC",
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.smalltable
@@ -959,14 +957,14 @@ __webpack_require__.r(__webpack_exports__);
         style: {
           width: 437
         }
-      }, "4545"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      }, record["反应内容"].substring(0, 10)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
         style: {
           width: 239
         }
       }, record["状态"]))), ";")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "demo2",
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.demo2
-      })))))
+      }))))))
     );
   }
 
@@ -1002,7 +1000,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div1":"index__div1___2suB-","titleNode":"index__titleNode___5woYt","realtime":"index__realtime___nIZ4_","demo":"index__demo___3KuQG","demo2":"index__demo2___-diND","smalltable":"index__smalltable___KoZiL","table":"index__table___4Zy24","striped1":"index__striped1___1P7oS","striped":"index__striped___hEdPn","striped2":"index__striped2___2WbV5"};
+module.exports = {"div1":"index__div1___2suB-","titleNode":"index__titleNode___5woYt","realtime":"index__realtime___nIZ4_","sbox":"index__sbox___1kIrx","demo":"index__demo___3KuQG","demo2":"index__demo2___-diND","smalltable":"index__smalltable___KoZiL","table":"index__table___4Zy24","striped1":"index__striped1___1P7oS","striped":"index__striped___hEdPn","striped2":"index__striped2___2WbV5"};
 
 /***/ }),
 

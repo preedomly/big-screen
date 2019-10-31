@@ -109656,11 +109656,9 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: ':javascript'
     }, "\u70ED\u7EBF\u7EDF\u8BA1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.buttomb,
-      style: {
-        borderImage: "url('/images/imgs/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.buttomb
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.buttomleft
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -109724,7 +109722,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "97.10%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.zhemian
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_satisfied__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_satisfied__WEBPACK_IMPORTED_MODULE_3__["default"], null))))));
   }
 
 }
@@ -109758,7 +109756,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","call1":"index__call1___OTy7n","call2":"index__call2___2pOG4","call3":"index__call3___3JxW9","buttomcenter":"index__buttomcenter___1Gb0j","tatistics":"index__tatistics___2WAN3","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
+module.exports = {"buttombox":"index__buttombox___-K_mV","tongji":"index__tongji___23s5K","buttomb":"index__buttomb___3L_7U","sbox":"index__sbox___20fLj","buttomleft":"index__buttomleft___gxt8b","electric":"index__electric___2L558","call1":"index__call1___OTy7n","call2":"index__call2___2pOG4","call3":"index__call3___3JxW9","buttomcenter":"index__buttomcenter___1Gb0j","tatistics":"index__tatistics___2WAN3","buttomright":"index__buttomright___1q5mc","zhemian":"index__zhemian___1pVt7","satisfied":"index__satisfied___1tmni","manyi":"index__manyi___1oyUR"};
 
 /***/ }),
 

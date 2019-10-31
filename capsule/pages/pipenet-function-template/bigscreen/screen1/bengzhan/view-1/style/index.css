@@ -17,33 +17,47 @@
 .index__pumpingStation___u25aA .index__drainagePump___38lLd {
   width: 2321px;
   height: 721px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
   margin-top: 29px;
-  overflow: hidden;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 {
+  height: 660px;
+  margin-top: -400px;
+  margin-left: -89px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE {
   display: inline-block;
   margin-top: 116px;
-  margin-left: 82px;
   width: 1040px;
   height: 503px;
   /* Standard syntax */
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__psone___2MPKn {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__psone___2MPKn {
   width: 488px;
   height: 122px;
+  background-image: url(/images/imgs/泵站.png);
   font-size: 40px;
   color: #fff;
   text-align: center;
   letter-spacing: 1px;
   line-height: 102px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__condition___39Up2 {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__condition___39Up2 {
   margin-top: 29px;
   margin-left: 103px;
   width: 781px;
   height: 94px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__condition___39Up2 p {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__condition___39Up2 p {
   float: left;
   display: inline-block;
   height: 94px;
@@ -52,29 +66,29 @@
   letter-spacing: 1px;
   color: #00ffff;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX {
   margin-left: 45px;
   float: left;
   width: 46px;
   height: 94px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX span {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX span {
   display: inline-block;
   width: 46px;
   height: 59px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX i {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__condition___39Up2 .index__stop___30CQX i {
   font-size: 30px;
   font-style: normal;
   letter-spacing: 2px;
   color: #0090ff;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__jindu___2STQB {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__jindu___2STQB {
   margin-top: 44px;
   margin-left: 103px;
   height: 40px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__jindu___2STQB .index__shunshi___13jlS {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__jindu___2STQB .index__shunshi___13jlS {
   width: 160px;
   height: 40px;
   float: left;
@@ -82,21 +96,21 @@
   color: #00ffff;
   letter-spacing: 1px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__jindu___2STQB .index__Time___1U391 {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__jindu___2STQB .index__Time___1U391 {
   font-size: 45px;
   color: #00ffff;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__jindu___2STQB .index__Time___1U391 span {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__jindu___2STQB .index__Time___1U391 span {
   font-size: 35px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__container___3nGTX {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__container___3nGTX {
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 5px;
   float: left;
   width: 456px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__title___2APFD {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__title___2APFD {
   margin-left: 20px;
   background: #545965;
   color: #fff;
@@ -110,14 +124,14 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__bar___2YUac {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__bar___2YUac {
   height: 18px;
   display: block;
   background: #0647bb;
   width: 100%;
   border-radius: 8px;
 }
-.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__bzbeijin___3IrTE .index__bar1___3LddN {
+.index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE .index__bar1___3LddN {
   height: 18px;
   display: block;
   background: #00ffff;

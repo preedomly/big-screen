@@ -777,11 +777,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       //   <Button onClick={this.handleClick2}>改变2</Button>
       // </div>
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.leftvideo,
-        style: {
-          borderImage: "url('/images/imgs/框.png') 5 1 1 5 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.leftvideo
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
         "video-url": "http://192.168.30.212:20000/hls/1000222.m3u8",
         live: "false",
@@ -806,7 +804,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         "auto-play": "true",
         stretch: "true",
         aspect: "1081:796"
-      }))))
+      })))))
     );
   }
 
@@ -844,7 +842,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"leftvideo":"index__leftvideo___wNpKP"};
+module.exports = {"leftvideo":"index__leftvideo___wNpKP","sbox":"index__sbox___2oZtf"};
 
 /***/ }),
 

@@ -19,13 +19,27 @@
 .index__div2___1GNwQ .index__realtime___13AKy {
   width: 1742px;
   height: 723px;
-  margin-top: 29px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
 }
-.index__div2___1GNwQ .index__realtime___13AKy .index__demo___2L-S7 {
+.index__div2___1GNwQ .index__realtime___13AKy .index__sbox___Mhuy9 {
+  height: 663px;
+  margin-top: -400px;
+  margin-left: -145px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__div2___1GNwQ .index__realtime___13AKy .index__sbox___Mhuy9 .index__demo___2L-S7 {
   overflow: hidden;
   height: 500px;
 }
-.index__div2___1GNwQ .index__realtime___13AKy .index__demo2___2lE1o {
+.index__div2___1GNwQ .index__realtime___13AKy .index__sbox___Mhuy9 .index__demo2___2lE1o {
   margin-top: -20px;
 }
 .index__div2___1GNwQ .index__smalltable___3pGNv {

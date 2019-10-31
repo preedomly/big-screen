@@ -771,7 +771,7 @@ __webpack_require__.r(__webpack_exports__);
             enabled: true,
             formatter: function () {
               let percentage = this.percentage.toFixed(0);
-              return '<p style="color:#fff;">' + percentage + '%</p><br/><p style="color:#C6E5FF;font-size:26px;">' + this.key + '</p>';
+              return '<p style="color:#fff;">' + percentage + '%</p></br><p style="color:#C6E5FF;font-size:26px;">' + this.key + '</p>';
             },
             style: {
               fontSize: '38px',
@@ -835,7 +835,11 @@ __webpack_require__.r(__webpack_exports__);
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       id: "container",
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.container
-    })));
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.labeltextleft
+    }, "132\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.labeltextright
+    }, "204\u4E2A")));
   }
 
 });
@@ -870,7 +874,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div1":"index__div1___1j3gZ","titleNode":"index__titleNode___3qCu7","realtime":"index__realtime___3PIP9","container":"index__container___1ptWT"};
+module.exports = {"div1":"index__div1___1j3gZ","titleNode":"index__titleNode___3qCu7","realtime":"index__realtime___3PIP9","container":"index__container___1ptWT","labeltextleft":"index__labeltextleft___27S5n","labeltextright":"index__labeltextright___29Odu"};
 
 /***/ }),
 

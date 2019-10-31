@@ -18,27 +18,41 @@
 .index__div1___2suB- .index__realtime___nIZ4_ {
   width: 2307px;
   height: 535px;
-  border-image-repeat: stretch;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 400px 310px 60px 165px;
+  -webkit-border-image: url(/images/imgs/框.png);
+       -o-border-image: url(/images/imgs/框.png);
+          border-image: url(/images/imgs/框.png);
+  border-image-slice: 400 310 60 165 fill;
+  padding: 0;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__demo___3KuQG {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx {
+  height: 528px;
+  margin-top: -400px;
+  margin-left: -140px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__demo___3KuQG {
   overflow: hidden;
   height: 380px;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__demo2___-diND {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__demo2___-diND {
   margin-top: -20px;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL {
   width: 2225px;
   height: 528px;
   overflow: hidden;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 {
   width: 100%;
   padding-top: 50px;
   padding-left: 60px;
   margin: 44px 0 0 46px;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 th {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 th {
   height: 90px;
   border-top: none;
   border-bottom: 0px solid red;
@@ -49,7 +63,7 @@
   color: white;
   text-align: center;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 td {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 td {
   height: 81px;
   border-top: none;
   border-bottom: 0px solid red;
@@ -59,16 +73,16 @@
   color: white;
   text-align: center;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 .index__striped1___1P7oS {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 .index__striped1___1P7oS {
   background-color: #172362;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 .index__striped1___1P7oS tr {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 .index__striped1___1P7oS tr {
   text-align: center;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 .index__striped___hEdPn {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 .index__striped___hEdPn {
   background-color: #0a5bb2;
 }
-.index__div1___2suB- .index__realtime___nIZ4_ .index__smalltable___KoZiL .index__table___4Zy24 .index__striped2___2WbV5 {
+.index__div1___2suB- .index__realtime___nIZ4_ .index__sbox___1kIrx .index__smalltable___KoZiL .index__table___4Zy24 .index__striped2___2WbV5 {
   background-color: #133884;
 }
 

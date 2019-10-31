@@ -111029,6 +111029,8 @@ let Page = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__["c
         for (var i = 0; i < zdzztTechnology.length; i++) {
           arrays[i] = {
             value: zdzztTechnology[i].count,
+
+            /*      name: zdzztTechnology[i].technologyname.substring(0,5)*/
             name: zdzztTechnology[i].technologyname
           };
         }
