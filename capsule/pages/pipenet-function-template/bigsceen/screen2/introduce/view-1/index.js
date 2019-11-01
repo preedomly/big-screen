@@ -677,12 +677,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  namespace: 'pageReact2',
+  namespace: 'zhongduanspace',
   state: {
     opened: false
   },
-  effects: {},
+  effects: {
+    *getZhongduanxx({
+      payload
+    }, {
+      call,
+      put
+    }) {
+      /*    let zhongduanData;
+          const response = yield call(getzhongduan,payload);
+          zhongduanData = response.result;*/
+      console.log(payload);
+      yield put({
+        type: 'ztzhongduanData',
+        payload: payload
+      });
+    }
+
+  },
   reducers: {
+    ztzhongduanData(state, {
+      payload
+    }) {
+      return _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default()({}, state, {
+        zhongduanReturn: payload
+      });
+    },
+
     setOpened(state) {
       return _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default()({}, state, {
         opened: true

@@ -94,10 +94,13 @@
   font-size: 14px;
   color: #00ffff;
   letter-spacing: 1px;
+  margin-top: 2px;
 }
 .index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R {
-  font-size: 16px;
+  font-size: 22px;
   color: #00ffff;
+  font-family: 'webfont';
+  line-height: 25px;
 }
 .index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R span {
   font-size: 12px;
