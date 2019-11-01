@@ -109380,7 +109380,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           type: 'pie',
           hoverAnimation: false,
           legendHoverLink: false,
-          radius: ['30%', '33%'],
+          radius: ['45%', '49.5%'],
           color: ['#0196F3', '#db880b', '#ba58bc', '#F51A1A'],
           label: {
             normal: {
@@ -109411,7 +109411,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         }, {
           name: '访问来源',
           type: 'pie',
-          radius: ['33%', '44%'],
+          radius: ['49.5%', '66%'],
           color: ['#42b6fe ', '#ff9900', '#df73e1', '#f86262'],
           labelLine: {
             normal: {

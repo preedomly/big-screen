@@ -111045,7 +111045,7 @@ let Page = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__["c
         series: [{
           name: '姓名',
           type: 'pie',
-          radius: '34%',
+          radius: '68%',
           center: ['50%', '50%'],
           data: arrays,
           label: {
