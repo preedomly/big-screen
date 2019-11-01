@@ -787,11 +787,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         borderImageRepeat: 'stretch'
       }
     }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang,
-      style: {
-        borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.beijing
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -810,7 +808,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         borderImage: "url('/images/imgs/2、农村运维/工艺图/A2O+人工湿地.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "A20+\u4EBA\u5DE5\u6E7F\u5730"))));
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "A20+\u4EBA\u5DE5\u6E7F\u5730")))));
   }
 
 }, _temp)) || _class2);
@@ -847,7 +845,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"introduce":"index__introduce___365vk","title":"index__title___2mHhH","kuang":"index__kuang___2KOrS","beijing":"index__beijing___1HUNY","left":"index__left___3w-1m","left_top":"index__left_top___7Vok4","left_buttom":"index__left_buttom___r2ryX","right":"index__right___2g2aH"};
+module.exports = {"introduce":"index__introduce___365vk","title":"index__title___2mHhH","kuang":"index__kuang___2KOrS","sbox":"index__sbox___2tPXW","beijing":"index__beijing___1HUNY","left":"index__left___3w-1m","left_top":"index__left_top___7Vok4","left_buttom":"index__left_buttom___r2ryX","right":"index__right___2g2aH"};
 
 /***/ }),
 

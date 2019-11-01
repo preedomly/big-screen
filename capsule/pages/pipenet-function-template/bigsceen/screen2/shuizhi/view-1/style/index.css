@@ -20,13 +20,27 @@
   width: 713px;
   height: 222px;
   margin-top: 10px;
-  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__div2___3Blr4 .index__realtime___2NEmj .index__demo___1n3vF {
+.index__div2___3Blr4 .index__realtime___2NEmj .index__sbox___N0je6 {
+  height: 200px;
+  margin-top: -205px;
+  margin-left: -65px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__div2___3Blr4 .index__realtime___2NEmj .index__sbox___N0je6 .index__demo___1n3vF {
   overflow: hidden;
   height: 500px;
 }
-.index__div2___3Blr4 .index__realtime___2NEmj .index__demo2___34tD2 {
+.index__div2___3Blr4 .index__realtime___2NEmj .index__sbox___N0je6 .index__demo2___34tD2 {
   margin-top: -20px;
 }
 .index__div2___3Blr4 .index__smalltable___1RWoD {

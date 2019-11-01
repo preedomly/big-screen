@@ -13,11 +13,25 @@
 }
 .index__introduce___365vk .index__kuang___2KOrS {
   margin-top: 10px;
-  width: 781px;
+  width: 776px;
   height: 222px;
-  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW {
+  height: 200px;
+  margin-top: -197px;
+  margin-left: -60px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY {
   position: relative;
   margin: 14px 0 0 13px;
   width: 812px;
@@ -25,34 +39,33 @@
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(2, 208, 255, 0.1)), to(rgba(22, 32, 99, 0.1)));
   background-image: -webkit-linear-gradient(left, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
   background-image: linear-gradient(90deg, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
-  overflow: hidden;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY .index__left___3w-1m {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY .index__left___3w-1m {
   float: left;
   display: inline-block;
   width: 346px;
   height: 200px;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY .index__left___3w-1m .index__left_top___7Vok4 {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY .index__left___3w-1m .index__left_top___7Vok4 {
   margin: 15px 0 0 14px;
   width: 346px;
   height: 72px;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY .index__left___3w-1m .index__left_buttom___r2ryX {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY .index__left___3w-1m .index__left_buttom___r2ryX {
   margin: 11px 0 0 14px;
   width: 346px;
   height: 95px;
   font-size: 14px;
   color: #ffffff;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY .index__right___2g2aH {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY .index__right___2g2aH {
   margin: 32px 0 0 25px;
   float: left;
   display: inline-block;
   width: 378px;
   height: 151px;
 }
-.index__introduce___365vk .index__kuang___2KOrS .index__beijing___1HUNY h3 {
+.index__introduce___365vk .index__kuang___2KOrS .index__sbox___2tPXW .index__beijing___1HUNY h3 {
   position: absolute;
   left: 630px;
   top: 12px;

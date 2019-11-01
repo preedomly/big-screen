@@ -50,47 +50,60 @@
   width: 100%;
   height: 222px;
   margin-top: 10px;
-  border-image-repeat: stretch;
-  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i:nth-child(1) {
+.index__districtRow___1dPzl .index__sbox___3Ij7t {
+  height: 210px;
+  margin-top: -200px;
+  margin-left: -65px;
+  margin-right: -330px;
+  margin-bottom: -15px;
+}
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i:nth-child(1) {
   margin: 25px 0 0 47px;
   border: 1px dashed #0090ff;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i:nth-child(2) {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i:nth-child(2) {
   margin: 25px 0 0 30px;
   border: 1px dashed #0090ff;
   border-style: dashed none dashed dashed;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i:nth-child(3) {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i:nth-child(3) {
   border: 1px dashed #0090ff;
   border-style: dashed none dashed none;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i:nth-child(4) {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i:nth-child(4) {
   border: 1px dashed #0090ff;
   border-style: dashed none dashed none;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i:nth-child(5) {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i:nth-child(5) {
   border: 1px dashed #0090ff;
   border-style: dashed dashed dashed none;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i {
   display: inline-block;
   position: relative;
   width: 172px;
   height: 180px;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i .index__codCircle___D6-Mq {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i .index__codCircle___D6-Mq {
   position: absolute;
   top: 30px;
   left: 22px;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i p {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i p {
   position: absolute;
   font-size: 14px;
   color: #ffffff;
 }
-.index__districtRow___1dPzl .index__oneBox___KQn2i span {
+.index__districtRow___1dPzl .index__sbox___3Ij7t .index__oneBox___KQn2i span {
   position: absolute;
   left: -2%;
   top: 40%;

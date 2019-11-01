@@ -108399,11 +108399,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
 
   render() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.rightvideo,
-      style: {
-        borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.rightvideo
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bigbox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
@@ -108419,7 +108417,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       live: "false",
       "auto-play": "true",
       stretch: "true",
-      aspect: "300:220"
+      aspect: "300:230"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.video_s2
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
@@ -108427,7 +108425,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       live: "false",
       "auto-play": "true",
       stretch: "true",
-      aspect: "300:220"
+      aspect: "300:230"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.video_s3
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
@@ -108435,7 +108433,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       live: "false",
       "auto-play": "true",
       stretch: "true",
-      aspect: "300:220"
+      aspect: "300:230"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.video_s4
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("easy-player", {
@@ -108443,8 +108441,8 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       live: "false",
       "auto-play": "true",
       stretch: "true",
-      aspect: "300:220"
-    })));
+      aspect: "300:230"
+    }))));
   }
 
 }, _temp)) || _class2);
@@ -108481,7 +108479,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"rightvideo":"index__rightvideo___xDMgh","bigbox":"index__bigbox___3e3vm","video_s1":"index__video_s1___1rjZq","video_s2":"index__video_s2___gB0XG","video_s3":"index__video_s3___1gslx","video_s4":"index__video_s4___2b7CR"};
+module.exports = {"rightvideo":"index__rightvideo___xDMgh","sbox":"index__sbox___1CPn_","bigbox":"index__bigbox___3e3vm","video_s1":"index__video_s1___1rjZq","video_s2":"index__video_s2___gB0XG","video_s3":"index__video_s3___1gslx","video_s4":"index__video_s4___2b7CR"};
 
 /***/ }),
 

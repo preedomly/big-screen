@@ -15,9 +15,23 @@
   margin-top: 10px;
   width: 860px;
   height: 222px;
-  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT {
+  height: 200px;
+  margin-top: -200px;
+  margin-left: -65px;
+  margin-right: -432px;
+  margin-bottom: -15px;
+}
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl {
   margin: 14px 0 0 13px;
   width: 812px;
   height: 200px;
@@ -26,48 +40,48 @@
   background-image: linear-gradient(90deg, rgba(2, 208, 255, 0.1) 0%, rgba(22, 32, 99, 0.1) 100%);
   overflow: hidden;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__left___2UCyp {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp {
   float: left;
   display: inline-block;
   width: 184px;
   height: 572px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__left___2UCyp ul {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__left___2UCyp ul li {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li {
   margin: 13px 0 0 9px;
   list-style: none;
   width: 184px;
   height: 52px;
   overflow: hidden;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__left___2UCyp ul li span {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li span {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 1px;
   color: #ffffff;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__left___2UCyp ul li span i {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li span i {
   font-size: 26px;
-  font-weight: 700;
+  font-family: 'webfont';
   font-style: normal;
   color: #00ffff;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__month___1mbR2 {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__month___1mbR2 {
   float: left;
   width: 284px;
   height: 163px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__bj___3BVCl .index__month___1mbR2 .index__box___2VNXg {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__month___1mbR2 .index__box___2VNXg {
   width: 100%;
   height: 100%;
   margin-left: 22px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu {
   float: left;
   margin-left: 55px;
   margin-top: 8px;
@@ -75,11 +89,11 @@
   height: 195px;
   overflow: hidden;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__top_box___1S6hO {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__top_box___1S6hO {
   width: 286px;
   height: 20px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__top_box___1S6hO p {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__top_box___1S6hO p {
   width: 20%;
   height: 20px;
   float: left;
@@ -87,7 +101,7 @@
   letter-spacing: 1px;
   color: #ffffff;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__top_box___1S6hO ul {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__top_box___1S6hO ul {
   float: left;
   margin: 0;
   padding: 0;
@@ -95,25 +109,25 @@
   height: 20px;
   margin-top: 3px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__top_box___1S6hO ul li {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__top_box___1S6hO ul li {
   float: left;
   margin-left: 7px;
   display: inline-block;
   width: 25px;
   height: 16px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__top_box___1S6hO span {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__top_box___1S6hO span {
   float: left;
   font-style: 14px;
   letter-spacing: 1px;
   color: #f8a036;
   margin-top: 3px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__rx___1uh5i {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__rx___1uh5i {
   width: 274px;
   height: 169px;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__satisfied___2GwWu .index__rx___1uh5i .index__box___2VNXg {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__satisfied___2GwWu .index__rx___1uh5i .index__box___2VNXg {
   width: 100%;
   height: 100%;
 }

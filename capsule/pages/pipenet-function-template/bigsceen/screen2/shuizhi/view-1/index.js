@@ -748,7 +748,7 @@ __webpack_require__.r(__webpack_exports__);
       if (demo2.offsetTop - demo.scrollTop <= 0) {
         demo.scrollTop -= demo1.offsetHeight;
       } else {
-        demo.scrollTop = demo.scrollTop + 2;
+        demo.scrollTop = demo.scrollTop + 3;
       } // console.log("%%%%%%%%%%^^^^^^^")
 
     }
@@ -797,11 +797,9 @@ __webpack_require__.r(__webpack_exports__);
           background: "url('/images/imgs/onescreen/标题框.png') no-repeat"
         }
       }, "\u7EC8\u7AEF\u5B9E\u65F6\u6C34\u8D28"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime,
-        style: {
-          borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-          borderImageRepeat: 'stretch'
-        }
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.realtime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.smalltable
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
@@ -842,7 +840,7 @@ __webpack_require__.r(__webpack_exports__);
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "\u4E94\u6D0B\u67514#\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "6.86"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "20.03"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "14.89"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "0.89"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "4.78"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "1.64"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, "3148")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "demoN2",
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.demo2
-      })))))
+      }))))))
     );
   }
 
@@ -878,7 +876,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div2":"index__div2___3Blr4","titleNode":"index__titleNode___1qDuQ","realtime":"index__realtime___2NEmj","demo":"index__demo___1n3vF","demo2":"index__demo2___34tD2","smalltable":"index__smalltable___1RWoD","table":"index__table___3P8xa","striped1":"index__striped1___1BJT1","striped":"index__striped___1cJ_A","striped2":"index__striped2___2G59u"};
+module.exports = {"div2":"index__div2___3Blr4","titleNode":"index__titleNode___1qDuQ","realtime":"index__realtime___2NEmj","sbox":"index__sbox___N0je6","demo":"index__demo___1n3vF","demo2":"index__demo2___34tD2","smalltable":"index__smalltable___1RWoD","table":"index__table___3P8xa","striped1":"index__striped1___1BJT1","striped":"index__striped___1cJ_A","striped2":"index__striped2___2G59u"};
 
 /***/ }),
 

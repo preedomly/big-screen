@@ -254,7 +254,8 @@ import Piefive from '../exitfive'*/
   }
 
   componentDidMount() {
-    // 定时器，可以修改1000为自己想要的时间，
+    $("#sq").css("display", "none"); // 定时器，可以修改1000为自己想要的时间，
+
     this.interval = setInterval(() => this.tick(), 3000);
   }
 
@@ -685,12 +686,10 @@ import Piefive from '../exitfive'*/
       }
     }, "\u4E09\u671F"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.districtRow,
-      id: "eq",
-      style: {
-        borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: "stretch"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "eq"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E00\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
@@ -795,13 +794,10 @@ import Piefive from '../exitfive'*/
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.spanANew
     }, res[9].name)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.districtRow,
-      id: "sq",
-      style: {
-        display: "none",
-        borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: "stretch"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      id: "sq"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.sbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.oneBox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4E09\u671F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.codCircle
@@ -921,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"concentration":"index__concentration___HGGL6","topConcentration":"index__topConcentration___1YRL6","cod":"index__cod___2nG-b","qishu":"index__qishu___xd9uF","one":"index__one___LaxcX","three":"index__three___2lbS2","districtRow":"index__districtRow___1dPzl","oneBox":"index__oneBox___KQn2i","codCircle":"index__codCircle___D6-Mq","spanA":"index__spanA___26RWH","spanANew":"index__spanANew___RT3MN","spanAA":"index__spanAA___1mmBF","spanAAA":"index__spanAAA___34VXe"};
+module.exports = {"concentration":"index__concentration___HGGL6","topConcentration":"index__topConcentration___1YRL6","cod":"index__cod___2nG-b","qishu":"index__qishu___xd9uF","one":"index__one___LaxcX","three":"index__three___2lbS2","districtRow":"index__districtRow___1dPzl","sbox":"index__sbox___3Ij7t","oneBox":"index__oneBox___KQn2i","codCircle":"index__codCircle___D6-Mq","spanA":"index__spanA___26RWH","spanANew":"index__spanANew___RT3MN","spanAA":"index__spanAA___1mmBF","spanAAA":"index__spanAAA___34VXe"};
 
 /***/ }),
 

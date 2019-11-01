@@ -15,12 +15,28 @@
   text-shadow: 0 0 30px #f4faf5;
 }
 .index__pumpingStation___t63pN .index__drainagePump___25mrZ {
+  margin-top: 10px;
   width: 411px;
   height: 589px;
-  margin-top: 29px;
-  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ {
+  height: 500px;
+  margin-top: -200px;
+  margin-left: -65px;
+  margin-right: -305px;
+  margin-bottom: -15px;
+}
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG {
   display: inline-block;
   margin-top: 49px;
   margin-left: 18px;
@@ -28,7 +44,7 @@
   height: 199px;
   /* Standard syntax */
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__psone___1Ztum {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__psone___1Ztum {
   width: 182px;
   height: 45px;
   font-size: 16px;
@@ -37,12 +53,12 @@
   letter-spacing: 1px;
   line-height: 45px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__condition___2vsz8 {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__condition___2vsz8 {
   margin-left: 45px;
   width: 290px;
   height: 36px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__condition___2vsz8 p {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__condition___2vsz8 p {
   float: left;
   display: inline-block;
   height: 36px;
@@ -50,28 +66,28 @@
   font-size: 14px;
   color: #00ffff;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg {
   margin-left: 22px;
   float: left;
   width: 17px;
   height: 33px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg span {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg span {
   display: inline-block;
   width: 17px;
   height: 22px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg i {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__condition___2vsz8 .index__stop___YaQkg i {
   font-size: 12px;
   font-style: normal;
   color: #0090ff;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__jindu___11vHY {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY {
   margin-top: 17px;
   margin-left: 45px;
   height: 14px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__shunshi___-J2B5 {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__shunshi___-J2B5 {
   width: 60px;
   height: 14px;
   float: left;
@@ -79,20 +95,20 @@
   color: #00ffff;
   letter-spacing: 1px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R {
   font-size: 16px;
   color: #00ffff;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R span {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__jindu___11vHY .index__Time___1na5R span {
   font-size: 12px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__container___2J5XL {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__container___2J5XL {
   margin-left: 20px;
   margin-right: 5px;
   float: left;
   width: 156px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__title___2YBpU {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__title___2YBpU {
   margin-left: 20px;
   background: #545965;
   color: #fff;
@@ -106,14 +122,14 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__bar___3BvKO {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__bar___3BvKO {
   height: 18px;
   display: block;
   background: #0647bb;
   width: 100%;
   border-radius: 8px;
 }
-.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__bzbeijin___3ThEG .index__bar1___kVyDZ {
+.index__pumpingStation___t63pN .index__drainagePump___25mrZ .index__sbox___3oBPZ .index__bzbeijin___3ThEG .index__bar1___kVyDZ {
   height: 18px;
   display: block;
   background: #00ffff;

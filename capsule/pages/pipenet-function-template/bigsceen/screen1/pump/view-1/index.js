@@ -3702,11 +3702,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
             borderImageRepeat: "stretch"
           }
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CF5\u7AD9\u8FD0\u884C")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.drainagePump,
-          style: {
-            borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-            borderImageRepeat: "stretch"
-          }
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.drainagePump
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
           autoplay: "false",
           dots: "false"
@@ -3904,7 +3902,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           strokeWidth: 8
         }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.Time
-        }, arr4[index].Data[0].Rs[0].R[0].C == 0 ? 2.8523 : arr4[index].Data[0].Rs[0].R[0].C.slice(0, 6), " \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u7C73")))))))))
+        }, arr4[index].Data[0].Rs[0].R[0].C == 0 ? 2.8523 : arr4[index].Data[0].Rs[0].R[0].C.slice(0, 6), " \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u7C73"))))))))))
       );
     }
   }
@@ -3943,7 +3941,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"pumpingStation":"index__pumpingStation___t63pN","yunxing":"index__yunxing___3iFG2","drainagePump":"index__drainagePump___25mrZ","bzbeijin":"index__bzbeijin___3ThEG","psone":"index__psone___1Ztum","condition":"index__condition___2vsz8","stop":"index__stop___YaQkg","jindu":"index__jindu___11vHY","shunshi":"index__shunshi___-J2B5","Time":"index__Time___1na5R","container":"index__container___2J5XL","title":"index__title___2YBpU","bar":"index__bar___3BvKO","bar1":"index__bar1___kVyDZ","progressbar":"index__progressbar___1cbgH"};
+module.exports = {"pumpingStation":"index__pumpingStation___t63pN","yunxing":"index__yunxing___3iFG2","drainagePump":"index__drainagePump___25mrZ","sbox":"index__sbox___3oBPZ","bzbeijin":"index__bzbeijin___3ThEG","psone":"index__psone___1Ztum","condition":"index__condition___2vsz8","stop":"index__stop___YaQkg","jindu":"index__jindu___11vHY","shunshi":"index__shunshi___-J2B5","Time":"index__Time___1na5R","container":"index__container___2J5XL","title":"index__title___2YBpU","bar":"index__bar___3BvKO","bar1":"index__bar1___kVyDZ","progressbar":"index__progressbar___1cbgH"};
 
 /***/ }),
 

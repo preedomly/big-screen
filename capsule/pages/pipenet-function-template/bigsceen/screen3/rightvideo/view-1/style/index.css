@@ -1,35 +1,49 @@
 .index__rightvideo___xDMgh {
   width: 649px;
   height: 879px;
-  overflow: hidden;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 200px 310px 35px 65px;
+  -webkit-border-image: url(/images/imgs/onescreen/框.png);
+       -o-border-image: url(/images/imgs/onescreen/框.png);
+          border-image: url(/images/imgs/onescreen/框.png);
+  border-image-slice: 200 310 35 65 fill;
+  padding: 0;
 }
-.index__rightvideo___xDMgh .index__bigbox___3e3vm {
+.index__rightvideo___xDMgh .index__sbox___1CPn_ {
+  height: 800px;
+  margin-top: -205px;
+  margin-left: -65px;
+  margin-right: -310px;
+  margin-bottom: -15px;
+}
+.index__rightvideo___xDMgh .index__sbox___1CPn_ .index__bigbox___3e3vm {
   width: 610px;
   height: 348px;
   margin: 30px 0 0 20px;
 }
-.index__rightvideo___xDMgh .index__video_s1___1rjZq {
+.index__rightvideo___xDMgh .index__sbox___1CPn_ .index__video_s1___1rjZq {
   float: left;
   width: 300px;
-  height: 220px;
+  height: 230px;
   margin: 12px 0 0 18px;
 }
-.index__rightvideo___xDMgh .index__video_s2___gB0XG {
+.index__rightvideo___xDMgh .index__sbox___1CPn_ .index__video_s2___gB0XG {
   float: left;
   width: 300px;
-  height: 220px;
+  height: 230px;
   margin: 12px 0 0 9px;
 }
-.index__rightvideo___xDMgh .index__video_s3___1gslx {
+.index__rightvideo___xDMgh .index__sbox___1CPn_ .index__video_s3___1gslx {
   float: left;
   width: 300px;
-  height: 220px;
+  height: 230px;
   margin: 12px 0 0 18px;
 }
-.index__rightvideo___xDMgh .index__video_s4___2b7CR {
+.index__rightvideo___xDMgh .index__sbox___1CPn_ .index__video_s4___2b7CR {
   float: left;
   width: 300px;
-  height: 220px;
+  height: 230px;
   margin: 12px 0 0 9px;
 }
 

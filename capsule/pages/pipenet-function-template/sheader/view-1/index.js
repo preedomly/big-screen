@@ -3544,6 +3544,8 @@ const dealPic = wea => {
     pic = '/images/imgs/04天气/pic52.png';
   } else if (wea === '阴转晴') {
     pic = '/images/imgs/04天气/pic52.png';
+  } else if (wea === '小雨') {
+    pic = '/images/imgs/04天气/pic62.png';
   }
 
   return pic;

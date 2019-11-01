@@ -108130,7 +108130,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           type: 'pie',
           hoverAnimation: false,
           legendHoverLink: false,
-          radius: ['10%', '12%'],
+          radius: ['40%', '48%'],
           color: ['#0196F3', '#db880b', '#ba58bc', '#F51A1A'],
           label: {
             normal: {
@@ -108161,7 +108161,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         }, {
           name: '访问来源',
           type: 'pie',
-          radius: ['12%', '16%'],
+          radius: ['48%', '64%'],
           color: ['#42b6fe ', '#ff9900', '#df73e1', '#f86262'],
           labelLine: {
             normal: {
@@ -108497,11 +108497,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         borderImageRepeat: 'stretch'
       }
     }, "\u70ED\u7EBF\u7EDF\u8BA1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang,
-      style: {
-        borderImage: "url('/images/imgs/onescreen/框.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.bj
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -108560,7 +108558,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "99.30%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.rx
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Satisfied__WEBPACK_IMPORTED_MODULE_5__["default"], null))))));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Satisfied__WEBPACK_IMPORTED_MODULE_5__["default"], null)))))));
   }
 
 }, _temp)) || _class2);
@@ -108597,7 +108595,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"hotline":"index__hotline___ZU8mS","title":"index__title___3PoqO","kuang":"index__kuang___3jOnY","bj":"index__bj___3BVCl","left":"index__left___2UCyp","month":"index__month___1mbR2","box":"index__box___2VNXg","satisfied":"index__satisfied___2GwWu","top_box":"index__top_box___1S6hO","rx":"index__rx___1uh5i","call1":"index__call1___10ybl","call2":"index__call2___2hk5b","call3":"index__call3___1af-k"};
+module.exports = {"hotline":"index__hotline___ZU8mS","title":"index__title___3PoqO","kuang":"index__kuang___3jOnY","sbox":"index__sbox___vr_iT","bj":"index__bj___3BVCl","left":"index__left___2UCyp","month":"index__month___1mbR2","box":"index__box___2VNXg","satisfied":"index__satisfied___2GwWu","top_box":"index__top_box___1S6hO","rx":"index__rx___1uh5i","call1":"index__call1___10ybl","call2":"index__call2___2hk5b","call3":"index__call3___1af-k"};
 
 /***/ }),
 

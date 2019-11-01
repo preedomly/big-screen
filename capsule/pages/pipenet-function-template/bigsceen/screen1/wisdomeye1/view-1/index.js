@@ -3666,7 +3666,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u7EC8\u7AEF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u7EC8\u7AEF1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
