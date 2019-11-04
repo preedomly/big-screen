@@ -851,7 +851,8 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".png";
           console.log(img2);
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.topLeft
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.topLeft,
+            id: "dh"
           }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleNode,
             style: {

@@ -70319,6 +70319,17 @@ function getCenterFromPaths(paths) {
 
 /***/ }),
 
+/***/ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/人员.png":
+/*!*******************************************************************!*\
+  !*** ./src/pages/bigscreen/bigMap/modularOne/model/imgaes/人员.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
 /***/ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/泵站.png":
 /*!*******************************************************************!*\
   !*** ./src/pages/bigscreen/bigMap/modularOne/model/imgaes/泵站.png ***!
@@ -70363,6 +70374,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAABtCAMAAAD5
 
 /***/ }),
 
+/***/ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/车辆.png":
+/*!*******************************************************************!*\
+  !*** ./src/pages/bigscreen/bigMap/modularOne/model/imgaes/车辆.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
 /***/ "./src/pages/bigscreen/bigMap/modularOne/model/index.js":
 /*!**************************************************************!*\
   !*** ./src/pages/bigscreen/bigMap/modularOne/model/index.js ***!
@@ -70390,6 +70412,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./imgaes/流量.png */ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/流量.png");
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./imgaes/车辆.png */ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/车辆.png");
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./imgaes/人员.png */ "./src/pages/bigscreen/bigMap/modularOne/model/imgaes/人员.png");
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_11__);
+
+
 
 
 
@@ -70406,7 +70434,9 @@ const imgs = {
   pumping: _imgaes_png__WEBPACK_IMPORTED_MODULE_7___default.a,
   wisdomEye: _imgaes_png__WEBPACK_IMPORTED_MODULE_6___default.a,
   terminal: _imgaes_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-  flow: _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default.a // 重新刷取数据结构
+  flow: _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+  vehicle: _imgaes_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+  personnel: _imgaes_png__WEBPACK_IMPORTED_MODULE_11___default.a // 重新刷取数据结构
 
 };
 
@@ -70426,6 +70456,28 @@ const Arrs = (fe, img, fil) => {
         x: attributes.横坐标 || attributes.X,
         y: attributes.纵坐标 || attributes.Y,
         value: attributes
+      };
+      item.push(pointParams);
+    });
+  }
+
+  return item;
+}; // 重新刷取数据结构(请求过来的数据)
+
+
+const Arrs2 = (fe, img, fil) => {
+  const item = [];
+  if (!imgs[img]) return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有配置当前图层，请联系研发人员');
+
+  if (fe) {
+    fe.filter(y => y[fil] !== '').map(x => {
+      const pointParams = {
+        src: imgs[img],
+        width: 34,
+        height: 42,
+        x: x.x,
+        y: x.y,
+        value: x
       };
       item.push(pointParams);
     });
@@ -70483,6 +70535,8 @@ const regEngline = arr => {
     mapData: [],
     MapGrap: [],
     // 地图泵站、终端、智慧眼点位
+    MapVehicleAndPerson: [],
+    // 车辆  人员
     MapLocalData: {},
     // 地图缓存数据
     MapVideo: [],
@@ -70598,6 +70652,121 @@ const regEngline = arr => {
         type: 'newState',
         payload: {
           name: 'MapGrap',
+          value: MapHtml
+        }
+      });
+    },
+
+    *QueryMapVehicle({
+      payload,
+      layerId
+    }, {
+      call,
+      put,
+      select
+    }) {
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getVehicleAjax"], payload, layerId);
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData
+      } = projectMap;
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'layerId',
+          value: layerId
+        }
+      });
+      const {
+        result,
+        fieldAliases
+      } = res;
+
+      if (result.length < 1) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
+      }
+
+      if (!config[layerId]) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
+      }
+
+      const arr = Arrs2(result, config[layerId], 'tid'); // ***************默认显示管网数据**************** */
+
+      if (!MapLocalData[config[layerId]]) {
+        MapLocalData[config[layerId]] = arr;
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapLocalData',
+            value: MapLocalData
+          }
+        });
+      } // ***************默认显示管网数据**************** */
+
+
+      const MapHtml = Maps(arr);
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'MapVehicleAndPerson',
+          value: MapHtml
+        }
+      });
+    },
+
+    *QueryMapRenyuan({
+      payload,
+      layerId
+    }, {
+      call,
+      put,
+      select
+    }) {
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getRenyuanAjax"], payload, layerId);
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData
+      } = projectMap;
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'layerId',
+          value: layerId
+        }
+      });
+      const {
+        result,
+        fieldAliases
+      } = res;
+
+      if (result.length < 1) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
+      }
+
+      if (!config[layerId]) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
+      }
+
+      const arr = Arrs2(result, config[layerId], 'jd'); // ***************默认显示管网数据**************** */
+
+      if (!MapLocalData[config[layerId]]) {
+        //const items = regEngline(arr);
+        MapLocalData[config[layerId]] = arr;
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapLocalData',
+            value: MapLocalData
+          }
+        });
+      } // ***************默认显示管网数据**************** */
+
+
+      const MapHtml = Maps(arr);
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'MapVehicleAndPerson',
           value: MapHtml
         }
       });
@@ -70733,16 +70902,17 @@ const regEngline = arr => {
       call,
       put
     }) {
-      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getHeatAjax"], payload, layerId);
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getHeatAjaxZS"], payload, layerId);
       const {
-        features
+        result1,
+        result2
       } = res;
 
-      if (features.length < 1) {
+      if (result2.length < 1) {
         return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
       }
 
-      const arr = Arrs(features, config[layerId], 'ZXMC').map(x => {
+      const arr = Arrs2(result2, config[layerId], 'data').map(x => {
         return {
           geometry: {
             x: x.x,
@@ -70768,6 +70938,7 @@ const regEngline = arr => {
       put,
       select
     }) {
+      debugger;
       const projectMap = yield select(state => state.projectMap);
       const {
         MapLocalData,
@@ -70784,6 +70955,34 @@ const regEngline = arr => {
       // }
 
       const ors = MapLocalData[name].filter(x => x.本点号 === payload);
+      callback && callback(...ors, name);
+    },
+
+    *QeuryVehicleAndPerson({
+      payload,
+      callback
+    }, {
+      call,
+      put,
+      select
+    }) {
+      debugger;
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData,
+        layerId
+      } = projectMap;
+      const name = config[layerId]; // let ors = '';
+      // if (!MapLocalData[name]) {
+      // const res = yield call(PostPopule, payload);
+      // MapLocalData[name] = res.result;
+      // yield put({
+      //   type: 'newState',
+      //   payload: { name: 'MapLocalData', value: MapLocalData }
+      // })
+      // }
+
+      const ors = MapLocalData[name].filter(x => x.value.tid === payload);
       callback && callback(...ors, name);
     }
 
@@ -70818,15 +71017,18 @@ const regEngline = arr => {
 /*!*****************************************************************!*\
   !*** ./src/pages/bigscreen/bigMap/modularOne/services/index.js ***!
   \*****************************************************************/
-/*! exports provided: getBusinessDataList, getPumpingAjax, PostPopule, getHeatAjax */
+/*! exports provided: getBusinessDataList, getPumpingAjax, getVehicleAjax, getRenyuanAjax, PostPopule, getHeatAjax, getHeatAjaxZS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBusinessDataList", function() { return getBusinessDataList; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPumpingAjax", function() { return getPumpingAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getVehicleAjax", function() { return getVehicleAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRenyuanAjax", function() { return getRenyuanAjax; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostPopule", function() { return PostPopule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getHeatAjax", function() { return getHeatAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getHeatAjaxZS", function() { return getHeatAjaxZS; });
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! yc/lib/http */ "./node_modules/yc/lib/http/index.js");
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(yc_lib_http__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -70864,6 +71066,34 @@ async function getPumpingAjax(params, layerId) {
   });
   return res;
 }
+/**
+ * 获取车辆数据
+ * @param params
+ * @returns {Promise<void>}
+ */
+
+async function getVehicleAjax(params, layerId) {
+  const res = await get({
+    svn: 'BIG_SCREEN',
+    path: 'clAndRy?type=0',
+    validate: false
+  });
+  return res;
+}
+/**
+ * 获取人员位置数据
+ * @param params
+ * @returns {Promise<void>}
+ */
+
+async function getRenyuanAjax(params, layerId) {
+  const res = await get({
+    svn: 'BIG_SCREEN',
+    path: 'clAndRy?type=1',
+    validate: false
+  });
+  return res;
+}
 async function PostPopule(params) {
   const res = await post({
     svn: 'LW_SVR',
@@ -70871,13 +71101,22 @@ async function PostPopule(params) {
     data: params
   });
   return res;
-} // 热力流量图
+} // 热力流量图--管网
 
 async function getHeatAjax(params, layerId) {
   const res = await get({
     svn: 'NET_SVR',
     path: `${layerId}/query`,
     data: params,
+    validate: false
+  });
+  return res;
+} // 热力流量图--真实
+
+async function getHeatAjaxZS(params, layerId) {
+  const res = await post({
+    svn: 'BIG_SCREEN',
+    path: 'getliuliang',
     validate: false
   });
   return res;
@@ -70964,7 +71203,9 @@ const maps = {
 };
 
 const newData = (arr, name) => {
+  console.log(name);
   const item = {};
+  console.log(arr);
 
   switch (name) {
     case 'pumping':
@@ -70993,10 +71234,37 @@ const newData = (arr, name) => {
 
     case 'terminal':
       item.wit = '150';
+      item.name = arr.终端名称;
+      item.sj = {};
+      item.sj['设计规模'] = arr.设计规模;
+      item.sj['受益农户'] = arr.受益农户;
+      item.sj['处理工艺'] = arr.处理工艺;
       break;
 
     case 'flow':
       item.wit = '150';
+      break;
+
+    case 'vehicle':
+      item.wit = '100';
+      item.name = arr.value.tid;
+      item.sj = {};
+      item.sj['驾驶员姓名'] = arr.value.jsy;
+      item.sj['联系电话'] = arr.value.lxdh;
+      item.sj['所属部门'] = arr.value.sybm;
+      item.sj['车辆类型'] = arr.value.bz;
+      item.sj['日常停车点'] = arr.value.ddtfwz;
+      item.sj['日常停车点'] = arr.value.ddtfwz;
+      item['img'] = arr.src;
+      break;
+
+    case 'personnel':
+      item.wit = '100';
+      item.name = "人员";
+      item.sj = {};
+      item.sj['时间'] = arr.value.createtime;
+      item.sj['经度'] = arr.value.jd;
+      item.sj['纬度'] = arr.value.wd;
       break;
   }
 
@@ -71019,6 +71287,32 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       this.props.dispatch({
         type: 'projectMap/QeuryPopule',
         payload: par.attributes.val.本点号,
+        callback: (res, name) => {
+          const da = newData(res, name);
+          this.setState({
+            switchTip: true,
+            switchData: da,
+            tipGrop: par.attributes.val,
+            loading: false,
+            center: {
+              x: par.attributes.gemo.x,
+              y: par.attributes.gemo.y
+            }
+          });
+        }
+      });
+    };
+
+    this.OnclickMapVehicleAndPerson = par => {
+      debugger; // 使用点位数据获取
+
+      this.setState({
+        switchTip: false,
+        loading: true
+      });
+      this.props.dispatch({
+        type: 'projectMap/QeuryVehicleAndPerson',
+        payload: par.attributes.val.tid,
         callback: (res, name) => {
           const da = newData(res, name);
           this.setState({
@@ -71126,6 +71420,7 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
         MapTerminal,
         MapVideo,
         HeatMapGrap,
+        MapVehicleAndPerson,
         MapVideoLayerId
       },
       toolParams: {
@@ -71184,6 +71479,9 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       id: "graphic-pumping",
       onClick: this.OnclickMapGrap.bind(this)
     }, MapGrap), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
+      id: "graphic-vehicleAndPerson",
+      onClick: this.OnclickMapVehicleAndPerson.bind(this)
+    }, MapVehicleAndPerson), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
       id: "graphic-terminal",
       onClick: this.OnclickMapMapTerminal.bind(this)
     }, MapTerminal), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
@@ -71608,7 +71906,7 @@ const locaJson = {
     "name": "小舜江村4#终端",
     "number": [1000152, 1000155, 1000244]
   }, {
-    "id": "33",
+    "id": "34",
     "name": " 若耶5#终端",
     "number": [1000054, 1000055]
   }],
