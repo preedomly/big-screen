@@ -3527,13 +3527,11 @@ __webpack_require__.r(__webpack_exports__);
       call,
       put
     }) {
-      console.log(5555555555555);
-      console.log(payload.target.innerText);
       var number = payload.target.innerText.replace("#", ""); //发一个请求
 
       var url = "http://192.168.30.212:10088/RtspClient/pullStream/" + number;
-      const response = yield call(_services_Formurl__WEBPACK_IMPORTED_MODULE_1__["getVideo"], url);
-      var number = payload.target.innerText;
+      const response = yield call(_services_Formurl__WEBPACK_IMPORTED_MODULE_1__["getVideo"], url); //var number = payload.target.innerText;
+
       yield put({
         type: 'rightmonitorData',
         payload: number
@@ -3575,12 +3573,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(yc_lib_http__WEBPACK_IMPORTED_MODULE_0__);
 
 const {
-  get
+  post
 } = yc_lib_http__WEBPACK_IMPORTED_MODULE_0___default.a;
 async function getVideo(params) {
-  const response = await get({
+  const response = await post({
     svn: 'BIG_SCREEN',
-    path: 'getVideo',
+    path: 'getVideo?' + params,
     data: params,
     validate: false
   });

@@ -910,10 +910,10 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.divb
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.txt1
-      }, "A2O"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, clgy), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          background: "url('/images/imgs/scene2/工艺图/A2O.png') no-repeat "
+          background: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') no-repeat "
         }
       })))));
     }

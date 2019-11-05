@@ -37,7 +37,12 @@
     <tool key="VIDEO-LEFT" id="5003001" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/leftmonitor/view-1" module="react" view="overlay"/>
     <tool key="VIDEO-RIGHT" id="5003002" path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/rightmonitor/view-1" module="react" view="overlay"/>
     <tool key="thridMap" id="5003003" path="/monitoring" showZD="15" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
-    <tool key="WISDOMEYE3" id="5003004"  path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen3/wisdomeye3/view-1" module="react" view="overlay"/>
+    <tool key="WISDOMEYE3" id="5003004"  path="/monitoring" url="capsule/pages/pipenet-function-template/bigscreen/screen3/wisdomeye3/view-1" module="react" view="overlay"/>
+
+  </group>
+
+  <group name="realscene" from="6003000" to="6003100">
+       <tool key="HEADER" id="6003001" path="/realscene" url="capsule/pages/pipenet-function-template/bigscreen/page-react-header/view-1" module="react" view="overlay"/>
 
   </group>
 </tooldefs>

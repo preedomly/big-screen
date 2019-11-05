@@ -229,5 +229,19 @@
         "module": "react"
       }
     ]
+  },
+  {
+    "title": "realscene",
+    "grid": [
+      {
+        "toolKey": "HEADER",
+        "title": "天气",
+        "top": 0,
+        "left": 0,
+        "width": 8640,
+        "height": 284,
+        "module": "react"
+      }
+    ]
   }
 ]
