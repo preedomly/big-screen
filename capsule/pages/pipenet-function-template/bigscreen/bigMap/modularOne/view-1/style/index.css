@@ -547,7 +547,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 115%;
+  width: 100%;
 }
 .index__po_plan_realTime_data_xs_keys___3azcL {
   -webkit-box-flex: 0.3;
@@ -556,7 +556,7 @@
           flex: 0.3;
 }
 .index__po_plan_realTime_data_xs_vals___1-Vo9 {
-  width: 230px;
+  width: 235px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

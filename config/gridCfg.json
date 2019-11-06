@@ -241,6 +241,15 @@
         "width": 8640,
         "height": 284,
         "module": "react"
+      },
+      {
+        "toolKey": "cenSum",
+        "title": "3D图",
+        "top": 352,
+        "left": 0,
+        "width": 8640,
+        "height": 1780,
+        "module": "react"
       }
     ]
   }
