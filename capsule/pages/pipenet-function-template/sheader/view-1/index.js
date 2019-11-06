@@ -8480,7 +8480,18 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       });
     };
 
-    this.preTime = () => {};
+    this.preTime = () => {
+      var that = this;
+      var timeds = setInterval(() => {
+        let nowTime = moment__WEBPACK_IMPORTED_MODULE_3___default()().format('HH:mm:ss');
+        this.setState({
+          nowTime: nowTime
+        });
+      }, 1000);
+      that.setState({
+        timeds: timeds
+      });
+    };
 
     this.hanleChange = id => {};
 
@@ -8507,21 +8518,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
     this.preTime();
   }
 
-  componentWillReceiveProps(nextProps) {
-    /*    var that = this;
-        var timeds = setInterval(
-          () => {
-            let nowTime = moment().format('HH:mm:ss');
-            this.setState({
-              nowTime: nowTime
-            })
-          },
-          1000
-        );
-        that.setState({
-          timeds: timeds
-        });*/
-  }
+  componentWillReceiveProps(nextProps) {}
 
   componentWillUnmount() {// console.log('componentWillUnmount');
   }
@@ -8616,9 +8613,15 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/提醒.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "menu-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weather,
         style: {
           borderImage: "url('/images/imgs/onescreen/04天气/块.png')  0 0 0 0 fill round",
@@ -8757,18 +8760,15 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/提醒.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_5__["Carousel"], {
-        autoplay: true,
-        dots: "false"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "menu-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weather,
         style: {
           borderImage: "url('/images/imgs/onescreen/04天气/块.png')  0 0 0 0 fill round",
@@ -8868,18 +8868,15 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/提醒.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_5__["Carousel"], {
-        autoplay: true,
-        dots: "false"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
-      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "menu-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weather,
         style: {
           borderImage: "url('/images/imgs/onescreen/04天气/块.png')  0 0 0 0 fill round",

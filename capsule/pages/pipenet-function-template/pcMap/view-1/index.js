@@ -70314,6 +70314,17 @@ function getCenterFromPaths(paths) {
 
 /***/ }),
 
+/***/ "./src/pages/pcMap/model/imgaes/人员.png":
+/*!*********************************************!*\
+  !*** ./src/pages/pcMap/model/imgaes/人员.png ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAqCAMAAAAOCBKjAAAA/FBMVEUAAADbX93aW9zaW9zbXt3ecOHgdOLgdOHfcOHfcuHaXt3cZt/cZN7ebuDfcOHebuDgdOLfdOHfc+HfcuHaXt3aX93fc+HcZ97fc+HbYt3dad/dbN/fdOHfceHfdOHfc+HgdeLgdeL////fc+HbYN3cZd7fcOHaXd3ZWdzgd+L77fvzy/T99P3srO311PbdbOD++f7utO/sqe3nlejljOfheePdad/qoevpm+rebeDZV9vXUNr66Pv33vjzx/PdZ9/55Pr32vjmkej88fz0z/Xtru7rpOznlunkhuXifeT21vbxv/HbY9710vXxwfLvufDvt/Dtr+7tsO7VRdgEO762AAAAInRSTlMA8fbt4Xs4Ga9v/M60mYeEMA4FddrX0sjCwaeKYFlUSCMUN/mi5gAAAktJREFUOMuFk+l6qjAQhoNa96W1+94yCQRBsWyyuNW6Vrudc//3cgQaQGs9L3/I93yZzEwmKEH9/rp8kubSJ+Xr+zraRa6awWBMJ0+TqQE4U839tBxwRJcbfEhD1gl3sOV4OBdnPT5JbyaePyQtWc7p89v0VS4bWw6LZpdnvDbYX1cqHkbZctIL05VnT1PYoiFxLPPSINqqwSdp2lKXmQal0FIQZWZpeivb1BeexELJYsG3HKX0KDZRBVMyAdxPJumpI78xZMhHuwCE9Qd4xKQh8duUmbH1mFIcInodJs4yCGXjbJamNmkGTAw9jp1FNXjhI4bjVsBbLL1ADZUNPmbkER+Mu7FmlNFpJ+HRXBDWEKkda51TlP5KeJ5FAda4yX1faZR64hPYVAIYOI2E9JRC6Q1Pe05AGLzySU8aZTR+Q3FhYG4oWgZd6om18i45IKjNbkLTL1Fl0Y4cTUlUJQAQVfs5On1RQbeELWVwBxDiUNxhpZLb9bV/J/TuriDG8YwwvuZf/BW0w7kgsIH3ERwFV/4w06D6oegS1RHARxBUC//9E9RJg5HOW0HL3uw5qMQfDLyyhMXoQ/GjW3nk81icszvuvY5lWR63et3vYufFRxRwRzv8bjr0LnrHdLrTMqWJ91yjI+WHQxnRGkpQoFJ/+ylLtIA2yJZEo6/EMfqGWMqibY4xNu1lqzfstZa2ifEx2sENWFgklmoREVtwg3ZyHLTYEfxmF9AvVIFRRb9SgZAK2kMefPJoLxcAcIH2Uz+Dszr6D7l8blv6B95Wm5TaEYoIAAAAAElFTkSuQmCC"
+
+/***/ }),
+
 /***/ "./src/pages/pcMap/model/imgaes/泵站.png":
 /*!*********************************************!*\
   !*** ./src/pages/pcMap/model/imgaes/泵站.png ***!
@@ -70358,6 +70369,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAqCAMAAAAO
 
 /***/ }),
 
+/***/ "./src/pages/pcMap/model/imgaes/车辆.png":
+/*!*********************************************!*\
+  !*** ./src/pages/pcMap/model/imgaes/车辆.png ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAqCAMAAAAOCBKjAAABTVBMVEUAAAABoBoYqC4krTokrTkBnxoCoBsAnhYAnhcNpCUKoyIfqzYdqzMfqzYhrDYhrDclrTojrTkirDgAnRUAnxgAnhYBoBoBoBsirDgPpScirDgGoh8irDgVpy0TpioirDgSpikirDgjrDkhrDcmrTwlrTsirDj///8irDgEoR0YqS8RpikAnxkgrDYcqjJZwWkKoyL2/Pfm9egAnRM4tUwxskWo3rAAnhbz+/SY2aIorz4Tpyul3q51zIRMvF5Ku1svsUT6/vvj9eay47qh3KqT156I0pNxyn9hxHEqr0Dv+fHr+O3Z8d3I68655cC25b6u4bar4LSK05ZtyXxpx3hTvmRBt1MAmQn4/Pjf8+LW8NrV79nS7tbD6cmc2qaF0pKB0I6A0I13zIRDuVYAlQHn9+rd8uDL7NA1s0kzs0cOpSYAkAC95sN3zIU9s0mh8u8/AAAAJ3RSTlMA4Yc4Gfzx7+vOtIV8eHFXMA8F8/n42tfSyMHBr66nmpltYUgkFKzCzKN5AAACZklEQVQ4y4XSZ3OiUBSA4WPvGk3vfS9XaoIRAbuxJCYae3rPpu3u//+4FHVcRPcZBpjhnTsXODAismv1Lrhn3Qte624EzNitFkyky0+lp3KawBarHcYEXF9sI490+Qb75QoYir1lij1Ho85ZankPRtic0TgyikedNhiacZz8ROPOJMfMcLdO6Q2ZeZOcg517yCtk7or0gCYoXKBJLoQgKMJzLBqROBhIIAU7F1YaP3eNhi4rdPZIl2XaOYSuOb/SWEaXuaY4cgBzh+pCFgAb1UC6u2Lx9oZhiIEorTYNygZWotr/sL0oScc/ooamSljBm0E6ppu7JYoxY4MyXlhs6YnIKacTk6a1CO5HLTmVXwrJpnQ/3jy6Ybap/0CKoSjq5Hi8ac6C60FrjjFN04xZ8+ACS0pfhyMxVtZhBKyg1IPHWpOywCqrNfXXWLJQ5moXRVG8fxCT98dPJf03squwdXSp3BzE/uSf0zfiRyqVembrqJJJnGUe1Se5oy0IcXfqOL3Wy3RHvol993qvvUI622Fq5Lc6eHdcCMLzz+qrtwvUGZJ/x7PpdLf1S8gh3Cy9JNTtzIcBNghtCHKfUoUv9OeD+GSp8/7thjrMfAmpDl+Y5HD+YkQdaUq8NtLrch5NkpfXQbXv6E5suo590IT4NjLX5kPQ5+fLpkmL98OQj+9Ux4pqh/fBiG1BihuSuCRswz9sHiqTPB0Gp8kM5bGBUQDjbEWsvd++18RKFuMAmNihSSxwclTmBEzSO2AqqAwWo1KuQZjARwz4YKLNfrIJU6xpyQ+YakVJVmC6yBKxFIH/sK/ZweAvxNC9t1UAPIAAAAAASUVORK5CYII="
+
+/***/ }),
+
 /***/ "./src/pages/pcMap/model/index.js":
 /*!****************************************!*\
   !*** ./src/pages/pcMap/model/index.js ***!
@@ -70385,6 +70407,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./imgaes/流量.png */ "./src/pages/pcMap/model/imgaes/流量.png");
 /* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./imgaes/车辆.png */ "./src/pages/pcMap/model/imgaes/车辆.png");
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./imgaes/人员.png */ "./src/pages/pcMap/model/imgaes/人员.png");
+/* harmony import */ var _imgaes_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_imgaes_png__WEBPACK_IMPORTED_MODULE_11__);
+
+
 
 
 
@@ -70401,7 +70429,9 @@ const imgs = {
   pumping: _imgaes_png__WEBPACK_IMPORTED_MODULE_7___default.a,
   wisdomEye: _imgaes_png__WEBPACK_IMPORTED_MODULE_6___default.a,
   terminal: _imgaes_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-  flow: _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default.a // 重新刷取数据结构
+  flow: _imgaes_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+  vehicle: _imgaes_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+  personnel: _imgaes_png__WEBPACK_IMPORTED_MODULE_11___default.a // 重新刷取数据结构
 
 };
 
@@ -70415,12 +70445,85 @@ const Arrs = (fe, img, fil) => {
         attributes
       } = x;
       const pointParams = {
+        layerId: 'point',
         src: imgs[img],
         width: 34,
         height: 42,
         x: attributes.横坐标 || attributes.X,
         y: attributes.纵坐标 || attributes.Y,
         value: attributes
+      };
+      item.push(pointParams);
+    });
+  }
+
+  return item;
+}; //视频搜索功能
+
+
+const Arrs3 = (fe, img, fil, payload) => {
+  const item = [];
+  if (!imgs[img]) return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有配置当前图层，请联系研发人员');
+
+  if (fe) {
+    if (img == 'pumping') {
+      fe.filter(y => y.attributes[fil] !== '').map(x => {
+        const {
+          attributes
+        } = x;
+
+        if (attributes.泵站名称 == payload) {
+          const pointParams = {
+            layerId: 'point',
+            src: imgs[img],
+            width: 34,
+            height: 42,
+            x: attributes.横坐标 || attributes.X,
+            y: attributes.纵坐标 || attributes.Y,
+            value: attributes
+          };
+          item.push(pointParams);
+        }
+      });
+    } else {
+      fe.filter(y => y.attributes[fil] !== '').map(x => {
+        const {
+          attributes
+        } = x;
+
+        if (attributes.终端名称 == payload) {
+          const pointParams = {
+            layerId: 'point',
+            src: imgs[img],
+            width: 34,
+            height: 42,
+            x: attributes.横坐标 || attributes.X,
+            y: attributes.纵坐标 || attributes.Y,
+            value: attributes
+          };
+          item.push(pointParams);
+        }
+      });
+    }
+  }
+
+  return item;
+}; // 重新刷取数据结构(请求过来的数据)
+
+
+const Arrs2 = (fe, img, fil) => {
+  const item = [];
+  if (!imgs[img]) return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有配置当前图层，请联系研发人员');
+
+  if (fe) {
+    fe.filter(y => y[fil] !== '').map(x => {
+      const pointParams = {
+        src: imgs[img],
+        width: 34,
+        height: 42,
+        x: x.x,
+        y: x.y,
+        value: x
       };
       item.push(pointParams);
     });
@@ -70478,15 +70581,21 @@ const regEngline = arr => {
     mapData: [],
     MapGrap: [],
     // 地图泵站、终端、智慧眼点位
+    MapVehicleAndPerson: [],
+    // 车辆  人员
     MapLocalData: {},
     // 地图缓存数据
     MapVideo: [],
     // 地图视频点位
+    MapVideoSearch: [],
+    // 地图视频搜索点位
     MapTerminal: [],
     // 地图终端点位
     HeatMapGrap: [],
     // 地图热力图
-    MapVideoLayerId: '' // 第三层视频查询的layerId，获取缓存
+    MapVideoLayerId: '',
+    // 第三层视频查询的layerId，获取缓存
+    loadings: false // 单独指定某些图层点击的时候，缓存数据
 
   },
   effects: {
@@ -70598,6 +70707,121 @@ const regEngline = arr => {
       });
     },
 
+    *QueryMapVehicle({
+      payload,
+      layerId
+    }, {
+      call,
+      put,
+      select
+    }) {
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getVehicleAjax"], payload, layerId);
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData
+      } = projectMap;
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'layerId',
+          value: layerId
+        }
+      });
+      const {
+        result,
+        fieldAliases
+      } = res;
+
+      if (result.length < 1) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
+      }
+
+      if (!config[layerId]) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
+      }
+
+      const arr = Arrs2(result, config[layerId], 'tid'); // ***************默认显示管网数据**************** */
+
+      if (!MapLocalData[config[layerId]]) {
+        MapLocalData[config[layerId]] = arr;
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapLocalData',
+            value: MapLocalData
+          }
+        });
+      } // ***************默认显示管网数据**************** */
+
+
+      const MapHtml = Maps(arr);
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'MapVehicleAndPerson',
+          value: MapHtml
+        }
+      });
+    },
+
+    *QueryMapRenyuan({
+      payload,
+      layerId
+    }, {
+      call,
+      put,
+      select
+    }) {
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getRenyuanAjax"], payload, layerId);
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData
+      } = projectMap;
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'layerId',
+          value: layerId
+        }
+      });
+      const {
+        result,
+        fieldAliases
+      } = res;
+
+      if (result.length < 1) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
+      }
+
+      if (!config[layerId]) {
+        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
+      }
+
+      const arr = Arrs2(result, config[layerId], '工作手机串号'); // ***************默认显示管网数据**************** */
+
+      if (!MapLocalData[config[layerId]]) {
+        // const items = regEngline(arr);
+        MapLocalData[config[layerId]] = arr;
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapLocalData',
+            value: MapLocalData
+          }
+        });
+      } // ***************默认显示管网数据**************** */
+
+
+      const MapHtml = Maps(arr);
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'MapVehicleAndPerson',
+          value: MapHtml
+        }
+      });
+    },
+
     *QueryTerminal({
       payload,
       layerId
@@ -70668,56 +70892,110 @@ const regEngline = arr => {
       const {
         MapLocalData
       } = projectMap;
-      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getPumpingAjax"], payload, layerId);
-      yield put({
-        type: 'newState',
-        payload: {
-          name: 'layerId',
-          value: layerId
-        }
-      });
-      const {
-        features
-      } = res;
 
-      if (features.length < 1) {
-        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
-      }
-
-      if (!config[layerId]) {
-        return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
-      }
-
-      const arr = Arrs(features, config[layerId], 'ALTID'); // ***************默认显示管网数据**************** */
-
-      if (!MapLocalData[config[layerId]]) {
-        const items = regEngline(arr);
-        MapLocalData[config[layerId]] = items;
+      if (payload.returnValue) {
+        const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getPumpingAjax"], payload, layerId);
         yield put({
           type: 'newState',
           payload: {
-            name: 'MapLocalData',
-            value: MapLocalData
+            name: 'layerId',
+            value: layerId
           }
         });
-      } // ***************默认显示管网数据**************** */
+        const {
+          features
+        } = res;
+
+        if (features.length < 1) {
+          return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
+        }
+
+        if (!config[layerId]) {
+          return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
+        }
+
+        const arr = Arrs3(features, config[layerId], 'ALTID', payload.returnValue.name); // ***************默认显示管网数据**************** */
+
+        if (!MapLocalData[config[layerId]]) {
+          const items = regEngline(arr);
+          MapLocalData[config[layerId]] = items;
+          yield put({
+            type: 'newState',
+            payload: {
+              name: 'MapLocalData',
+              value: MapLocalData
+            }
+          });
+        } // ***************默认显示管网数据**************** */
 
 
-      const MapHtml = Maps(arr);
-      yield put({
-        type: 'newState',
-        payload: {
-          name: 'MapVideo',
-          value: MapHtml
+        const MapHtml = Maps(arr);
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapVideoLayerId',
+            value: config[layerId]
+          }
+        });
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapVideoSearch',
+            value: MapHtml
+          }
+        });
+      } else {
+        const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getPumpingAjax"], payload, layerId);
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'layerId',
+            value: layerId
+          }
+        });
+        const {
+          features
+        } = res;
+
+        if (features.length < 1) {
+          return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
         }
-      });
-      yield put({
-        type: 'newState',
-        payload: {
-          name: 'MapVideoLayerId',
-          value: config[layerId]
+
+        if (!config[layerId]) {
+          return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到对应的图层ID，请检查后再执行!');
         }
-      });
+
+        const arr = Arrs(features, config[layerId], 'ALTID'); // ***************默认显示管网数据**************** */
+
+        if (!MapLocalData[config[layerId]]) {
+          const items = regEngline(arr);
+          MapLocalData[config[layerId]] = items;
+          yield put({
+            type: 'newState',
+            payload: {
+              name: 'MapLocalData',
+              value: MapLocalData
+            }
+          });
+        } // ***************默认显示管网数据**************** */
+
+
+        const MapHtml = Maps(arr);
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapVideoLayerId',
+            value: config[layerId]
+          }
+        });
+        yield put({
+          type: 'newState',
+          payload: {
+            name: 'MapVideo',
+            value: MapHtml
+          }
+        });
+      }
     },
 
     // 热力流量图
@@ -70728,22 +71006,37 @@ const regEngline = arr => {
       call,
       put
     }) {
-      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getHeatAjax"], payload, layerId);
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'loadings',
+          value: true
+        }
+      });
+      const res = yield call(_services_index_js__WEBPACK_IMPORTED_MODULE_5__["getHeatAjaxZS"], payload, layerId);
       const {
-        features
+        result1,
+        result2
       } = res;
 
-      if (features.length < 1) {
+      if (result2.length < 1) {
         return antd__WEBPACK_IMPORTED_MODULE_3__["message"].error('没有查询到正确的信息');
       }
 
-      const arr = Arrs(features, config[layerId], 'ZXMC').map(x => {
+      const arr = Arrs2(result2, config[layerId], 'data').map(x => {
         return {
           geometry: {
             x: x.x,
             y: x.y
           }
         };
+      });
+      yield put({
+        type: 'newState',
+        payload: {
+          name: 'loadings',
+          value: false
+        }
       });
       yield put({
         type: 'newState',
@@ -70780,6 +71073,33 @@ const regEngline = arr => {
 
       const ors = MapLocalData[name].filter(x => x.本点号 === payload);
       callback && callback(...ors, name);
+    },
+
+    *QeuryVehicleAndPerson({
+      payload,
+      callback
+    }, {
+      call,
+      put,
+      select
+    }) {
+      const projectMap = yield select(state => state.projectMap);
+      const {
+        MapLocalData,
+        layerId
+      } = projectMap;
+      const name = config[layerId]; // let ors = '';
+      // if (!MapLocalData[name]) {
+      // const res = yield call(PostPopule, payload);
+      // MapLocalData[name] = res.result;
+      // yield put({
+      //   type: 'newState',
+      //   payload: { name: 'MapLocalData', value: MapLocalData }
+      // })
+      // }
+
+      const ors = MapLocalData[name].filter(x => x.value.tid === payload);
+      callback && callback(...ors, name);
     }
 
   },
@@ -70792,6 +71112,19 @@ const regEngline = arr => {
         value
       } = payload;
       return _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_0___default()({}, state, {
+        mapData: [],
+        MapGrap: [],
+        // 地图泵站、终端、智慧眼点位
+        MapVehicleAndPerson: [],
+        // 车辆  人员
+        MapVideo: [],
+        // 地图视频点位
+        MapVideoSearch: [],
+        //视频搜索点位
+        MapTerminal: [],
+        // 地图终端点位
+        HeatMapGrap: [],
+        // 地图热力图
         [name]: value
       });
     },
@@ -70813,15 +71146,18 @@ const regEngline = arr => {
 /*!*******************************************!*\
   !*** ./src/pages/pcMap/services/index.js ***!
   \*******************************************/
-/*! exports provided: getBusinessDataList, getPumpingAjax, PostPopule, getHeatAjax */
+/*! exports provided: getBusinessDataList, getPumpingAjax, getVehicleAjax, getRenyuanAjax, PostPopule, getHeatAjax, getHeatAjaxZS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBusinessDataList", function() { return getBusinessDataList; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPumpingAjax", function() { return getPumpingAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getVehicleAjax", function() { return getVehicleAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRenyuanAjax", function() { return getRenyuanAjax; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostPopule", function() { return PostPopule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getHeatAjax", function() { return getHeatAjax; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getHeatAjaxZS", function() { return getHeatAjaxZS; });
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! yc/lib/http */ "./node_modules/yc/lib/http/index.js");
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(yc_lib_http__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -70859,6 +71195,34 @@ async function getPumpingAjax(params, layerId) {
   });
   return res;
 }
+/**
+ * 获取车辆数据
+ * @param params
+ * @returns {Promise<void>}
+ */
+
+async function getVehicleAjax(params, layerId) {
+  const res = await get({
+    svn: 'BIG_SCREEN',
+    path: 'clAndRy?type=0',
+    validate: false
+  });
+  return res;
+}
+/**
+ * 获取人员位置数据
+ * @param params
+ * @returns {Promise<void>}
+ */
+
+async function getRenyuanAjax(params, layerId) {
+  const res = await get({
+    svn: 'BIG_SCREEN',
+    path: 'clAndRy?type=1',
+    validate: false
+  });
+  return res;
+}
 async function PostPopule(params) {
   const res = await post({
     svn: 'LW_SVR',
@@ -70866,13 +71230,22 @@ async function PostPopule(params) {
     data: params
   });
   return res;
-} // 热力流量图
+} // 热力流量图--管网
 
 async function getHeatAjax(params, layerId) {
   const res = await get({
     svn: 'NET_SVR',
     path: `${layerId}/query`,
     data: params,
+    validate: false
+  });
+  return res;
+} // 热力流量图--真实
+
+async function getHeatAjaxZS(params, layerId) {
+  const res = await post({
+    svn: 'BIG_SCREEN',
+    path: 'getliuliang',
     validate: false
   });
   return res;
@@ -70971,12 +71344,13 @@ const newData = (arr, name) => {
       item.bzbjzt['泵机状态'] = mockDa(arr.水泵台数).zt;
       item.sj = {};
       item.sj['瞬时流量'] = mockDa().ssll;
-      item.sj['压力'] = mockDa().yl;
-      item.sj['液位'] = mockDa().yw;
+      item.sj['压力数值'] = mockDa().yl;
+      item.sj['液位数值'] = mockDa().yw;
       item['img'] = arr.泵站名称;
       break;
 
     case 'wisdomEye':
+      item.wit = '120';
       item.name = arr.站点名称;
       item.sj = {};
       item.sj['编号'] = arr.本点号;
@@ -70987,11 +71361,53 @@ const newData = (arr, name) => {
       break;
 
     case 'terminal':
-      item.wit = '150';
+      item.wit = '110';
+      item.borderwidth = '200px 240px 50px 120px';
+      item.borderImageSlice = '200 140 0 108 fill';
+      item.name = arr.终端名称;
+      item.sj = {};
+      item.sj['设计规模'] = arr.设计规模;
+      item.sj['受益农户'] = arr.受益农户;
+      item.sj['处理工艺'] = arr.处理工艺;
+      item['img'] = arr.终端名称;
       break;
 
     case 'flow':
       item.wit = '150';
+      break;
+
+    case 'vehicle':
+      item.wit = '100';
+      item.name = arr.value.tid;
+      item.sj = {};
+      item.sj['驾驶员姓名'] = arr.value.jsy;
+
+      if (arr.value.lxdh != null) {
+        item.sj['联系电话'] = arr.value.lxdh.split(".")[0];
+      }
+
+      item.sj['所属部门'] = arr.value.sybm;
+      item.sj['车辆类型'] = arr.value.bz;
+      item.sj['日常停车点'] = arr.value.ddtfwz;
+      item.sj['日常停车点'] = arr.value.ddtfwz;
+      item['img'] = arr.src;
+      break;
+
+    case 'personnel':
+      item.wit = '110';
+      item.name = arr.value.姓名;
+      item.sj = {};
+      item.sj['使用性质'] = arr.value.使用性质;
+      item.sj['所属部门'] = arr.value.所属部门;
+
+      if (arr.value.工作手机 != null) {
+        item.sj['工作手机'] = arr.value.工作手机.split(".")[0];
+      }
+
+      if (arr.value.个人手机 != null) {
+        item.sj['个人手机'] = arr.value.个人手机.split(".")[0];
+      }
+
       break;
   }
 
@@ -71030,10 +71446,56 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       });
     };
 
+    this.OnclickMapVehicleAndPerson = par => {
+      // 使用点位数据获取
+      this.setState({
+        switchTip: false,
+        loading: true
+      });
+      this.props.dispatch({
+        type: 'projectMap/QeuryVehicleAndPerson',
+        payload: par.attributes.val.tid,
+        callback: (res, name) => {
+          const da = newData(res, name);
+          this.setState({
+            switchTip: true,
+            switchData: da,
+            tipGrop: par.attributes.val,
+            loading: false,
+            center: {
+              x: par.attributes.gemo.x,
+              y: par.attributes.gemo.y
+            }
+          });
+        }
+      });
+    };
+
     this.OnclickMapMapTerminal = par => {
       this.props.dispatch({
         type: 'zhongduanspace/getZhongduanxx',
         payload: par
+      });
+      this.setState({
+        switchTip: false,
+        loading: true
+      });
+      this.props.dispatch({
+        type: 'projectMap/QeuryPopule',
+        payload: par.attributes.val.本点号,
+        callback: (res, name) => {
+          const da = newData(res, name);
+          this.setState({
+            switchTip: true,
+            switchData: da,
+            tipGrop: par.attributes.val,
+            loading: false,
+            center: {
+              x: par.attributes.gemo.x,
+              y: par.attributes.gemo.y
+            }
+          });
+        }
       });
     };
 
@@ -71069,6 +71531,7 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
     };
 
     this.projectMapConfig = yc__WEBPACK_IMPORTED_MODULE_12__["sysConfig"].getCfgByKey('projectMapConfig');
+    this.onMapLoadHandler = this.onMapLoadHandler.bind(this);
     this.state = {
       switchTip: false,
       switchData: {},
@@ -71111,6 +71574,16 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
         }
       });
     }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      switchTip: false
+    });
+  }
+
+  onMapLoadHandler(mapWnd) {
+    this.mapWnd = mapWnd;
   } // 第一页面的图标点击事件
 
 
@@ -71120,8 +71593,11 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
         MapGrap,
         MapTerminal,
         MapVideo,
+        MapVideoSearch,
         HeatMapGrap,
-        MapVideoLayerId
+        MapVehicleAndPerson,
+        MapVideoLayerId,
+        loadings
       },
       toolParams: {
         key
@@ -71150,7 +71626,7 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
         height: '100%'
       },
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.mapSpin,
-      spinning: loading,
+      spinning: loading || loadings,
       delay: 500,
       tip: react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("span", null, "\u6B63\u5728\u52A0\u8F7D\u4E2D...")
     }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MapView, {
@@ -71179,12 +71655,18 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       id: "graphic-pumping",
       onClick: this.OnclickMapGrap.bind(this)
     }, MapGrap), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
+      id: "graphic-vehicleAndPerson",
+      onClick: this.OnclickMapVehicleAndPerson.bind(this)
+    }, MapVehicleAndPerson), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
       id: "graphic-terminal",
       onClick: this.OnclickMapMapTerminal.bind(this)
     }, MapTerminal), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
       id: "graphic-video",
       onClick: this.OnclickMapVideo.bind(this)
-    }, MapVideo), switchTip && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_tip__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, MapVideo), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
+      id: "graphic-videoSearch",
+      onClick: this.OnclickMapVideo.bind(this)
+    }, MapVideoSearch), switchTip && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_tip__WEBPACK_IMPORTED_MODULE_3__["default"], {
       id: tipGrop.本点号,
       key: tipGrop.本点号,
       point: {
@@ -71327,8 +71809,8 @@ const items = (key, value) => {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: dw[x],
       style: {
-        width: 11,
-        height: 15
+        width: 36,
+        height: 46
       }
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, y + 1, "#"))));
   } else {
@@ -71349,7 +71831,9 @@ class Popule extends react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent 
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po,
       style: {
-        width: `${switchData.wit || 100}%`
+        width: `${switchData.wit || 100}%`,
+        borderWidth: `${switchData.borderwidth || "290px 240px 50px 120px"}`,
+        borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
       }
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.cal,
@@ -71410,34 +71894,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_index_less__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const data = [{
-  name: '泵站摄像头1',
-  keys: '1000222'
-}, {
-  name: '泵站摄像头2',
-  keys: '1000304'
-}, {
-  name: '泵站摄像头3',
-  keys: '1000303'
-}, {
-  name: '泵站摄像头4',
-  keys: '1000302'
-}, {
-  name: '泵站摄像头5',
-  keys: '1000301'
-}, {
-  name: '泵站摄像头6',
-  keys: '1000300'
-}, {
-  name: '泵站摄像头7',
-  keys: '1000299'
-}, {
-  name: '泵站摄像头8',
-  keys: '1000298'
-}, {
-  name: '泵站摄像头9',
-  keys: '1000296'
-}];
 const locaJson = {
   pumping: [{
     "id": "1",
@@ -71456,7 +71912,7 @@ const locaJson = {
   }, {
     "id": "4",
     "name": "滨海1#泵站",
-    "number": [1000043]
+    "number": [1000087]
   }, {
     "id": "5",
     "name": "钱二泵站",

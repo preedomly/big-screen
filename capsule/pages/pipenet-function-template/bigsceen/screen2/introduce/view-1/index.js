@@ -744,10 +744,8 @@ var _dec, _class2, _temp;
 
  // 时间
 
-let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__["connect"])(({
-  pageReact2
-}) => ({
-  opened: pageReact2.opened
+let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__["connect"])(state => ({
+  zhongduanReturn: state.zhongduanspace.zhongduanReturn
 })), _dec(_class2 = (_temp = class _class2 extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(...args) {
     super(...args);
@@ -763,10 +761,6 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       this.props.dispatch({
         type: 'pageReact2/setOpened'
       });
-    };
-
-    this.abc = linkUrl => {
-      window.location.href = linkUrl;
     };
   }
 
@@ -803,37 +797,137 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.introduce
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.title,
-      style: {
-        borderImage: "url('/images/imgs/onescreen/标题框.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
+    var res = [{
+      "名称": "河塔村1#终端",
+      "简介": "本终端污水处理系统设计规模30吨/日，占地面积200平方米，主要收集、处理石家片区的农村生活污水，受益农户100户，处理工艺采用高负荷地下渗滤污水处理复合技术，水达到浙江省《农村生活污水处理设施水污染物排放标准》DB33/973-2015一级标准。"
+    }, {
+      "名称": "河塔村2#终端",
+      "简介": "本终端污水处理系统设计规模30吨/日，占地面积200平方米，主要收集、处理石家片区的农村生活污水，受益农户80户，处理工艺采用A2O污水处理复合技术，水达到浙江省《农村生活污水处理设施水污染物排放标准》DB33/973-2017一级标准。"
+    }, {
+      "名称": "九岩村3#终端",
+      "简介": "本终端污水处理系统设计规模30吨/日，占地面积200平方米，主要收集、处理石家片区的农村生活污水，受益农户120户，水达到浙江省《农村生活污水处理设施水污染物排放标准》DB33/973-2015一级标准。"
+    }, {
+      "名称": "九岩村5#终端",
+      "简介": "本终端污水处理系统设计规模30吨/日，占地面积200平方米，主要收集、处理石家片区的农村生活污水，受益农户60户，处理工艺采用高负荷地下渗滤污水处理复合技术，水达到浙江省《农村生活污水处理设施水污染物排放标准》DB33/973-2018一级标准。"
+    }, {
+      "名称": "棠棣兰谷终端",
+      "简介": "本终端污水处理系统设计规模30吨/日，占地面积400平方米，主要收集、处理石家片区的农村生活污水，受益农户110户，水达到浙江省《农村生活污水处理设施水污染物排放标准》DB33/973-2015一级标准。"
+    }];
+    const {
+      zhongduanReturn
+    } = this.props;
+
+    if (zhongduanReturn == undefined) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.introduce
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/标题框.png') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.beijing
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_top,
+        style: {
+          borderImage: "url('/images/imgs/2、农村运维/实景图片.png') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_buttom
+      }, "\u672C\u7EC8\u7AEF\u6C61\u6C34\u5904\u7406\u7CFB\u7EDF\u8BBE\u8BA1\u89C4\u6A2130\u5428/\u65E5\uFF0C\u5360\u5730\u9762\u79EF200\u5E73\u65B9\u7C73\uFF0C\u4E3B\u8981\u6536\u96C6\u3001\u5904\u7406\u77F3\u5BB6\u7247\u533A\u7684\u519C\u6751\u751F\u6D3B\u6C61\u6C34\uFF0C\u53D7\u76CA\u519C\u6237100\u6237\uFF0C\u5904\u7406\u5DE5\u827A\u91C7\u7528\u9AD8\u8D1F\u8377\u5730\u4E0B\u6E17\u6EE4\u6C61\u6C34\u5904\u7406\u590D\u5408\u6280\u672F\uFF0C\u6C34\u8FBE\u5230\u6D59\u6C5F\u7701\u300A\u519C\u6751\u751F\u6D3B\u6C61\u6C34\u5904\u7406\u8BBE\u65BD\u6C34\u6C61\u67D3\u7269\u6392\u653E\u6807\u51C6\u300BDB33/973-2015\u4E00\u7EA7\u6807\u51C6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.right,
+        style: {
+          borderImage: "url('/images/imgs/2、农村运维/工艺图/A2O+人工湿地.png') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "A20+\u4EBA\u5DE5\u6E7F\u5730")))));
+    } else {
+      for (var i = 0; i < res.length; i++) {
+        var ALTID = zhongduanReturn.attributes.val.ALTID;
+        var name = zhongduanReturn.attributes.val.终端名称;
+        var clgy = zhongduanReturn.attributes.val.处理工艺;
+        clgy = clgy.replace("/", "");
+
+        if (res[i].名称 == name) {
+          console.log(zhongduanReturn.attributes.val);
+          name = name.replace("#", "%23");
+          var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".png";
+          console.log(img2);
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.introduce,
+            id: "dh"
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+            style: {
+              borderImage: "url('/images/imgs/onescreen/标题框.png') 0 0 0 0 fill round",
+              borderImageRepeat: 'stretch'
+            }
+          }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.beijing
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_top,
+            style: {
+              borderImage: "url('http://192.168.30.212:8088/upload/" + name + ".jpg') 0 0 0 0 fill round",
+              borderImageRepeat: 'stretch'
+            }
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_buttom
+          }, " ", res[i].简介)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.right,
+            style: {
+              borderImage: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') 0 0 0 0 fill round",
+              borderImageRepeat: 'stretch'
+            }
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, clgy)))));
+        }
       }
-    }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.beijing
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_top,
-      style: {
-        borderImage: "url('/images/imgs/2、农村运维/实景图片.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_buttom
-    }, "\u672C\u7EC8\u7AEF\u6C61\u6C34\u5904\u7406\u7CFB\u7EDF\u8BBE\u8BA1\u89C4\u6A2130\u5428/\u65E5\uFF0C\u5360\u5730\u9762\u79EF200\u5E73\u65B9\u7C73\uFF0C\u4E3B\u8981\u6536\u96C6\u3001\u5904\u7406\u77F3\u5BB6\u7247\u533A\u7684\u519C\u6751\u751F\u6D3B\u6C61\u6C34\uFF0C\u53D7\u76CA\u519C\u6237100\u6237\uFF0C\u5904\u7406\u5DE5\u827A\u91C7\u7528\u9AD8\u8D1F\u8377\u5730\u4E0B\u6E17\u6EE4\u6C61\u6C34\u5904\u7406\u590D\u5408\u6280\u672F\uFF0C\u6C34\u8FBE\u5230\u6D59\u6C5F\u7701\u300A\u519C\u6751\u751F\u6D3B\u6C61\u6C34\u5904\u7406\u8BBE\u65BD\u6C34\u6C61\u67D3\u7269\u6392\u653E\u6807\u51C6\u300BDB33/973-2015\u4E00\u7EA7\u6807\u51C6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.right,
-      style: {
-        borderImage: "url('/images/imgs/2、农村运维/工艺图/A2O+人工湿地.png') 0 0 0 0 fill round",
-        borderImageRepeat: 'stretch'
-      }
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "A20+\u4EBA\u5DE5\u6E7F\u5730")))));
+
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.introduce
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/标题框.png') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, "\u7EC8\u7AEF\u4ECB\u7ECD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.kuang
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.sbox
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.beijing
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_top,
+        style: {
+          borderImage: "url('http://192.168.30.212:8088/upload/柯东泵站.jpg') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left_buttom
+      }, " \u672C\u7EC8\u7AEF\u6C61\u6C34\u5904\u7406\u7CFB\u7EDF\u8BBE\u8BA1\u89C4\u6A2130\u5428/\u65E5\uFF0C\u5360\u5730\u9762\u79EF200\u5E73\u65B9\u7C73\uFF0C\u4E3B\u8981\u6536\u96C6\u3001\u5904\u7406\u77F3\u5BB6\u7247\u533A\u7684\u519C\u6751\u751F\u6D3B\u6C61\u6C34\uFF0C\u53D7\u76CA\u519C\u6237100\u6237\uFF0C\u5904\u7406\u5DE5\u827A\u91C7\u7528\u9AD8\u8D1F\u8377\u5730\u4E0B\u6E17\u6EE4\u6C61\u6C34\u5904\u7406\u590D\u5408\u6280\u672F\uFF0C\u6C34\u8FBE\u5230\u6D59\u6C5F\u7701\u300A\u519C\u6751\u751F\u6D3B\u6C61\u6C34\u5904\u7406\u8BBE\u65BD\u6C34\u6C61\u67D3\u7269\u6392\u653E\u6807\u51C6\u300BDB33/973-2015\u4E00\u7EA7\u6807\u51C6\u3002")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.right,
+        style: {
+          borderImage: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') 0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, clgy)))));
+    }
   }
 
 }, _temp)) || _class2);

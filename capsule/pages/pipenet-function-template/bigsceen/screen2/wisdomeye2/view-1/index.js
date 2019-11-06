@@ -3629,22 +3629,21 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       });
     };
 
-    this.zhihuiyan = () => {
-      this.props.dispatch({
-        type: "projectMap/QueryMapVideo",
-        layerId: 55,
-        payload: {
-          where: '1=1',
-          geometryType: 'esriGeometryPoint',
-          spatialRel: 'esriSpatialRelIntersects',
-          f: 'json'
-        }
-      });
-    };
-
     this.zhongduan = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端-点击.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round";
       this.props.dispatch({
-        type: "projectMap/QueryMapVideo",
+        type: "projectMap/QueryTerminal",
         layerId: 56,
         payload: {
           where: '1=1',
@@ -3656,9 +3655,121 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
     };
 
     this.bengzhan = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站-点击.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round";
       this.props.dispatch({
-        type: "projectMap/QueryMapVideo",
+        type: "projectMap/QueryMapGrap",
         layerId: 15,
+        payload: {
+          where: '1=1',
+          geometryType: 'esriGeometryPoint',
+          spatialRel: 'esriSpatialRelIntersects',
+          f: 'json'
+        }
+      });
+    };
+
+    this.zhihuiyan = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼-点击.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round";
+      this.props.dispatch({
+        type: "projectMap/QueryMapGrap",
+        layerId: 55,
+        payload: {
+          where: '1=1',
+          geometryType: 'esriGeometryPoint',
+          spatialRel: 'esriSpatialRelIntersects',
+          f: 'json'
+        }
+      });
+    };
+
+    this.cheliang = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆-点击.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round";
+      this.props.dispatch({
+        type: "projectMap/QueryMapVehicle",
+        layerId: 3,
+        payload: {
+          where: '1=1',
+          geometryType: 'esriGeometryPoint',
+          spatialRel: 'esriSpatialRelIntersects',
+          f: 'json'
+        }
+      });
+    };
+
+    this.renyuan = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员-点击.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round";
+      this.props.dispatch({
+        type: "projectMap/QueryMapRenyuan",
+        layerId: 4,
+        payload: {
+          where: '1=1',
+          geometryType: 'esriGeometryPoint',
+          spatialRel: 'esriSpatialRelIntersects',
+          f: 'json'
+        }
+      });
+    };
+
+    this.liuliang = () => {
+      var zhihuiyan = document.getElementById("zhihuiyan");
+      var bengzhan = document.getElementById("bengzhan");
+      var zhongduan = document.getElementById("zhongduan");
+      var cheliang = document.getElementById("cheliang");
+      var renyuan = document.getElementById("renyuan");
+      var liuliang = document.getElementById("liuliang");
+      zhihuiyan.style.borderImage = "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round";
+      bengzhan.style.borderImage = "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round";
+      zhongduan.style.borderImage = "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round";
+      cheliang.style.borderImage = "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round";
+      renyuan.style.borderImage = "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round";
+      liuliang.style.borderImage = "url('/images/imgs/03图层管理/流量-点击.png') 0 0 0 0 fill round";
+      this.props.dispatch({
+        type: "projectMap/QueryHeat",
+        layerId: 31,
         payload: {
           where: '1=1',
           geometryType: 'esriGeometryPoint',
@@ -3696,36 +3807,48 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         style: {
           borderImage: "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
+        },
+        id: "zhihuiyan"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u667A\u6167\u773C")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         onClick: () => this.bengzhan()
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/03图层管理/泵站.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
+        },
+        id: "bengzhan"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6CF5\u7AD9")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         onClick: () => this.zhongduan()
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
-          borderImage: "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round",
+          borderImage: "url('/images/imgs/03图层管理/终端-点击.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u7EC8\u7AEF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        },
+        id: "zhongduan"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u7EC8\u7AEF")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.cheliang()
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/03图层管理/车辆.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u8F66\u8F86")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        },
+        id: "cheliang"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u8F66\u8F86")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.renyuan()
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/03图层管理/人员.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4EBA\u5458")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        },
+        id: "renyuan"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u4EBA\u5458")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.liuliang()
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           borderImage: "url('/images/imgs/03图层管理/流量.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
-        }
+        },
+        id: "liuliang"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u6D41\u91CF"))));
     }
   }

@@ -14,7 +14,7 @@
     <tool key="HOTLINE" id="3003004" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/hotline/view-1" module="react" view="overlay"/>
     <tool key="PUMP" id="3003005" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/pump/view-1" module="react" view="overlay"/>
     <tool key="COD" id="3003006" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/cod/view-1" module="react" view="overlay"/>
-    <tool key="OneMap" id="3003007" showZD="15" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+    <tool key="OneMap" id="3003007" showZD="56" path="/sbv" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
 	<tool key="WISDOMEYE1" id="30030010" path="/sbv" url="capsule/pages/pipenet-function-template/bigsceen/screen1/wisdomeye1/view-1" module="react" view="overlay"/>
   </group>
 
@@ -35,7 +35,7 @@
     <tool key="WORKODER" id="5003007" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/workoder/view-1" module="react" view="overlay"/>
     <tool key="SHUIZHI" id="5003008" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/shuizhi/view-1" module="react" view="overlay"/>
     <tool key="TECHNOLOGY" id="5003009" path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/technology/view-1" module="react" view="overlay"/>
-    <tool key="TwoMap" id="5003010" showZD="15" path="/nongye" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
+    <tool key="TwoMap" id="5003010" showZD="56" path="/nongye" url="capsule/pages/pipenet-function-template/pcMap/view-1" module="react" view="overlay"/>
 	<tool key="WISDOMEYE2" id="5003011"  path="/nongye" url="capsule/pages/pipenet-function-template/bigsceen/screen2/wisdomeye2/view-1" module="react" view="overlay"/>
   </group>
 </tooldefs>
