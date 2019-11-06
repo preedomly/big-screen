@@ -408,6 +408,19 @@
   width: 100%;
   height: 100%;
 }
+.index__btnSwitch___3CBWe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.index__btnSwitch___3CBWe.index__btnSwitch_active___3ylxy {
+  background: #1898FF;
+  color: white;
+}
 /******************************第一屏弹出窗口*********************************************/
 .index__po___3jMj0 {
   width: 115%;
@@ -547,7 +560,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 115%;
 }
 .index__po_plan_realTime_data_xs_keys___3azcL {
   -webkit-box-flex: 0.3;
@@ -556,7 +569,7 @@
           flex: 0.3;
 }
 .index__po_plan_realTime_data_xs_vals___1-Vo9 {
-  width: 235px;
+  width: 230px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
