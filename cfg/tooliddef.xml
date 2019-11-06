@@ -41,5 +41,6 @@
 
   <group name="realscene" from="6003000" to="6003100">
     <tool key="SHEADER" id="6003001" path="/realscene" url="capsule/pages/pipenet-function-template/sheader/view-1" module="react" view="overlay"/>
+    <tool key="CENSUM" id="6003002" path="/realscene" url="capsule/pages/pipenet-function-template/bigsceen/screen4/cenSum/view-1" module="react" view="overlay"/>
   </group>
 </tooldefs>

@@ -232,6 +232,15 @@
       "width": 1920,
       "height": 139,
       "module": "react"
+    },
+    {
+      "toolKey": "CENSUM",
+      "title": "实景展示",
+      "top": 200,
+      "left": 0,
+      "width": 1920,
+      "height": 880,
+      "module": "react"
     }
   ]
 }
