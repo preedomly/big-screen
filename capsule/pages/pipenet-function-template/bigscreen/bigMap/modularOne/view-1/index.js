@@ -71527,6 +71527,15 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       });
     };
 
+    this.switchMap = () => {
+      const {
+        showMap
+      } = this.state;
+      this.setState({
+        showMap: !showMap
+      });
+    };
+
     this.projectMapConfig = yc__WEBPACK_IMPORTED_MODULE_12__["sysConfig"].getCfgByKey('projectMapConfig');
     this.onMapLoadHandler = this.onMapLoadHandler.bind(this);
     this.state = {
@@ -71535,7 +71544,8 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       tipGrop: {},
       loading: false,
       center: {},
-      switchVideo: false
+      switchVideo: false,
+      showMap: false
     };
   }
 
@@ -71606,7 +71616,8 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       tipGrop,
       loading,
       center,
-      switchVideo
+      switchVideo,
+      showMap
     } = this.state;
     const mapcfg = this.projectMapConfig;
     return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -71648,7 +71659,7 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
           instance.zoom = 5;
         }, 10000);
       }
-    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_map__WEBPACK_IMPORTED_MODULE_1__["default"], null, mapcfg[key].vectorLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(VectorLayer, {
+    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_map__WEBPACK_IMPORTED_MODULE_1__["default"], null, showMap && mapcfg[key].vectorLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(VectorLayer, {
       url: item.url,
       key: `vector_${item.id}`
     })), mapcfg[key].tileLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(TileLayer, {
@@ -71697,7 +71708,10 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       })
     })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(HeatmapLayer, {
       data: HeatMapGrap
-    }))))));
+    }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: [`${_style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch}`, `${showMap ? _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch_active : ''}`].join(' '),
+      onClick: this.switchMap
+    }, showMap ? '关闭管线' : '显示管线'))));
   }
 
 }, _temp)) || _class);
@@ -72157,7 +72171,7 @@ class Popule extends react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent 
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"mapSpin":"index__mapSpin___1HnFr","header":"index__header___ZLGde","statusRadio":"index__statusRadio___2Ob1o","mapWrapper":"index__mapWrapper___2D6rj","po":"index__po___3jMj0","po_name":"index__po_name___2d6g8","po_plan":"index__po_plan___1emFq","po_plan_basic":"index__po_plan_basic___1wmqS","po_plan_basic_keys":"index__po_plan_basic_keys___2IWC5","po_plan_basic_vals":"index__po_plan_basic_vals___23ssE","po_plan_stat":"index__po_plan_stat___1vGR9","po_plan_stat_keys":"index__po_plan_stat_keys___3-2Ln","po_plan_stat_vals":"index__po_plan_stat_vals___Bbvt5","po_plan_stat_vals_zt":"index__po_plan_stat_vals_zt___3BfZF","po_plan_realTime":"index__po_plan_realTime___1Tj3_","po_plan_realTime_data":"index__po_plan_realTime_data___2LWbI","po_plan_realTime_data_xs":"index__po_plan_realTime_data_xs___xpVNl","po_plan_realTime_data_xs_keys":"index__po_plan_realTime_data_xs_keys___3azcL","po_plan_realTime_data_xs_vals":"index__po_plan_realTime_data_xs_vals___1-Vo9","po_plan_realTime_imgs":"index__po_plan_realTime_imgs___4YSDv","cal":"index__cal___1V3jC","bjzt":"index__bjzt___osDpD","vi":"index__vi___199sG","vi_gb":"index__vi_gb___303J7","vi_plan":"index__vi_plan___1pFmz","vi_plan_x":"index__vi_plan_x___2uwsw"};
+module.exports = {"mapSpin":"index__mapSpin___1HnFr","header":"index__header___ZLGde","statusRadio":"index__statusRadio___2Ob1o","mapWrapper":"index__mapWrapper___2D6rj","btnSwitch":"index__btnSwitch___3CBWe","btnSwitch_active":"index__btnSwitch_active___3ylxy","po":"index__po___3jMj0","po_name":"index__po_name___2d6g8","po_plan":"index__po_plan___1emFq","po_plan_basic":"index__po_plan_basic___1wmqS","po_plan_basic_keys":"index__po_plan_basic_keys___2IWC5","po_plan_basic_vals":"index__po_plan_basic_vals___23ssE","po_plan_stat":"index__po_plan_stat___1vGR9","po_plan_stat_keys":"index__po_plan_stat_keys___3-2Ln","po_plan_stat_vals":"index__po_plan_stat_vals___Bbvt5","po_plan_stat_vals_zt":"index__po_plan_stat_vals_zt___3BfZF","po_plan_realTime":"index__po_plan_realTime___1Tj3_","po_plan_realTime_data":"index__po_plan_realTime_data___2LWbI","po_plan_realTime_data_xs":"index__po_plan_realTime_data_xs___xpVNl","po_plan_realTime_data_xs_keys":"index__po_plan_realTime_data_xs_keys___3azcL","po_plan_realTime_data_xs_vals":"index__po_plan_realTime_data_xs_vals___1-Vo9","po_plan_realTime_imgs":"index__po_plan_realTime_imgs___4YSDv","cal":"index__cal___1V3jC","bjzt":"index__bjzt___osDpD","vi":"index__vi___199sG","vi_gb":"index__vi_gb___303J7","vi_plan":"index__vi_plan___1pFmz","vi_plan_x":"index__vi_plan_x___2uwsw"};
 
 /***/ }),
 
