@@ -71350,6 +71350,7 @@ const newData = (arr, name) => {
       break;
 
     case 'wisdomEye':
+      item.zhy = true;
       item.wit = '120';
       item.name = arr.站点名称;
       item.sj = {};
@@ -71361,6 +71362,7 @@ const newData = (arr, name) => {
       break;
 
     case 'terminal':
+      item.zd = true;
       item.wit = '110';
       item.borderwidth = '200px 240px 50px 120px';
       item.borderImageSlice = '200 140 0 108 fill';
@@ -71377,6 +71379,7 @@ const newData = (arr, name) => {
       break;
 
     case 'vehicle':
+      item.cl = true;
       item.wit = '100';
       item.name = arr.value.tid;
       item.sj = {};
@@ -71394,6 +71397,7 @@ const newData = (arr, name) => {
       break;
 
     case 'personnel':
+      item.ry = true;
       item.wit = '110';
       item.name = arr.value.姓名;
       item.sj = {};
@@ -71530,6 +71534,15 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       });
     };
 
+    this.switchMap = () => {
+      const {
+        showMap
+      } = this.state;
+      this.setState({
+        showMap: !showMap
+      });
+    };
+
     this.projectMapConfig = yc__WEBPACK_IMPORTED_MODULE_12__["sysConfig"].getCfgByKey('projectMapConfig');
     this.onMapLoadHandler = this.onMapLoadHandler.bind(this);
     this.state = {
@@ -71538,7 +71551,8 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       tipGrop: {},
       loading: false,
       center: {},
-      switchVideo: false
+      switchVideo: false,
+      showMap: false
     };
   }
 
@@ -71588,6 +71602,9 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
 
 
   render() {
+    var url = window.location.href; // 取得整个地址栏
+
+    var str = url.split("/")[3];
     const {
       projectMap: {
         MapGrap,
@@ -71609,7 +71626,8 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       tipGrop,
       loading,
       center,
-      switchVideo
+      switchVideo,
+      showMap
     } = this.state;
     const mapcfg = this.projectMapConfig;
     return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -71638,19 +71656,18 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       },
       center: center,
       defaultUI: false,
-      zoom: mapcfg[key].initlevel,
-      extent: mapcfg[key].extent,
+      zoom: mapcfg[key].initlevel //  extent={mapcfg[key].extent}
+      ,
       constraints: {
         minScale: mapcfg[key].minscale,
         maxScale: mapcfg[key].maxscale
       }
-    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_map__WEBPACK_IMPORTED_MODULE_1__["default"], null, mapcfg[key].tileLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(TileLayer, {
+    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_map_esri_es_map__WEBPACK_IMPORTED_MODULE_1__["default"], null, showMap && mapcfg[key].vectorLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(VectorLayer, {
+      url: item.url,
+      key: `vector_${item.id}`
+    })), mapcfg[key].tileLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(TileLayer, {
       url: item.url,
       key: `tile_${item.id}`
-    })), mapcfg[key].vectorLayers.map(item => react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(VectorLayer, {
-      url: item.url,
-      key: `vector_${item.id}`,
-      defaultZoom: mapcfg[key].initlevel
     })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(GraphicsLayer, {
       id: "graphic-pumping",
       onClick: this.OnclickMapGrap.bind(this)
@@ -71694,7 +71711,22 @@ let ProjectMap = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_
       })
     })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(HeatmapLayer, {
       data: HeatMapGrap
-    }))))));
+    }))), str === 'sbv' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: [`${_style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch}`, `${showMap ? _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch_active : ''}`].join(' '),
+      onClick: this.switchMap
+    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.kai
+    }), showMap ? '关闭管线' : '显示管线'), str === 'nongye' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: [`${_style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch}`, `${showMap ? _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitch_active : ''}`].join(' '),
+      onClick: this.switchMap
+    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.kai
+    }), showMap ? '关闭管线' : '显示管线'), str === 'countryside' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: [`${_style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitchVideo}`, `${showMap ? _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.btnSwitchVideo_active : ''}`].join(' '),
+      onClick: this.switchMap
+    }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_15___default.a.kai
+    }), showMap ? '关闭管线' : '显示管线'))));
   }
 
 }, _temp)) || _class);
@@ -71828,50 +71860,234 @@ class Popule extends react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent 
       switchData,
       onCalick
     } = this.props;
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po,
-      style: {
-        width: `${switchData.wit || 100}%`,
-        borderWidth: `${switchData.borderwidth || "290px 240px 50px 120px"}`,
-        borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.cal,
-      onClick: () => onCalick()
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
-    }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+    debugger;
+
+    if (switchData.zhy) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: `${item}${index}`,
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.pozhy,
+        style: {
+          width: `${switchData.wit || 100}%`,
+          borderWidth: `${switchData.borderwidth || "230px 240px 50px 120px"}`,
+          borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.cal,
+        onClick: () => onCalick()
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
+      }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
+        }, item, "\uFF1A"), items(item, switchData.bzimgs));
+      }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
+        }, item, "\uFF1A"), items(item, switchData.bzbjzt));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
-      }, item, "\uFF1A"), items(item, switchData.bzimgs));
-    }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
+      }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
+        }, item, "\uFF1A"), items(item, switchData.sj));
+      })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
+      }))))));
+    } else if (switchData.zd) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: `${item}${index}`,
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.pozd,
+        style: {
+          width: `${switchData.wit || 100}%`,
+          borderWidth: `${switchData.borderwidth || "290px 240px 50px 120px"}`,
+          borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.calzd,
+        onClick: () => onCalick()
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
+      }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
+        }, item, "\uFF1A"), items(item, switchData.bzimgs));
+      }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
+        }, item, "\uFF1A"), items(item, switchData.bzbjzt));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
-      }, item, "\uFF1A"), items(item, switchData.bzbjzt));
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
-    }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
+      }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
+        }, item, "\uFF1A"), items(item, switchData.sj));
+      })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
+      }))))));
+    } else if (switchData.cl) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        key: `${item}${index}`,
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.pocl,
+        style: {
+          width: `${switchData.wit || 100}%`,
+          borderWidth: `${switchData.borderwidth || "250px 240px 50px 120px"}`,
+          borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.calzd,
+        onClick: () => onCalick()
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
+      }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
+        }, item, "\uFF1A"), items(item, switchData.bzimgs));
+      }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
+        }, item, "\uFF1A"), items(item, switchData.bzbjzt));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
-      }, item, "\uFF1A"), items(item, switchData.sj));
-    })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
-    }))))));
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
+      }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
+        }, item, "\uFF1A"), items(item, switchData.sj));
+      })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
+      }))))));
+    } else if (switchData.ry) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.pory,
+        style: {
+          width: `${switchData.wit || 100}%`,
+          borderWidth: `${switchData.borderwidth || "200px 90px 50px 120px"}`,
+          borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.calry,
+        onClick: () => onCalick()
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
+      }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
+        }, item, "\uFF1A"), items(item, switchData.bzimgs));
+      }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
+        }, item, "\uFF1A"), items(item, switchData.bzbjzt));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
+      }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
+        }, item, "\uFF1A"), items(item, switchData.sj));
+      })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
+      }))))));
+    } else {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po,
+        style: {
+          width: `${switchData.wit || 100}%`,
+          borderWidth: `${switchData.borderwidth || "290px 240px 50px 120px"}`,
+          borderImageSlice: `${switchData.borderImageSlice || "300 140 0 108 fill"}`
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.cal,
+        onClick: () => onCalick()
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_name
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, switchData.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan
+      }, switchData.bzimgs && Object.keys(switchData.bzimgs).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_basic_keys
+        }, item, "\uFF1A"), items(item, switchData.bzimgs));
+      }), switchData.bzbjzt && Object.keys(switchData.bzbjzt).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_stat_keys
+        }, item, "\uFF1A"), items(item, switchData.bzbjzt));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data
+      }, switchData.sj && Object.keys(switchData.sj).map((item, index) => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: `${item}${index}`,
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_data_xs_keys
+        }, item, "\uFF1A"), items(item, switchData.sj));
+      })), switchData.img && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_4___default.a.po_plan_realTime_imgs
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: `http://192.168.30.212:8088/upload/${switchData.img}.jpg`
+      }))))));
+    }
   }
 
 }
@@ -72155,7 +72371,7 @@ class Popule extends react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent 
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"mapSpin":"index__mapSpin___1ey2q","header":"index__header___125i1","statusRadio":"index__statusRadio___3XKQo","mapWrapper":"index__mapWrapper___yYN3T","po":"index__po___32kOz","po_name":"index__po_name___2l4fz","po_plan":"index__po_plan___1Lqe9","po_plan_basic":"index__po_plan_basic___38zbC","po_plan_basic_keys":"index__po_plan_basic_keys___1w9dA","po_plan_basic_vals":"index__po_plan_basic_vals___2fbGR","po_plan_stat":"index__po_plan_stat___3EZ0y","po_plan_stat_keys":"index__po_plan_stat_keys___3cRLV","po_plan_stat_vals":"index__po_plan_stat_vals___3nO5e","po_plan_stat_vals_zt":"index__po_plan_stat_vals_zt___201ei","po_plan_realTime":"index__po_plan_realTime___PnGVQ","po_plan_realTime_data":"index__po_plan_realTime_data___Y8iXp","po_plan_realTime_data_xs":"index__po_plan_realTime_data_xs___STmWc","po_plan_realTime_data_xs_keys":"index__po_plan_realTime_data_xs_keys___NKhlX","po_plan_realTime_data_xs_vals":"index__po_plan_realTime_data_xs_vals___17bpy","po_plan_realTime_imgs":"index__po_plan_realTime_imgs___31506","cal":"index__cal___1CWHe","bjzt":"index__bjzt___2-8mn","vi":"index__vi___2k1fz","vi_gb":"index__vi_gb___2B2qh","vi_plan":"index__vi_plan___UOU59","vi_plan_x":"index__vi_plan_x___2fkX4"};
+module.exports = {"mapSpin":"index__mapSpin___1ey2q","header":"index__header___125i1","statusRadio":"index__statusRadio___3XKQo","mapWrapper":"index__mapWrapper___yYN3T","btnSwitch":"index__btnSwitch___15ReO","kai":"index__kai___1JH7-","btnSwitch_active":"index__btnSwitch_active___EHQGj","btnSwitchVideo":"index__btnSwitchVideo___3pCYX","btnSwitchVideo_active":"index__btnSwitchVideo_active___3fGq6","po":"index__po___32kOz","po_name":"index__po_name___2l4fz","po_plan":"index__po_plan___1Lqe9","po_plan_basic":"index__po_plan_basic___38zbC","po_plan_basic_keys":"index__po_plan_basic_keys___1w9dA","po_plan_basic_vals":"index__po_plan_basic_vals___2fbGR","po_plan_stat":"index__po_plan_stat___3EZ0y","po_plan_stat_keys":"index__po_plan_stat_keys___3cRLV","po_plan_stat_vals":"index__po_plan_stat_vals___3nO5e","po_plan_stat_vals_zt":"index__po_plan_stat_vals_zt___201ei","po_plan_realTime":"index__po_plan_realTime___PnGVQ","po_plan_realTime_data":"index__po_plan_realTime_data___Y8iXp","po_plan_realTime_data_xs":"index__po_plan_realTime_data_xs___STmWc","po_plan_realTime_data_xs_keys":"index__po_plan_realTime_data_xs_keys___NKhlX","po_plan_realTime_data_xs_vals":"index__po_plan_realTime_data_xs_vals___17bpy","po_plan_realTime_imgs":"index__po_plan_realTime_imgs___31506","pozhy":"index__pozhy___M74uW","pozhy_name":"index__pozhy_name___1PuCU","pozhy_plan":"index__pozhy_plan___225LO","pozhy_plan_basic":"index__pozhy_plan_basic___1VxRH","pozhy_plan_basic_keys":"index__pozhy_plan_basic_keys___2u4Qn","pozhy_plan_basic_vals":"index__pozhy_plan_basic_vals___7lL7Q","pozhy_plan_stat":"index__pozhy_plan_stat___IVUQD","pozhy_plan_stat_keys":"index__pozhy_plan_stat_keys___1v-ht","pozhy_plan_stat_vals":"index__pozhy_plan_stat_vals___1lXNH","pozhy_plan_stat_vals_zt":"index__pozhy_plan_stat_vals_zt___11wkI","pozhy_plan_realTime":"index__pozhy_plan_realTime___21ATK","pozhy_plan_realTime_data":"index__pozhy_plan_realTime_data___-oowI","pozhy_plan_realTime_data_xs":"index__pozhy_plan_realTime_data_xs___2p2Zb","pozhy_plan_realTime_data_xs_keys":"index__pozhy_plan_realTime_data_xs_keys___2pfDc","pozhy_plan_realTime_data_xs_vals":"index__pozhy_plan_realTime_data_xs_vals___2eDkW","pozhy_plan_realTime_imgs":"index__pozhy_plan_realTime_imgs___3jd2l","pozd":"index__pozd___2Yh4K","pozd_name":"index__pozd_name___1wMAs","pozd_plan":"index__pozd_plan___Ke_im","pozd_plan_basic":"index__pozd_plan_basic___mJJ7u","pozd_plan_basic_keys":"index__pozd_plan_basic_keys___1ynti","pozd_plan_basic_vals":"index__pozd_plan_basic_vals___2PS9y","pozd_plan_stat":"index__pozd_plan_stat___11MsO","pozd_plan_stat_keys":"index__pozd_plan_stat_keys___LiX1y","pozd_plan_stat_vals":"index__pozd_plan_stat_vals___15W5d","pozd_plan_stat_vals_zt":"index__pozd_plan_stat_vals_zt___19zE9","pozd_plan_realTime":"index__pozd_plan_realTime___3lfOh","pozd_plan_realTime_data":"index__pozd_plan_realTime_data___Hfdll","pozd_plan_realTime_data_xs":"index__pozd_plan_realTime_data_xs___1F_dv","pozd_plan_realTime_data_xs_keys":"index__pozd_plan_realTime_data_xs_keys___NGiou","pozd_plan_realTime_data_xs_vals":"index__pozd_plan_realTime_data_xs_vals___1KsTU","pozd_plan_realTime_imgs":"index__pozd_plan_realTime_imgs___2Y_ra","pocl":"index__pocl___1GEf8","pocl_name":"index__pocl_name___23iMn","pocl_plan":"index__pocl_plan___2R-KO","pocl_plan_basic":"index__pocl_plan_basic___3AyVr","pocl_plan_basic_keys":"index__pocl_plan_basic_keys___3iDq4","pocl_plan_basic_vals":"index__pocl_plan_basic_vals___l6ad3","pocl_plan_stat":"index__pocl_plan_stat___2jYfL","pocl_plan_stat_keys":"index__pocl_plan_stat_keys___1TpaN","pocl_plan_stat_vals":"index__pocl_plan_stat_vals___30snL","pocl_plan_stat_vals_zt":"index__pocl_plan_stat_vals_zt___2EZ4_","pocl_plan_realTime":"index__pocl_plan_realTime___3MSJb","pocl_plan_realTime_data":"index__pocl_plan_realTime_data___3n6wn","pocl_plan_realTime_data_xs":"index__pocl_plan_realTime_data_xs___3ht2x","pocl_plan_realTime_data_xs_keys":"index__pocl_plan_realTime_data_xs_keys___hRVRK","pocl_plan_realTime_data_xs_vals":"index__pocl_plan_realTime_data_xs_vals___1w9N4","pocl_plan_realTime_imgs":"index__pocl_plan_realTime_imgs___Kmf14","pory":"index__pory___1vCky","pory_name":"index__pory_name___3EJh4","pory_plan":"index__pory_plan___13-wS","pory_plan_basic":"index__pory_plan_basic___14Sl5","pory_plan_basic_keys":"index__pory_plan_basic_keys___1Y8uh","pory_plan_basic_vals":"index__pory_plan_basic_vals___2tgrB","pory_plan_stat":"index__pory_plan_stat___caI5a","pory_plan_stat_keys":"index__pory_plan_stat_keys___3ARXc","pory_plan_stat_vals":"index__pory_plan_stat_vals___3zrN3","pory_plan_stat_vals_zt":"index__pory_plan_stat_vals_zt___2criQ","pory_plan_realTime":"index__pory_plan_realTime___1d92z","pory_plan_realTime_data":"index__pory_plan_realTime_data___YTe2P","pory_plan_realTime_data_xs":"index__pory_plan_realTime_data_xs___1jlJY","pory_plan_realTime_data_xs_keys":"index__pory_plan_realTime_data_xs_keys___j5qaM","pory_plan_realTime_data_xs_vals":"index__pory_plan_realTime_data_xs_vals___18H20","pory_plan_realTime_imgs":"index__pory_plan_realTime_imgs___2D8RF","cal":"index__cal___1CWHe","calzd":"index__calzd___3XNJY","calry":"index__calry___1ks_p","bjzt":"index__bjzt___2-8mn","vi":"index__vi___2k1fz","vi_gb":"index__vi_gb___2B2qh","vi_plan":"index__vi_plan___UOU59","vi_plan_x":"index__vi_plan_x___2fkX4"};
 
 /***/ }),
 

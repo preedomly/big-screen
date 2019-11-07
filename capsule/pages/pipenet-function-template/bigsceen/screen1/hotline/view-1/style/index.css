@@ -59,17 +59,23 @@
   height: 52px;
   overflow: hidden;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li span {
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li .index__call1___10ybl {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 1px;
   color: #ffffff;
 }
-.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li span i {
-  font-size: 26px;
-  font-family: 'webfont';
-  font-style: normal;
-  color: #00ffff;
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li .index__call2___2hk5b {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__left___2UCyp ul li .index__call3___1af-k {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #ffffff;
 }
 .index__hotline___ZU8mS .index__kuang___3jOnY .index__sbox___vr_iT .index__bj___3BVCl .index__month___1mbR2 {
   float: left;
@@ -134,11 +140,29 @@
 .index__call1___10ybl {
   margin-left: 65px;
 }
+.index__call1___10ybl span {
+  font-size: 26px;
+  font-family: 'webfont';
+  font-style: normal;
+  color: #00ffff;
+}
 .index__call2___2hk5b {
   margin-left: 51px;
 }
+.index__call2___2hk5b span {
+  font-size: 26px;
+  font-family: 'webfont';
+  font-style: normal;
+  color: #00ffff;
+}
 .index__call3___1af-k {
   margin-left: 28px;
+}
+.index__call3___1af-k span {
+  font-size: 26px;
+  font-family: 'webfont';
+  font-style: normal;
+  color: #00ffff;
 }
 
 /*# sourceMappingURL=index.css.map*/

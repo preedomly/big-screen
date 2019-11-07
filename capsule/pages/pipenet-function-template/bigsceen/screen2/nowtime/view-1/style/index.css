@@ -31,7 +31,7 @@
   width: 50%;
   height: 50%;
 }
-.index__nowtime___3CMuq .index__kuang___21qBA ul li span {
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__num___15TwS {
   float: left;
   display: inline-block;
   width: 27px;
@@ -51,7 +51,7 @@
   color: #ffffff;
   margin: 0;
 }
-.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd p i {
+.index__nowtime___3CMuq .index__kuang___21qBA ul li .index__number___3zzMd p span {
   font-style: normal;
   font-family: 'webfont';
   font-size: 28px;

@@ -154,6 +154,616 @@ module.exports = _objectSpread;
 
 /***/ }),
 
+/***/ "./node_modules/_countup.js@2.0.4@countup.js/dist/countUp.min.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/_countup.js@2.0.4@countup.js/dist/countUp.min.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(a,n){ true?!(__WEBPACK_AMD_DEFINE_FACTORY__ = (n),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined}(this,function(a,n,t){var e=function(a,n,t,e,i,r){function o(a){var n,t,e,i,r,o,s=a<0;if(a=Math.abs(a).toFixed(l.decimals),a+="",n=a.split("."),t=n[0],e=n.length>1?l.options.decimal+n[1]:"",l.options.useGrouping){for(i="",r=0,o=t.length;r<o;++r)0!==r&&r%3===0&&(i=l.options.separator+i),i=t[o-r-1]+i;t=i}return l.options.numerals.length&&(t=t.replace(/[0-9]/g,function(a){return l.options.numerals[+a]}),e=e.replace(/[0-9]/g,function(a){return l.options.numerals[+a]})),(s?"-":"")+l.options.prefix+t+e+l.options.suffix}function s(a,n,t,e){return t*(-Math.pow(2,-10*a/e)+1)*1024/1023+n}function u(a){return"number"==typeof a&&!isNaN(a)}var l=this;if(l.version=function(){return"1.9.3"},l.options={useEasing:!0,useGrouping:!0,separator:",",decimal:".",easingFn:s,formattingFn:o,prefix:"",suffix:"",numerals:[]},r&&"object"==typeof r)for(var m in l.options)r.hasOwnProperty(m)&&null!==r[m]&&(l.options[m]=r[m]);""===l.options.separator?l.options.useGrouping=!1:l.options.separator=""+l.options.separator;for(var d=0,c=["webkit","moz","ms","o"],f=0;f<c.length&&!window.requestAnimationFrame;++f)window.requestAnimationFrame=window[c[f]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[c[f]+"CancelAnimationFrame"]||window[c[f]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(a,n){var t=(new Date).getTime(),e=Math.max(0,16-(t-d)),i=window.setTimeout(function(){a(t+e)},e);return d=t+e,i}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)}),l.initialize=function(){return!!l.initialized||(l.error="",l.d="string"==typeof a?document.getElementById(a):a,l.d?(l.startVal=Number(n),l.endVal=Number(t),u(l.startVal)&&u(l.endVal)?(l.decimals=Math.max(0,e||0),l.dec=Math.pow(10,l.decimals),l.duration=1e3*Number(i)||2e3,l.countDown=l.startVal>l.endVal,l.frameVal=l.startVal,l.initialized=!0,!0):(l.error="[CountUp] startVal ("+n+") or endVal ("+t+") is not a number",!1)):(l.error="[CountUp] target is null or undefined",!1))},l.printValue=function(a){var n=l.options.formattingFn(a);"INPUT"===l.d.tagName?this.d.value=n:"text"===l.d.tagName||"tspan"===l.d.tagName?this.d.textContent=n:this.d.innerHTML=n},l.count=function(a){l.startTime||(l.startTime=a),l.timestamp=a;var n=a-l.startTime;l.remaining=l.duration-n,l.options.useEasing?l.countDown?l.frameVal=l.startVal-l.options.easingFn(n,0,l.startVal-l.endVal,l.duration):l.frameVal=l.options.easingFn(n,l.startVal,l.endVal-l.startVal,l.duration):l.countDown?l.frameVal=l.startVal-(l.startVal-l.endVal)*(n/l.duration):l.frameVal=l.startVal+(l.endVal-l.startVal)*(n/l.duration),l.countDown?l.frameVal=l.frameVal<l.endVal?l.endVal:l.frameVal:l.frameVal=l.frameVal>l.endVal?l.endVal:l.frameVal,l.frameVal=Math.round(l.frameVal*l.dec)/l.dec,l.printValue(l.frameVal),n<l.duration?l.rAF=requestAnimationFrame(l.count):l.callback&&l.callback()},l.start=function(a){l.initialize()&&(l.callback=a,l.rAF=requestAnimationFrame(l.count))},l.pauseResume=function(){l.paused?(l.paused=!1,delete l.startTime,l.duration=l.remaining,l.startVal=l.frameVal,requestAnimationFrame(l.count)):(l.paused=!0,cancelAnimationFrame(l.rAF))},l.reset=function(){l.paused=!1,delete l.startTime,l.initialized=!1,l.initialize()&&(cancelAnimationFrame(l.rAF),l.printValue(l.startVal))},l.update=function(a){if(l.initialize()){if(a=Number(a),!u(a))return void(l.error="[CountUp] update() - new endVal is not a number: "+a);l.error="",a!==l.frameVal&&(cancelAnimationFrame(l.rAF),l.paused=!1,delete l.startTime,l.startVal=l.frameVal,l.endVal=a,l.countDown=l.startVal>l.endVal,l.rAF=requestAnimationFrame(l.count))}},l.initialize()&&l.printValue(l.startVal)};return e});
+
+/***/ }),
+
+/***/ "./node_modules/_react-countup@4.2.2@react-countup/build/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/_react-countup@4.2.2@react-countup/build/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var PropTypes = _interopDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var React = __webpack_require__(/*! react */ "react");
+var React__default = _interopDefault(React);
+var warning = _interopDefault(__webpack_require__(/*! warning */ "./node_modules/warning/warning.js"));
+var CountUp = _interopDefault(__webpack_require__(/*! countup.js */ "./node_modules/_countup.js@2.0.4@countup.js/dist/countUp.min.js"));
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread2(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(source, true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(source).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (typeof call === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+
+function _slicedToArray(arr, i) {
+  return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest();
+}
+
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+function _iterableToArrayLimit(arr, i) {
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+var createCountUpInstance = function createCountUpInstance(el, props) {
+  var decimal = props.decimal,
+      decimals = props.decimals,
+      duration = props.duration,
+      easingFn = props.easingFn,
+      end = props.end,
+      formattingFn = props.formattingFn,
+      prefix = props.prefix,
+      separator = props.separator,
+      start = props.start,
+      suffix = props.suffix,
+      useEasing = props.useEasing;
+  return new CountUp(el, start, end, decimals, duration, {
+    decimal: decimal,
+    easingFn: easingFn,
+    formattingFn: formattingFn,
+    separator: separator,
+    prefix: prefix,
+    suffix: suffix,
+    useEasing: useEasing,
+    useGrouping: !!separator
+  });
+};
+
+var CountUp$1 =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(CountUp$$1, _Component);
+
+  function CountUp$$1() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, CountUp$$1);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(CountUp$$1)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "createInstance", function () {
+      if (typeof _this.props.children === 'function') {
+        // Warn when user didn't use containerRef at all
+        warning(_this.containerRef.current && (_this.containerRef.current instanceof HTMLElement || _this.containerRef.current instanceof SVGTextElement), "Couldn't find attached element to hook the CountUp instance into! Try to attach \"containerRef\" from the render prop to a an HTMLElement, eg. <span ref={containerRef} />.");
+      }
+
+      return createCountUpInstance(_this.containerRef.current, _this.props);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "pauseResume", function () {
+      var _assertThisInitialize = _assertThisInitialized(_this),
+          reset = _assertThisInitialize.reset,
+          start = _assertThisInitialize.restart,
+          update = _assertThisInitialize.update;
+
+      var onPauseResume = _this.props.onPauseResume;
+
+      _this.instance.pauseResume();
+
+      onPauseResume({
+        reset: reset,
+        start: start,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "reset", function () {
+      var _assertThisInitialize2 = _assertThisInitialized(_this),
+          pauseResume = _assertThisInitialize2.pauseResume,
+          start = _assertThisInitialize2.restart,
+          update = _assertThisInitialize2.update;
+
+      var onReset = _this.props.onReset;
+
+      _this.instance.reset();
+
+      onReset({
+        pauseResume: pauseResume,
+        start: start,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "restart", function () {
+      _this.reset();
+
+      _this.start();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "start", function () {
+      var _assertThisInitialize3 = _assertThisInitialized(_this),
+          pauseResume = _assertThisInitialize3.pauseResume,
+          reset = _assertThisInitialize3.reset,
+          start = _assertThisInitialize3.restart,
+          update = _assertThisInitialize3.update;
+
+      var _this$props = _this.props,
+          delay = _this$props.delay,
+          onEnd = _this$props.onEnd,
+          onStart = _this$props.onStart;
+
+      var run = function run() {
+        return _this.instance.start(function () {
+          return onEnd({
+            pauseResume: pauseResume,
+            reset: reset,
+            start: start,
+            update: update
+          });
+        });
+      }; // Delay start if delay prop is properly set
+
+
+      if (delay > 0) {
+        _this.timeoutId = setTimeout(run, delay * 1000);
+      } else {
+        run();
+      }
+
+      onStart({
+        pauseResume: pauseResume,
+        reset: reset,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "update", function (newEnd) {
+      var _assertThisInitialize4 = _assertThisInitialized(_this),
+          pauseResume = _assertThisInitialize4.pauseResume,
+          reset = _assertThisInitialize4.reset,
+          start = _assertThisInitialize4.restart;
+
+      var onUpdate = _this.props.onUpdate;
+
+      _this.instance.update(newEnd);
+
+      onUpdate({
+        pauseResume: pauseResume,
+        reset: reset,
+        start: start
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "containerRef", React__default.createRef());
+
+    return _this;
+  }
+
+  _createClass(CountUp$$1, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this$props2 = this.props,
+          children = _this$props2.children,
+          delay = _this$props2.delay;
+      this.instance = this.createInstance(); // Don't invoke start if component is used as a render prop
+
+      if (typeof children === 'function' && delay !== 0) return; // Otherwise just start immediately
+
+      this.start();
+    }
+  }, {
+    key: "shouldComponentUpdate",
+    value: function shouldComponentUpdate(nextProps) {
+      var _this$props3 = this.props,
+          end = _this$props3.end,
+          start = _this$props3.start,
+          suffix = _this$props3.suffix,
+          prefix = _this$props3.prefix,
+          redraw = _this$props3.redraw,
+          duration = _this$props3.duration,
+          separator = _this$props3.separator;
+      var hasCertainPropsChanged = duration !== nextProps.duration || end !== nextProps.end || start !== nextProps.start || suffix !== nextProps.suffix || prefix !== nextProps.prefix || separator !== nextProps.separator;
+      return hasCertainPropsChanged || redraw;
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      // If duration, suffix, prefix, separator or start has changed
+      // there's no way to update the values.
+      // So we need to re-create the CountUp instance in order to
+      // restart it.
+      var _this$props4 = this.props,
+          end = _this$props4.end,
+          start = _this$props4.start,
+          suffix = _this$props4.suffix,
+          prefix = _this$props4.prefix,
+          duration = _this$props4.duration,
+          separator = _this$props4.separator,
+          preserveValue = _this$props4.preserveValue;
+
+      if (duration !== prevProps.duration || start !== prevProps.start || suffix !== prevProps.suffix || prefix !== prevProps.suffix || separator !== prevProps.separator) {
+        this.instance.reset();
+        this.instance = this.createInstance();
+        this.start();
+      } // Only end value has changed, so reset and and re-animate with the updated
+      // end value.
+
+
+      if (end !== prevProps.end) {
+        if (!preserveValue) {
+          this.instance.reset();
+        }
+
+        this.instance.update(end);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      if (this.timeoutId) {
+        clearTimeout(this.timeoutId);
+      }
+
+      this.instance.reset();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props5 = this.props,
+          children = _this$props5.children,
+          className = _this$props5.className,
+          style = _this$props5.style;
+      var containerRef = this.containerRef,
+          pauseResume = this.pauseResume,
+          reset = this.reset,
+          restart = this.restart,
+          update = this.update;
+
+      if (typeof children === 'function') {
+        return children({
+          countUpRef: containerRef,
+          pauseResume: pauseResume,
+          reset: reset,
+          start: restart,
+          update: update
+        });
+      }
+
+      return React__default.createElement("span", {
+        className: className,
+        ref: containerRef,
+        style: style
+      });
+    }
+  }]);
+
+  return CountUp$$1;
+}(React.Component);
+
+_defineProperty(CountUp$1, "propTypes", {
+  decimal: PropTypes.string,
+  decimals: PropTypes.number,
+  delay: PropTypes.number,
+  easingFn: PropTypes.func,
+  end: PropTypes.number.isRequired,
+  formattingFn: PropTypes.func,
+  onEnd: PropTypes.func,
+  onStart: PropTypes.func,
+  prefix: PropTypes.string,
+  redraw: PropTypes.bool,
+  separator: PropTypes.string,
+  start: PropTypes.number,
+  suffix: PropTypes.string,
+  style: PropTypes.object,
+  useEasing: PropTypes.bool,
+  preserveValue: PropTypes.bool
+});
+
+_defineProperty(CountUp$1, "defaultProps", {
+  decimal: '.',
+  decimals: 0,
+  delay: null,
+  duration: null,
+  easingFn: null,
+  formattingFn: null,
+  onEnd: function onEnd() {},
+  onPauseResume: function onPauseResume() {},
+  onReset: function onReset() {},
+  onStart: function onStart() {},
+  onUpdate: function onUpdate() {},
+  prefix: '',
+  redraw: false,
+  separator: '',
+  start: 0,
+  suffix: '',
+  style: undefined,
+  useEasing: true,
+  preserveValue: false
+});
+
+// since it only checks for truthy values -1 is enough to mock an element.
+
+var NO_ELEMENT = -1;
+
+var useCountUp = function useCountUp(props) {
+  var _props = _objectSpread2({}, CountUp$1.defaultProps, {}, props);
+
+  var start = _props.start,
+      formattingFn = _props.formattingFn;
+
+  var _useState = React.useState(typeof formattingFn === 'function' ? formattingFn(start) : start),
+      _useState2 = _slicedToArray(_useState, 2),
+      count = _useState2[0],
+      setCount = _useState2[1];
+
+  var countUpRef = React.useRef(null);
+
+  var createInstance = function createInstance() {
+    var countUp = createCountUpInstance(NO_ELEMENT, _props);
+    var formattingFnRef = countUp.options.formattingFn;
+
+    countUp.options.formattingFn = function () {
+      var result = formattingFnRef.apply(void 0, arguments);
+      setCount(result);
+    };
+
+    return countUp;
+  };
+
+  var getCountUp = function getCountUp() {
+    var countUp = countUpRef.current;
+
+    if (countUp !== null) {
+      return countUp;
+    }
+
+    var newCountUp = createInstance();
+    countUpRef.current = newCountUp;
+    return newCountUp;
+  };
+
+  var reset = function reset() {
+    var onReset = _props.onReset;
+    getCountUp().reset();
+    onReset({
+      pauseResume: pauseResume,
+      start: restart,
+      update: update
+    });
+  };
+
+  var restart = function restart() {
+    var onStart = _props.onStart,
+        onEnd = _props.onEnd;
+    getCountUp().reset();
+    getCountUp().start(function () {
+      onEnd({
+        pauseResume: pauseResume,
+        reset: reset,
+        start: restart,
+        update: update
+      });
+    });
+    onStart({
+      pauseResume: pauseResume,
+      reset: reset,
+      update: update
+    });
+  };
+
+  var pauseResume = function pauseResume() {
+    var onPauseResume = _props.onPauseResume;
+    getCountUp().pauseResume();
+    onPauseResume({
+      reset: reset,
+      start: restart,
+      update: update
+    });
+  };
+
+  var update = function update(newEnd) {
+    var onUpdate = _props.onUpdate;
+    getCountUp().update(newEnd);
+    onUpdate({
+      pauseResume: pauseResume,
+      reset: reset,
+      start: restart
+    });
+  };
+
+  React.useEffect(function () {
+    var delay = _props.delay,
+        onStart = _props.onStart,
+        onEnd = _props.onEnd;
+    var timeout = setTimeout(function () {
+      onStart({
+        pauseResume: pauseResume,
+        reset: reset,
+        update: update
+      });
+      getCountUp().start(function () {
+        clearTimeout(timeout);
+        onEnd({
+          pauseResume: pauseResume,
+          reset: reset,
+          start: restart,
+          update: update
+        });
+      });
+    }, delay * 1000);
+    return reset;
+  }, []);
+  return {
+    countUp: count,
+    start: restart,
+    pauseResume: pauseResume,
+    reset: reset,
+    update: update
+  };
+};
+
+exports.default = CountUp$1;
+exports.useCountUp = useCountUp;
+
+
+/***/ }),
+
 /***/ "./node_modules/echarts-for-react/lib/core.js":
 /*!****************************************************!*\
   !*** ./node_modules/echarts-for-react/lib/core.js ***!
@@ -108062,6 +108672,80 @@ var createSensor = exports.createSensor = function createSensor(element) {
 
 /***/ }),
 
+/***/ "./node_modules/warning/warning.js":
+/*!*****************************************!*\
+  !*** ./node_modules/warning/warning.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var __DEV__ = "development" !== 'production';
+
+var warning = function() {};
+
+if (__DEV__) {
+  var printWarning = function printWarning(format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    var argIndex = 0;
+    var message = 'Warning: ' +
+      format.replace(/%s/g, function() {
+        return args[argIndex++];
+      });
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  }
+
+  warning = function(condition, format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    if (format === undefined) {
+      throw new Error(
+          '`warning(condition, format, ...args)` requires a warning ' +
+          'message argument'
+      );
+    }
+    if (!condition) {
+      printWarning.apply(null, [format].concat(args));
+    }
+  };
+}
+
+module.exports = warning;
+
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -108126,7 +108810,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           formatter: "{a} <br/>{b}: {c} ({d}%)"
         },
         series: [{
-          name: '访问来源',
+          name: '热线类型',
           type: 'pie',
           hoverAnimation: false,
           legendHoverLink: false,
@@ -108159,7 +108843,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             name: ''
           }]
         }, {
-          name: '访问来源',
+          name: '热线类型',
           type: 'pie',
           radius: ['32%', '50%'],
           color: ['#42b6fe ', '#ff9900', '#df73e1', '#f86262'],
@@ -108420,7 +109104,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _mouth__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../mouth */ "./src/pages/bigsceen/screen1/hotline/mouth.js");
 /* harmony import */ var _Satisfied__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Satisfied */ "./src/pages/bigsceen/screen1/hotline/Satisfied.js");
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-countup */ "./node_modules/_react-countup@4.2.2@react-countup/build/index.js");
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_countup__WEBPACK_IMPORTED_MODULE_6__);
 var _dec, _class2, _temp;
+
 
 
 
@@ -108511,21 +109198,30 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.call1
-    }, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "101"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    }, "\u5E74\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      start: 0,
+      end: 101
+    })), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       style: {
         borderImage: "url('/images/imgs/onescreen/热线统计边框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.call2
-    }, "\u5F53\u6708\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "17"), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    }, "\u5F53\u6708\u6765\u7535", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      start: 0,
+      end: 17
+    })), "\u4EF6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       style: {
         borderImage: "url('/images/imgs/onescreen/热线统计边框.png') 0 0 0 0 fill round",
         borderImageRepeat: 'stretch'
       }
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.call3
-    }, "\u5E02\u957F\u70ED\u7EBF(\u6708)", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "11"), "\u4EF6")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "\u5E02\u957F\u70ED\u7EBF(\u6708)", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      start: 0,
+      end: 11
+    })), "\u4EF6")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.month
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mouth__WEBPACK_IMPORTED_MODULE_4__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.satisfied
@@ -108595,7 +109291,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"hotline":"index__hotline___ZU8mS","title":"index__title___3PoqO","kuang":"index__kuang___3jOnY","sbox":"index__sbox___vr_iT","bj":"index__bj___3BVCl","left":"index__left___2UCyp","month":"index__month___1mbR2","box":"index__box___2VNXg","satisfied":"index__satisfied___2GwWu","top_box":"index__top_box___1S6hO","rx":"index__rx___1uh5i","call1":"index__call1___10ybl","call2":"index__call2___2hk5b","call3":"index__call3___1af-k"};
+module.exports = {"hotline":"index__hotline___ZU8mS","title":"index__title___3PoqO","kuang":"index__kuang___3jOnY","sbox":"index__sbox___vr_iT","bj":"index__bj___3BVCl","left":"index__left___2UCyp","call1":"index__call1___10ybl","call2":"index__call2___2hk5b","call3":"index__call3___1af-k","month":"index__month___1mbR2","box":"index__box___2VNXg","satisfied":"index__satisfied___2GwWu","top_box":"index__top_box___1S6hO","rx":"index__rx___1uh5i"};
 
 /***/ }),
 

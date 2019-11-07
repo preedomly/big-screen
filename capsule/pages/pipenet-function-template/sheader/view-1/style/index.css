@@ -13,6 +13,7 @@
   height: 100%;
 }
 .index__header___pHzAt .index__header_left___1k7yN ul li {
+  cursor: pointer;
   display: inline-block;
   margin: 61px 0 0 20px;
   width: 127px;

@@ -8580,6 +8580,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImageRepeat: 'stretch'
         }
       }), "\u89C6\u9891\u76D1\u63A7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/realscene'),
         style: {
           borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
@@ -8727,6 +8728,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImageRepeat: 'stretch'
         }
       }), "\u89C6\u9891\u76D1\u63A7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/realscene'),
         style: {
           borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
@@ -8834,6 +8836,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           color: '#00ffff'
         }
       }, "\u89C6\u9891\u76D1\u63A7")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/realscene'),
         style: {
           borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
@@ -8845,6 +8848,114 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           color: '#00ffff'
         }
       }), "\u5B9E\u666F\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.title,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/02标题及重要信息/大标题.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.major,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/02标题及重要信息/重要信息bar.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.imgbox,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/02标题及重要信息/提醒.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "menu-list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        class: "list"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        class: "one"
+      }, "\u91CD\u8981\u4FE1\u606F\uFF1A\u70ED\u70C8\u795D\u8D3A\u7ECD\u5174\u67EF\u6865\u6392\u6C34\u5206\u516C\u53F8\u4E2D\u6807\u67D0\u5DE5\u7A0B\u9879\u76EE")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weather,
+        style: {
+          borderImage: "url('/images/imgs/onescreen/04天气/块.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.left
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: wetherArr ? wetherArr.realtime.pic : null
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.center
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, wetherArr ? wetherArr.realtime.temperature : 20, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u2103")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, wetherArr ? wetherArr.realtime.info : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.wire
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.time
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.state.nowTime), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, this.state.today, "\xA0\xA0", this.state.tomrday[0]))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.future_weather
+      }, wetherArr ? wetherArr.future.map((item, index) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, this.state.monthArr[index]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, this.state.tomrday[index]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.weaimg1,
+        src: item.wetherPic
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item.temperature), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item.weather))) : null));
+    } else if (str == 'realscene') {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.header
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.header_left
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/sbv'),
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/综合展示.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), "\u7EFC\u5408\u5C55\u793A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/nongye'),
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/农村运维.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), "\u519C\u6751\u8FD0\u7EF4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/countryside'),
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/安防监控.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), "\u89C6\u9891\u76D1\u63A7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        onClick: () => this.abc('/realscene'),
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/框.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          borderImage: "url('/images/imgs/onescreen/01导航/实景展示-点击.png')  0 0 0 0 fill round",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleSlectName,
+        style: {
+          color: '#00ffff'
+        }
+      }, "\u5B9E\u666F\u5C55\u793A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
         style: {
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",

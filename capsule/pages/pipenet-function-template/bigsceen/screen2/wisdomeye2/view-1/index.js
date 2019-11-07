@@ -3805,7 +3805,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         onClick: () => this.zhihuiyan()
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
-          borderImage: "url('/images/imgs/03图层管理/智慧眼.png') 0 0 0 0 fill round",
+          borderImage: "url('/images/imgs/03图层管理/智慧眼-点击.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         },
         id: "zhihuiyan"
@@ -3821,7 +3821,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         onClick: () => this.zhongduan()
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
-          borderImage: "url('/images/imgs/03图层管理/终端-点击.png') 0 0 0 0 fill round",
+          borderImage: "url('/images/imgs/03图层管理/终端.png') 0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         },
         id: "zhongduan"

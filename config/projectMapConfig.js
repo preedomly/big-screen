@@ -17,9 +17,9 @@ const projectMapConfig = {
     // api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
     maxscale: '500000',
     minscale: '2000',
-    centerx: 552196, // 中心点X坐标
-    centery: 3319548, // 中心点Y坐标
-    initlevel: 5,   // 初始化放大至
+    centerx: 545196, // 中心点X坐标
+    centery: 3327548, // 中心点Y坐标
+    initlevel: 2,   // 初始化放大至
     extent: {
       xmin: 525098.7384641441,
       xmax: 579295.0385234108,
@@ -47,9 +47,9 @@ const projectMapConfig = {
     // api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
     maxscale: '500000',
     minscale: '2000',
-    centerx: 552196, // 中心点X坐标
-    centery: 3319548, // 中心点Y坐标
-    initlevel: 5,
+    centerx: 545196, // 中心点X坐标
+    centery: 3327548, // 中心点Y坐标
+    initlevel: 2,
     extent: {
       xmin: 525098.7384641441,
       xmax: 579295.0385234108,
@@ -76,9 +76,9 @@ const projectMapConfig = {
       //api: 'http://2140u809i6.imwork.net:10678/ecity_js_api1.0',
       maxscale: '500000',
       minscale: '2000',
-      centerx: 552196, // 中心点X坐标
-      centery: 3319548, // 中心点Y坐标
-      initlevel: 5,   // 初始化放大至
+      centerx: 545196, // 中心点X坐标
+      centery: 3327548, // 中心点Y坐标
+      initlevel: 2,   // 初始化放大至
       extent: {
         xmin: 525098.7384641441,
         xmax: 579295.0385234108,

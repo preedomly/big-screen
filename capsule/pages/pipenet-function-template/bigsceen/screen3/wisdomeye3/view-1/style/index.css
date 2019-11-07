@@ -47,26 +47,25 @@
 }
 .index__bbox___68H38 .index__sou___Zk2FZ {
   width: 251px;
-  height: 100px;
+  height: 160px;
   position: relative;
   left: -700px;
   top: -100px;
 }
 .index__bbox___68H38 .index__sou___Zk2FZ .index__sone___2DWfV {
   text-align: center;
-  line-height: 45px;
   width: 251px;
   height: 45px;
+  line-height: 45px;
   letter-spacing: 1px;
   font-size: 16px;
   color: #ffffff;
+  padding-left: 24px;
 }
 .index__bbox___68H38 .index__sou___Zk2FZ .index__sone___2DWfV span {
   font-size: 26px;
   letter-spacing: 1px;
   color: #ffffff;
-  -webkit-box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.5);
 }
 .index__bbox___68H38 .index__sou___Zk2FZ .index__stwo___u1uYJ {
   width: 251px;
@@ -74,7 +73,7 @@
   background-color: #0479de50;
   border-radius: 6px;
   border: solid 1px #00ffff;
-  margin-top: 14px;
+  margin-top: 66px;
   font-size: 20px;
   color: #ffffff;
 }
