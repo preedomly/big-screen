@@ -14,7 +14,7 @@
     <tool key="HEADER" id="3003004" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/page-react-header/view-1" module="react" view="overlay"/>
     <tool key="TONGJI" id="3003006" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/tongji/view-1" module="react" view="overlay"/>
     <tool key="CONCENTRATION" id="3003008" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/concentration/view-1" module="react" view="overlay"/>
-    <tool key="OneMap" id="3003009" showZD="15" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
+    <tool key="OneMap" id="3003009" showZD="55" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
     <tool key="WISDOMEYE1" id="30030010" path="/sbv" url="capsule/pages/pipenet-function-template/bigscreen/screen1/wisdomeye1/view-1" module="react" view="overlay"/>
 
   </group>
@@ -28,7 +28,7 @@
     <tool key="ASSETS" id="4003006" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/assets/view-1" module="react" view="overlay"/>
     <tool key="PROCESS" id="4003007" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/process/view-1" module="react" view="overlay"/>
     <tool key="WORKORDER" id="4003008" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/workorder/view-1" module="react" view="overlay"/>
-    <tool key="TwoMap" id="4003009" path="/nongye" showZD="56" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
+    <tool key="TwoMap" id="4003009" path="/nongye" showZD="55" url="capsule/pages/pipenet-function-template/bigscreen/bigMap/modularOne/view-1" module="react" view="overlay"/>
     <tool key="WISDOMEYE2" id="40030010" path="/nongye" url="capsule/pages/pipenet-function-template/bigscreen/screen2/wisdomeye2/view-1" module="react" view="overlay"/>
 
   </group>

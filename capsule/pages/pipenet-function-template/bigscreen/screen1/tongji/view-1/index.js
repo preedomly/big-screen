@@ -109376,7 +109376,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           formatter: "{a} <br/>{b}: {c} ({d}%)"
         },
         series: [{
-          name: '访问来源',
+          name: '热线类型',
           type: 'pie',
           hoverAnimation: false,
           legendHoverLink: false,
@@ -109409,7 +109409,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
             name: ''
           }]
         }, {
-          name: '访问来源',
+          name: '热线类型',
           type: 'pie',
           radius: ['49.5%', '66%'],
           color: ['#42b6fe ', '#ff9900', '#df73e1', '#f86262'],
@@ -109569,6 +109569,7 @@ class Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           }
         }],
         series: [{
+          name: '来电数量',
           type: 'line',
           symbolSize: 6,
           smooth: 'true',

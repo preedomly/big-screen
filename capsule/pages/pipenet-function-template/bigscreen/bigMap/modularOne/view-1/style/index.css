@@ -412,14 +412,70 @@
   position: absolute;
   left: 0;
   top: 0;
-  padding: 15px;
-  background: white;
-  border-radius: 5px;
+  width: 404px;
+  height: 108px;
+  color: #fff;
+  background: url('/images/imgs/03图层管理/块.png');
+  text-align: center;
+  line-height: 108px;
+  font-size: 44px;
   cursor: pointer;
 }
-.index__btnSwitch___3CBWe.index__btnSwitch_active___3ylxy {
-  background: #1898FF;
-  color: white;
+.index__btnSwitch___3CBWe .index__kai___3ABXw {
+  width: 61px;
+  height: 61px;
+  background: url('/images/imgs/03图层管理/显示管网.png');
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+}
+.index__btnSwitch___3CBWe.index__btnSwitch_active___3ylxy .index__kai___3ABXw {
+  width: 61px;
+  height: 61px;
+  background: url('/images/imgs/03图层管理/关闭管网.png');
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+}
+.index__btnSwitch___3CBWe:hover {
+  background: url('/images/imgs/03图层管理/块-滑过色.png');
+}
+.index__btnSwitchVideo____fvBx {
+  position: absolute;
+  left: 155px;
+  top: 210px;
+  width: 404px;
+  height: 108px;
+  color: #fff;
+  background: url('/images/imgs/03图层管理/块.png');
+  text-align: center;
+  line-height: 108px;
+  font-size: 44px;
+  z-index: 9999;
+  cursor: pointer;
+}
+.index__btnSwitchVideo____fvBx .index__kai___3ABXw {
+  width: 61px;
+  height: 61px;
+  background: url('/images/imgs/03图层管理/显示管网.png');
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+}
+.index__btnSwitchVideo____fvBx.index__btnSwitchVideo_active___3FVkP .index__kai___3ABXw {
+  width: 61px;
+  height: 61px;
+  background: url('/images/imgs/03图层管理/关闭管网.png');
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+}
+.index__btnSwitchVideo____fvBx:hover {
+  background: url('/images/imgs/03图层管理/块-滑过色.png');
 }
 /******************************第一屏弹出窗口*********************************************/
 .index__po___3jMj0 {
@@ -601,7 +657,7 @@
 }
 .index__po_plan_realTime_imgs___4YSDv > img {
   width: 382px;
-  height: 205px;
+  height: 190px;
 }
 .index__po_plan___1emFq::-webkit-scrollbar {
   /*滚动条整体样式*/

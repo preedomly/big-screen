@@ -111043,7 +111043,7 @@ let Page = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_2__["c
         },
         color: ['#78bff6', '#57C586', '#EB5E55', '#ff9900', '#AF83EB', '#4e68d8', '#00acee'],
         series: [{
-          name: '姓名',
+          name: '类型',
           type: 'pie',
           radius: '68%',
           center: ['50%', '50%'],

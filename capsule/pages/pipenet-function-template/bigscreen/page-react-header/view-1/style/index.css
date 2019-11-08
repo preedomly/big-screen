@@ -42,8 +42,9 @@
   cursor: pointer;
   position: relative;
   margin-left: 88px;
+  font-size: 44px;
 }
-.index__header___Z6ATU .index__label___2yggj .index__titleNode___3n0wX .index__titleName___3aaqF {
+.index__header___Z6ATU .index__label___2yggj .index__titleNode___3n0wX cursor:pointer .index__titleName___3aaqF {
   font-size: 44px;
   float: left;
   margin-left: 27px;
@@ -66,6 +67,7 @@
   margin-left: 31px;
   width: 70px;
   height: 49px;
+  font-size: 44px;
 }
 .index__header___Z6ATU .index__label___2yggj .index__titleNode___3n0wX .index__titleimg3___xQgSB {
   float: left;

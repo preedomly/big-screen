@@ -3536,6 +3536,19 @@ __webpack_require__.r(__webpack_exports__);
         type: 'rightmonitorData',
         payload: number
       });
+    },
+
+    *getDefaultVideo({
+      payload
+    }, {
+      call,
+      put
+    }) {
+      const response = yield call(_services_Formurl__WEBPACK_IMPORTED_MODULE_1__["getDefaultVideo"]);
+      yield put({
+        type: 'getDefaultVideoData',
+        payload: response
+      });
     }
 
   },
@@ -3563,12 +3576,13 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************************************!*\
   !*** ./src/pages/bigscreen/screen3/rightmonitor/services/Formurl.js ***!
   \**********************************************************************/
-/*! exports provided: getVideo */
+/*! exports provided: getVideo, getDefaultVideo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getVideo", function() { return getVideo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDefaultVideo", function() { return getDefaultVideo; });
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! yc/lib/http */ "./node_modules/yc/lib/http/index.js");
 /* harmony import */ var yc_lib_http__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(yc_lib_http__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -3579,6 +3593,15 @@ async function getVideo(params) {
   const response = await post({
     svn: 'BIG_SCREEN',
     path: 'getVideo?' + params,
+    data: params,
+    validate: false
+  });
+  return response;
+}
+async function getDefaultVideo(params) {
+  const response = await post({
+    svn: 'BIG_SCREEN',
+    path: 'getDefaultVideo',
     data: params,
     validate: false
   });
@@ -3602,10 +3625,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pipenet-core/lib/react */ "./node_modules/pipenet-core/lib/react/index.js");
 /* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.less */ "./src/pages/bigscreen/screen3/rightmonitor/view-1/style/index.less");
 /* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_index_less__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _services_Formurl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/Formurl */ "./src/pages/bigscreen/screen3/rightmonitor/services/Formurl.js");
 var _dec, _class2, _temp;
 
 
  // import './style/index.global.less';
+
 
 
 
@@ -3662,6 +3687,9 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
   }
 
   render() {
+    this.props.dispatch({
+      type: 'rightmonitor/getDefaultVideo'
+    });
     const {
       rightmonitorReturn
     } = this.props;
