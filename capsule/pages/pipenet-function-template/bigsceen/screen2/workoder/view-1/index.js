@@ -758,38 +758,6 @@ __webpack_require__.r(__webpack_exports__);
   }
 
   componentWillReceiveProps(nextProps) {
-    /*    //书讯快递循环垂直向上滚动
-        function movedome(){
-          var margintop=30;//上边距的偏移量
-          var stop=false;
-          setInterval(function(){
-            if(stop==true){
-              return;
-            }
-            console.log(6666);
-            console.log($("#SC").find("tr")[1]);
-            $("#SC").find("tr")[1].animate({"margin-top":margintop--},0,function(){
-              console.log(7777);
-              console.log($(this));
-              console.log($(this).height());
-              var $li=$(this);
-              if(!$li.is(":animated")){//第一个li的动画结束时
-                if(-margintop>$li.height()){
-                  $li.css("margin-top","0px").appendTo($("#aaa .index__striped1___1P7oS"));
-                  margintop=0;
-                }
-              }
-            });
-          },1000);
-          //鼠标放到快递信息(ul)上时
-          $("#aaa .index__striped1___1P7oS").hover(function(){
-            $(this).css("cursor","pointer");
-            stop=true;//停止动画
-          },function(){
-            stop=false;//开始动画
-          });
-        }
-        movedome();*/
     console.log('componentWillReceiveProps');
     console.log(nextProps.toolParams);
   }

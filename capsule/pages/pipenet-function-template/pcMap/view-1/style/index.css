@@ -111,7 +111,6 @@
 }
 .rm-tip-point .base {
   border-radius: 50px;
-  background-color: green;
   height: 20px;
   width: 20px;
 }
@@ -410,8 +409,8 @@
 }
 .index__btnSwitch___15ReO {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 10px;
+  top: 45px;
   width: 164px;
   height: 44px;
   color: #fff;

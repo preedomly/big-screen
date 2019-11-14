@@ -22,8 +22,8 @@
       },
       {
         "toolKey": "REAL_TIME",
-        "title": "综合信息小屏幕",
-        "top": 449,
+        "title": "实时信息小屏幕",
+        "top": 432,
         "left": 25,
         "width": 411,
         "height": 311,

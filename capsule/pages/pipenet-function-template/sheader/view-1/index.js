@@ -3546,6 +3546,8 @@ const dealPic = wea => {
     pic = '/images/imgs/04天气/pic52.png';
   } else if (wea === '小雨') {
     pic = '/images/imgs/04天气/pic62.png';
+  } else if (wea === '晴转阴') {
+    pic = '/images/imgs/04天气/pic51.png';
   }
 
   return pic;
@@ -8590,7 +8592,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/onescreen/01导航/实景展示.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), "\u5B9E\u666F\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), "\u4E09\u7EF4\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
         style: {
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",
@@ -8738,7 +8740,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImage: "url('/images/imgs/onescreen/01导航/实景展示.png')  0 0 0 0 fill round",
           borderImageRepeat: 'stretch'
         }
-      }), "\u5B9E\u666F\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), "\u4E09\u7EF4\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
         style: {
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",
@@ -8847,7 +8849,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           borderImageRepeat: 'stretch',
           color: '#00ffff'
         }
-      }), "\u5B9E\u666F\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), "\u4E09\u7EF4\u5C55\u793A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
         style: {
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",
@@ -8955,7 +8957,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         style: {
           color: '#00ffff'
         }
-      }, "\u5B9E\u666F\u5C55\u793A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "\u4E09\u7EF4\u5C55\u793A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.logo,
         style: {
           borderImage: "url('/images/imgs/onescreen/02标题及重要信息/光.png')  0 0 0 0 fill round",

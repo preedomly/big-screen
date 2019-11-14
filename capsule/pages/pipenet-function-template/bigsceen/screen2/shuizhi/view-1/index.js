@@ -738,39 +738,22 @@ __webpack_require__.r(__webpack_exports__);
   }
 
   componentDidMount() {
-    var demo = $("#demoN")[0];
-    var demo1 = $("#demoN1")[0];
-    var demo2 = $("#demoN2")[0];
-    var speed = 500;
-    demo2.innerHTML = demo1.innerHTML;
+    var demoN = $("#demoN")[0];
+    var demoN1 = $("#demoN1")[0];
+    var demoN2 = $("#demoN2")[0];
+    var speed = 100;
+    demoN2.innerHTML = demoN1.innerHTML;
 
     function Marquee() {
-      if (demo2.offsetTop - demo.scrollTop <= 0) {
-        demo.scrollTop -= demo1.offsetHeight;
+      if (demoN2.offsetTop - demoN.scrollTop <= 0) {
+        demoN.scrollTop -= demoN1.offsetHeight;
       } else {
-        demo.scrollTop = demo.scrollTop + 3;
-      } // console.log("%%%%%%%%%%^^^^^^^")
-
+        demoN.scrollTop = demoN.scrollTop + 1;
+      }
     }
 
     var MyMar = setInterval(Marquee, speed);
-    setInterval(Marquee, 500);
-    console.log('componentDidMount'); // $.ecity.dialog.message('message', 3000, 200, 400);
-    // $.ecity.dialog.confirm('confirm');
-    // $.ecity.dialog.show();
-    // $.ecity.dialog.show({
-    //   id: 'iam',
-    //   noHtml: true,
-    // });
-    // const dialog = $.ecity.dialog.getDialog('iam');
-    // dialog.close();
-    // setTimeout(() => {
-    //   $.ecity.dialog.showOrHideDlgs(false);
-    //   setTimeout(() => {
-    //     $.ecity.dialog.showOrHideDlgs(true);
-    //   }, 2000);
-    // }, 2000);
-
+    setInterval(Marquee, 200);
     console.log('componentDidMount');
   }
 
