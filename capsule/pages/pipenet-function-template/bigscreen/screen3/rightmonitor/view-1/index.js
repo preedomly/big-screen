@@ -3659,22 +3659,10 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
   }
 
   componentDidMount() {
-    // $.ecity.dialog.message('message', 3000, 200, 400);
-    // $.ecity.dialog.confirm('confirm');
-    // $.ecity.dialog.show();
-    // $.ecity.dialog.show({
-    //   id: 'iam',
-    //   noHtml: true,
-    // });
-    // const dialog = $.ecity.dialog.getDialog('iam');
-    // dialog.close();
-    // setTimeout(() => {
-    //   $.ecity.dialog.showOrHideDlgs(false);
-    //   setTimeout(() => {
-    //     $.ecity.dialog.showOrHideDlgs(true);
-    //   }, 2000);
-    // }, 2000);
     console.log('componentDidMount');
+    this.props.dispatch({
+      type: 'rightmonitor/getDefaultVideo'
+    });
   }
 
   componentWillReceiveProps(nextProps) {
@@ -3687,9 +3675,6 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
   }
 
   render() {
-    this.props.dispatch({
-      type: 'rightmonitor/getDefaultVideo'
-    });
     const {
       rightmonitorReturn
     } = this.props;

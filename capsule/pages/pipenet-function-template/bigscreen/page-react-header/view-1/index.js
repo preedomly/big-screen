@@ -4504,6 +4504,8 @@ const dealPic = wea => {
     pic = '/images/imgs/04天气/pic52.png';
   } else if (wea === '阴转晴') {
     pic = '/images/imgs/04天气/pic52.png';
+  } else if (wea === '晴转阴') {
+    pic = '/images/imgs/04天气/pic51.png';
   }
 
   return pic;
@@ -9560,7 +9562,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleName
-      }, "\u5B9E\u666F\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "\u4E09\u7EF4\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleimg5,
         style: {
           borderImage: "url('/images/imgs/01导航/分隔线.png')0 0 0 0 fill round",
@@ -9715,7 +9717,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleName
-      }, "\u5B9E\u666F\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "\u4E09\u7EF4\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleimg5,
         style: {
           borderImage: "url('/images/imgs/01导航/分隔线.png')0 0 0 0 fill round",
@@ -9870,7 +9872,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleName
-      }, "\u5B9E\u666F\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "\u4E09\u7EF4\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleimg5,
         style: {
           borderImage: "url('/images/imgs/01导航/分隔线.png')0 0 0 0 fill round",
@@ -10025,7 +10027,7 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         style: {
           color: '#00ffff'
         }
-      }, "\u5B9E\u666F\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "\u4E09\u7EF4\u5C55\u793A")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.titleimg5,
         style: {
           borderImage: "url('/images/imgs/01导航/分隔线.png')0 0 0 0 fill round",

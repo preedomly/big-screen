@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <init>
-  <title>智慧排水</title>
+  <title>柯桥排水公司大屏展示系统</title>
   <subTitle>Towngas</subTitle>
   <ico>favicon.ico</ico>
   <cfg key="sysmenu" url="cfg/sysmenu.xml" loaded="1"></cfg>

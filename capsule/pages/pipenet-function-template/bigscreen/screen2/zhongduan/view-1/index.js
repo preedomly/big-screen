@@ -826,16 +826,23 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
             borderImageRepeat: 'stretch'
           }
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
+          style: {
+            background: "url('/images/imgs/实景图片.png') no-repeat",
+            borderImageRepeat: 'stretch'
+          }
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text1
         }, "\u672C\u7EC8\u7AEF\u6C61\u6C34\u5904\u7406\u7CFB\u7EDF\u8BBE\u8BA1\u89C4\u6A2130\u5428/\u65E5\uFF0C\u5360\u5730\u9762\u79EF200\u5E73\u65B9\u7C73\uFF0C\u4E3B\u8981\u6536\u96C6\u3001\u5904\u7406\u77F3\u5BB6\u7247\u533A\u7684\u519C\u6751\u751F\u6D3B\u6C61\u6C34\uFF0C\u53D7\u76CA\u519C\u6237100\u6237\uFF0C\u5904\u7406\u5DE5\u827A\u91C7\u7528\u9AD8\u8D1F\u8377\u5730\u4E0B\u6E17\u6EE4\u6C61\u6C34\u5904\u7406\u590D\u5408\u6280\u672F\uFF0C\u6C34\u8FBE\u5230\u6D59\u6C5F\u7701\u300A\u519C\u6751\u751F\u6D3B\u6C61\u6C34\u5904\u7406\u8BBE\u65BD\u6C34\u6C61\u67D3\u7269\u6392\u653E\u6807\u51C6\u300BDB33/973-2015\u4E00\u7EA7\u6807\u51C6\u3002")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.divb
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.txt1
-        }, "A2O+\u4EBA\u5DE5\u6E7F\u5730"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-          className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-          style: {
-            background: "url('/images/imgs/scene2/工艺图/A2O+人工湿地.png') no-repeat "
-          }
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+          src: "/images/imgs/scene2/\u5DE5\u827A\u56FE/A2O+\u4EBA\u5DE5\u6E7F\u5730.mp4",
+          muted: true,
+          controls: "controls",
+          autoplay: "autoplay",
+          loop: "loop",
+          width: "1282",
+          height: "610"
         })))))
       );
     } else {
@@ -845,10 +852,10 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         var clgy = zhongduanReturn.attributes.val.处理工艺;
         clgy = clgy.replace("/", "");
 
-        if (res[i].名称 == name) {
+        if (name == name) {
           console.log(zhongduanReturn.attributes.val);
           name = name.replace("#", "%23");
-          var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".png";
+          var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".mp4";
           console.log(img2);
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.topLeft,
@@ -871,16 +878,23 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
               borderImageRepeat: 'stretch'
             }
           }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
+            style: {
+              borderImage: "url('http://192.168.30.212:8088/upload/柯东泵站.jpg') 5 1 1 5 fill round",
+              borderImageRepeat: 'stretch'
+            }
+          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text1
           }, res[i].简介)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.divb
-          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.txt1
-          }, clgy), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-            className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-            style: {
-              background: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') no-repeat "
-            }
+          }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+            src: img2,
+            muted: true,
+            controls: "controls",
+            autoplay: "autoplay",
+            loop: "loop",
+            width: "1282",
+            height: "610"
           })))));
         }
       }
@@ -908,13 +922,14 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text1
       }, "\u672C\u7EC8\u7AEF\u6C61\u6C34\u5904\u7406\u7CFB\u7EDF\u8BBE\u8BA1\u89C4\u6A2130\u5428/\u65E5\uFF0C\u5360\u5730\u9762\u79EF200\u5E73\u65B9\u7C73\uFF0C\u4E3B\u8981\u6536\u96C6\u3001\u5904\u7406\u77F3\u5BB6\u7247\u533A\u7684\u519C\u6751\u751F\u6D3B\u6C61\u6C34\uFF0C\u53D7\u76CA\u519C\u6237100\u6237\uFF0C\u5904\u7406\u5DE5\u827A\u91C7\u7528\u9AD8\u8D1F\u8377\u5730\u4E0B\u6E17\u6EE4\u6C61\u6C34\u5904\u7406\u590D\u5408\u6280\u672F\uFF0C\u6C34\u8FBE\u5230\u6D59\u6C5F\u7701\u300A\u519C\u6751\u751F\u6D3B\u6C61\u6C34\u5904\u7406\u8BBE\u65BD\u6C34\u6C61\u67D3\u7269\u6392\u653E\u6807\u51C6\u300BDB33/973-2015\u4E00\u7EA7\u6807\u51C6\u3002")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.divb
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.txt1
-      }, clgy), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
-        style: {
-          background: "url('/images/imgs/scene2/工艺图/" + clgy + ".png') no-repeat "
-        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+        src: img2,
+        muted: true,
+        controls: "controls",
+        autoplay: "autoplay",
+        loop: "loop",
+        width: "1282",
+        height: "610"
       })))));
     }
   }
