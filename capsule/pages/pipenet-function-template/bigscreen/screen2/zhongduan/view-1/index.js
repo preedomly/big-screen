@@ -761,22 +761,19 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
     };
   }
 
-  onClose() {
-    console.log('onClose');
+  onClose() {// console.log('onClose');
   }
 
   componentDidMount() {
     /* this.query();*/
-    console.log('componentDidMount');
+    // console.log('componentDidMount');
   }
 
-  componentWillReceiveProps(nextProps) {
-    console.log('componentWillReceiveProps');
-    console.log(nextProps.toolParams);
+  componentWillReceiveProps(nextProps) {// console.log('componentWillReceiveProps');
+    // console.log(nextProps.toolParams);
   }
 
-  componentWillUnmount() {
-    console.log('componentWillUnmount');
+  componentWillUnmount() {// console.log('componentWillUnmount');
   }
 
   render() {
@@ -846,17 +843,17 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
         })))))
       );
     } else {
-      for (var i = 0; i < res.length; i++) {
-        var ALTID = zhongduanReturn.attributes.val.ALTID;
-        var name = zhongduanReturn.attributes.val.终端名称;
-        var clgy = zhongduanReturn.attributes.val.处理工艺;
-        clgy = clgy.replace("/", "");
+      var clgy = zhongduanReturn.attributes.val.处理工艺;
 
-        if (name == name) {
-          console.log(zhongduanReturn.attributes.val);
+      if (clgy != null) {
+        for (var i = 0; i < res.length; i++) {
+          var ALTID = zhongduanReturn.attributes.val.ALTID;
+          var name = zhongduanReturn.attributes.val.终端名称;
+          clgy = clgy.replace("/", ""); // console.log(zhongduanReturn.attributes.val);
+
           name = name.replace("#", "%23");
-          var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".mp4";
-          console.log(img2);
+          var img2 = "/images/imgs/scene2/工艺图/" + clgy + ".mp4"; // console.log(img2);
+
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.topLeft,
             id: "dh"
@@ -890,7 +887,6 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
           }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
             src: img2,
             muted: true,
-            controls: "controls",
             autoplay: "autoplay",
             loop: "loop",
             width: "1282",
@@ -915,7 +911,13 @@ let _class = (_dec = Object(pipenet_core_lib_react__WEBPACK_IMPORTED_MODULE_1__[
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
         style: {
-          borderImage: "url('http://192.168.30.212:8088/upload/柯东泵站.jpg') 5 1 1 5 fill round",
+          background: "url('/images/imgs/实景图片.png') no-repeat",
+          borderImageRepeat: 'stretch'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.img1,
+        style: {
+          background: "url('/images/imgs/实景图片.png') no-repeat",
           borderImageRepeat: 'stretch'
         }
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {

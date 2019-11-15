@@ -42,7 +42,7 @@
     }
   ],
   "theme": {
-    "@big-layout-width": "8640px",
+    "@big-layout-width": "8192px",
     "@big-layout-height": "2160px",
     "@big-layout-background": "#162063"
   }

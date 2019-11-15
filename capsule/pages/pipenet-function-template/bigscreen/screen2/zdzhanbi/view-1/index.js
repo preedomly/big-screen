@@ -747,7 +747,7 @@ __webpack_require__.r(__webpack_exports__);
         type: 'pie',
         options3d: {
           enabled: true,
-          alpha: 58,
+          alpha: 60,
           beta: 0
         },
         backgroundColor: '#162063'
@@ -756,51 +756,29 @@ __webpack_require__.r(__webpack_exports__);
         text: ''
       },
       credits: {
-        //关闭版权信息的标签
+        // 关闭版权信息的标签
         enabled: false
       },
       tooltip: {
-        enabled: false
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
       },
       plotOptions: {
         pie: {
           allowPointSelect: true,
           cursor: 'pointer',
-          depth: 70,
+          depth: 75,
           dataLabels: {
-            enabled: true,
-            formatter: function () {
-              let percentage = this.percentage.toFixed(0);
-              return '<p style="color:#fff;">' + percentage + '%</p></br><p style="color:#C6E5FF;font-size:26px;">' + this.key + '</p>';
-            },
-            style: {
-              fontSize: '38px',
-              fontWeight: '400',
-              textOutline: 'none'
-            }
-          },
-          states: {
-            halo: {
-              pacity: 1
-            }
-          },
-          borderWidth: 0.5,
-          center: ['50%', '40%']
+            enabled: false,
+            format: '{point.name}'
+          }
         }
       },
       series: [{
         type: 'pie',
-        size: '55%',
-        zIndex: 1,
-        data: [{
-          'name': '30吨以下终端',
-          y: 204,
-          color: '#2DA3E0'
-        }, {
-          'name': '30吨以上终端',
-          y: 132,
-          color: '#3734E3'
-        }]
+        name: '',
+        size: '90%',
+        colors: ['#3734E3', '#2DA3E0'],
+        data: [['终端占比', 61.0], ['终端占比', 39.0]]
       }]
     }; // 图表初始化函数
 
@@ -837,9 +815,29 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.container
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.labeltextleft
-    }, "132\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "39%"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.labeltextright
-    }, "204\u4E2A")));
+    }, "61%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.righttbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.xian,
+      style: {
+        borderImage: "url('/images/imgs/终端占比占o-ta.png') 0 0 0 0 fill round",
+        borderImageRepeat: 'stretch'
+      }
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "30\u5428\u4EE5\u4E0B\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "204\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.leftbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.text
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "30\u5428\u4EE5\u4E0A\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "132\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_2___default.a.xian,
+      style: {
+        borderImage: "url('/images/imgs/终端占比点-短.png') 0 0 0 0 fill round",
+        borderImageRepeat: 'stretch'
+      }
+    })));
   }
 
 });
@@ -874,7 +872,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"div1":"index__div1___1j3gZ","titleNode":"index__titleNode___3qCu7","realtime":"index__realtime___3PIP9","container":"index__container___1ptWT","labeltextleft":"index__labeltextleft___27S5n","labeltextright":"index__labeltextright___29Odu"};
+module.exports = {"div1":"index__div1___1j3gZ","titleNode":"index__titleNode___3qCu7","realtime":"index__realtime___3PIP9","container":"index__container___1ptWT","labeltextleft":"index__labeltextleft___27S5n","labeltextright":"index__labeltextright___29Odu","righttbox":"index__righttbox___1Ds89","xian":"index__xian___1kJQC","text":"index__text___X7neD","leftbox":"index__leftbox___2djGw"};
 
 /***/ }),
 

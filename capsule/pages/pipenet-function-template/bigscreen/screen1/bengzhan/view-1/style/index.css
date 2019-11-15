@@ -19,7 +19,7 @@
   height: 721px;
   border-style: solid;
   border-color: transparent;
-  border-width: 400px 310px 60px 165px;
+  border-width: 400px 356px 60px 165px;
   -webkit-border-image: url(/images/imgs/框.png);
        -o-border-image: url(/images/imgs/框.png);
           border-image: url(/images/imgs/框.png);
@@ -37,7 +37,7 @@
 .index__pumpingStation___u25aA .index__drainagePump___38lLd .index__sbox___1WC80 .index__bzbeijin___3IrTE {
   display: inline-block;
   margin-top: 116px;
-  width: 1040px;
+  width: 1080px;
   height: 503px;
   /* Standard syntax */
 }

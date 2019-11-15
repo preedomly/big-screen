@@ -4,7 +4,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 8640px;
+  width: 8192px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -95,6 +95,7 @@
   height: 168px;
   font-size: 34px;
   margin-bottom: 8px;
+  margin-left: -10px;
 }
 .index__header___Z6ATU .index__title___1RRlk .index__titleimg___DGY4D {
   float: left;
@@ -118,11 +119,42 @@
   text-align: center;
   /* margin-top: 1px; */
   padding-top: 25px;
+  margin-left: 960px;
+}
+.index__header___Z6ATU .index__title1___1kETQ {
+  width: 3109px;
+  height: 168px;
+  font-size: 34px;
+  margin-bottom: 8px;
+  margin-left: 245px;
+}
+.index__header___Z6ATU .index__title1___1kETQ .index__titleimg___DGY4D {
+  float: left;
+  margin-top: 50px;
+  margin-left: 1070px;
+  width: 897px;
+  height: 116px;
+}
+.index__header___Z6ATU .index__title1___1kETQ .index__titleimga___3vI69 {
+  float: left;
+  position: absolute;
+  top: 192px;
+  margin-left: -910px;
+  width: 44px;
+  height: 44px;
+}
+.index__header___Z6ATU .index__title1___1kETQ .index__titleimgb___2GLrs {
+  float: left;
+  width: 1171px;
+  height: 100px;
+  text-align: center;
+  /* margin-top: 1px; */
+  padding-top: 25px;
   margin-left: 969px;
 }
 .index__header___Z6ATU .index__desc___1clz9 {
   position: absolute;
-  right: 100px;
+  right: 140px;
   top: 20%;
   color: #77fbe3;
 }

@@ -26,7 +26,7 @@ const projectMapConfig = {
       ymin: 3285906.383879434,
       ymax: 3353190.8538650405
     },  // 全部大小范围
-    width: 3700,  // 地图大小
+    width: 3252,  // 地图大小
     height: 1780, // 地图大小
   },
   TwoMap: {
@@ -55,7 +55,7 @@ const projectMapConfig = {
       ymin: 3285906.383879434,
       ymax: 3353190.8538650405
     },
-    width: 3500,
+    width: 3040,
     height: 1780,
   },
   thridMap: {
@@ -83,7 +83,7 @@ const projectMapConfig = {
       ymin: 3285906.383879434,
       ymax: 3353190.8538650405
     },
-    width: 3700,
+    width: 3252,
     height: 1780,
   }
 }
