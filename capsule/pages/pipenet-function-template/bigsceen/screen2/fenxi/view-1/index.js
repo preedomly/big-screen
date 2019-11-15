@@ -231,7 +231,7 @@ __webpack_require__.r(__webpack_exports__);
         type: 'pie',
         options3d: {
           enabled: true,
-          alpha: 58,
+          alpha: 60,
           beta: 0
         },
         backgroundColor: '#162063'
@@ -244,47 +244,25 @@ __webpack_require__.r(__webpack_exports__);
         enabled: false
       },
       tooltip: {
-        enabled: false
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
       },
       plotOptions: {
         pie: {
           allowPointSelect: true,
           cursor: 'pointer',
-          depth: 70,
+          depth: 55,
           dataLabels: {
-            enabled: true,
-            formatter: function () {
-              let percentage = this.percentage.toFixed(0);
-              return '<p style="color:#fff;">' + percentage + '%</p><br/><p style="color:#C6E5FF;font-size:14px;">' + this.key + '</p>';
-            },
-            style: {
-              fontSize: '14px',
-              fontWeight: '400',
-              textOutline: 'none'
-            }
-          },
-          states: {
-            halo: {
-              pacity: 1
-            }
-          },
-          borderWidth: 0.5,
-          center: ['50%', '40%']
+            enabled: false,
+            format: '{point.name}'
+          }
         }
       },
       series: [{
         type: 'pie',
-        size: '70%',
-        zIndex: 1,
-        data: [{
-          'name': '30吨以下终端',
-          y: 204,
-          color: '#2DA3E0'
-        }, {
-          'name': '30吨以上终端',
-          y: 132,
-          color: '#3734E3'
-        }]
+        name: '',
+        size: '120%',
+        colors: ['#3734E3', '#2DA3E0'],
+        data: [['终端占比', 39.0], ['终端占比', 61.0]]
       }]
     }; // 图表初始化函数
 
@@ -321,9 +299,29 @@ __webpack_require__.r(__webpack_exports__);
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.container
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.labeltextleft
-    }, "132\u4E2A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "39%"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.labeltextright
-    }, "204\u4E2A")));
+    }, "61%")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.righttbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.xian,
+      style: {
+        borderImage: "url('/images/imgs/终端占比点-长.png') 0 0 0 0 fill round",
+        borderImageRepeat: 'stretch'
+      }
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.text
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "30\u5428\u4EE5\u4E0A\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "132\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.leftbox
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.text
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "30\u5428\u4EE5\u4E0B\u7EC8\u7AEF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "204\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "\u4E2A"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: _style_index_less__WEBPACK_IMPORTED_MODULE_1___default.a.xian,
+      style: {
+        borderImage: "url('/images/imgs/终端占比点-短.png') 0 0 0 0 fill round",
+        borderImageRepeat: 'stretch'
+      }
+    })));
   }
 
 });
@@ -358,7 +356,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"fenxi":"index__fenxi___1916x","tiele":"index__tiele___2s4L4","kuang":"index__kuang___gbujV","container":"index__container___2dFpG","labeltextleft":"index__labeltextleft___3DyFj","labeltextright":"index__labeltextright___1S4SW"};
+module.exports = {"fenxi":"index__fenxi___1916x","tiele":"index__tiele___2s4L4","kuang":"index__kuang___gbujV","container":"index__container___2dFpG","labeltextleft":"index__labeltextleft___3DyFj","labeltextright":"index__labeltextright___1S4SW","righttbox":"index__righttbox___2mdAP","xian":"index__xian___3m5Da","text":"index__text___t9NW8","leftbox":"index__leftbox___2-euu"};
 
 /***/ }),
 

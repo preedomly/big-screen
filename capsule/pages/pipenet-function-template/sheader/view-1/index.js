@@ -3611,9 +3611,9 @@ const dealPic = wea => {
             info: "晴",
             pic: "/images/imgs/04天气/pic50.png",
             temperature: "20"
-          }
+          } // return;
+
         };
-        antd__WEBPACK_IMPORTED_MODULE_2__["message"].error('网络故障，信息获取失败~'); // return;
       }
 
       yield put({
